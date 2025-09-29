@@ -34,13 +34,13 @@ Să ne cunoaștem...
 | Timp | Subiect |
 |:---|:---|
 | {{< bi clock >}} 10 min| Introducere și bun venit |
-| {{< bi clock >}} 35 min| **Partea I: Fundamente**<br> • Ce este IA generativă?<br> • Când să folosim și când să evităm IA?<br> • Aplicații practice |
-| {{< bi clock >}} 55 min| **Partea a II-a: Instrumente** <br> • Cadru de decizie pentru lucru cu IA<br> • Aplicații practice |
+| {{< bi clock >}} 35 min| **Partea I: Fundamente**<br> • Ce este IA generativă?<br> • Când să folosim și când să evităm IA?<br> • Activități practice |
+| {{< bi clock >}} 55 min| **Partea a II-a: Instrumente** <br> • Cadru de decizie pentru lucru cu IA<br> • Activități practice |
 | {{< bi clock >}} 10 min| Întrebări și încheiere |
 
 
 
-## Ce veți putea face la finalul workshopului
+## La finalul workshopului:
 
 <br>
 
@@ -48,18 +48,18 @@ Să ne cunoaștem...
 
 ✔ **Evaluați când să folosiți IA generativă.**
 
-Veți învăța să determinați dacă IA este potrivită pentru o sarcină, folosind criterii clare precum risc, acuratețe, expertiză, confidențialitate și etică.
+Veți putea decide dacă IA este potrivită pentru o sarcină, folosind criterii clare precum risc, acuratețe, expertiză, confidențialitate și etică.
 
 ✔ **Alegeți instrumentul potrivit.**
 
-Veți aplica un cadru de decizie sistematic (Context → Capacitate → Criterii → Instrument) pentru a selecta cel mai eficient instrument de IA pentru sarcinile voastre.
+Veți putea aplica un cadru de decizie sistematic (Context → Capacitate → Criterii → Instrument) pentru a selecta cel mai eficient instrument de IA pentru sarcinile voastre.
 
 ✔ **Comparați instrumentele de top.**
 
-Veți înțelege diferențele de capabilități și performanță între ChatGPT, Gemini și Claude pentru sarcini comune precum sumarizarea, generarea de conținut și asistența tehnică.
+Veți putea înțelege diferențele de capabilități și performanță între ChatGPT, Gemini și Claude pentru sarcini comune precum sumarizarea, generarea de conținut și asistența tehnică.
 
 ✔ **Utilizați IA în mod responsabil.**
 
-Veți învăța să recunoașteți riscurile și să aplicați bune practici pentru a colabora eficient și etic cu IA.
+Veți putea recunoaște riscurile și veti putea aplica bune practici pentru a colabora eficient și etic cu IA.
 
 :::

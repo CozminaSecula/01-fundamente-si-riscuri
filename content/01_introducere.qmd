@@ -15,8 +15,5 @@ duration: 10 min
 ```
 
 
-## Să începem!
 
-- Introducere și bun venit: Prezentarea workshop-ului și a obiectivelor.
-- Activitate: Ne prezentăm colegilor de workshop.
 
