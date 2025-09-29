@@ -1,0 +1,29 @@
+---
+title: Agenda
+toc: false
+
+listing:
+  - id: agenda
+    type: table
+    sort:
+      - file
+    sort-ui: false
+    filter-ui: false
+    fields: 
+      - title
+      - duration
+      - description-short
+    field-display-names: 
+      title: Titlu
+      duration: Durata
+      description-short: Descriere
+    contents:
+      - "01_introducere.qmd"
+      - "02_provocari_si_riscuri.qmd"
+      - "03_cadru_decizie.qmd"
+---
+
+## 
+
+::: {#agenda}
+:::

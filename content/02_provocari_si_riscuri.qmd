@@ -1,0 +1,21 @@
+---
+title: "Provocările IA Generativă: noțiuni de bază"
+description: Ghid practic - cum să determini dacă să folosești sau nu IA generativă.
+description-short: Ghid practic - cum să determini dacă să folosești sau nu IA generativă.
+duration: 35 min
+---
+
+
+## Slide-uri
+
+[Vezi slide-urile pe ecran complet](slides/02_slide.html)
+
+```{=html}
+<iframe class="slide-deck" src="slides/02_slide.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
+```
+
+## Materiale
+
+[Arbore de decizie: Folosesc sau nu IA Generativă?](/content/resurse/arbore_decizie_ia.html)
+
+[Checklist pentru utilizarea responsabilă IA Generativă](/content/resurse/checklist_ia_responsabila.html)

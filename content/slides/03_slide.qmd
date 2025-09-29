@@ -1,0 +1,208 @@
+---
+title: "Alegerea instrumentului de IA generativă"
+subtitle: "Cadru de decizie pentru instrumentele IA generativă"
+format: 
+  revealjs: 
+    theme: [default, "../../styles/_style.scss"]
+    width: "1600"
+    height: "900"
+    slide-number: c/t
+    link-external-newwindow: true
+    chalkboard: false  
+---
+
+## Cadru de decizie pentru instrumentele IA generativă: capacități, criterii și context
+
+<br>
+
+Ce vom face în partea a doua a workshopului?
+
+<br>
+
+-   Identificăm cum ne poate ajuta IA în munca noastră.
+-   Evaluăm sistematic trei instrumente de IA generativă.
+-   Aplicăm un cadru de decizie practic pentru situații reale.
+
+## Pentru ce folosesc oamenii IA?
+
+::: {.center .small style="margin-top: 2%;" tbl-colwidths="[25,15,50]"}
+| Capacitate IA | Utilizare reală[^1] | Exemple de lucru |
+|-----------------------------|---------------------|----------------------|
+| **Asistență tehnică** | 65,1% | Depanare software, scriere formule, programare |
+| **Revizuirea muncii** | 58,9% | Verificare e-mailuri, corectură, control calitate |
+| **Generare de conținut** | 25,5% | Creare draft-uri, șabloane, idei de conținut |
+| **Căutare informații** | 16,6% | Verificarea faptelor, întrebări de cercetare, căutare date |
+| **Rezumare** | 16,6% | Note de ședință, rezumate de documente, puncte cheie |
+| **Structurarea datelor** | 4,0% | Conversie formate, organizarea listelor și tabelelor |
+:::
+
+[^1]: Procentele din tabel reflectă cât de frecvent este relevantă fiecare capacitate IA pentru top 100 de sarcini ocupaționale, pe baza analizei a peste 4 milioane de solicitări.
+
+## Criterii de calitate în evaluarea conținutului generat de IA
+
+::: {.center .small style="margin-top: 2%;" tbl-colwidths="[20,40,40]"}
+| Criteriu | Ce înseamnă? | De ce este important? |
+|------------------------|------------------------|------------------------|
+| **Coerență** | Răspunsul este logic, bine structurat și nu se contrazice. | Informația poate fi folosită direct, fără multe corecturi; sprijină claritatea. |
+| **Acuratețe** | Cât de des informația este corectă și fără erori sau invenții („halucinații”). | Informația greșită poate induce în eroare; corectitudinea este importantă. |
+| **Claritate** | Limbaj simplu și ușor de înțeles, fără jargon complicat. | Ajută utilizatorii să înțeleagă ușor; reduce neînțelegerile. |
+| **Relevanță** | Răspunsul se referă exact la ce ai întrebat și răspunde nevoii tale. | Economisești timp și primești informații utile. |
+| **Eficiență** | Cât de repede și ușor obții un rezultat bun, cu puține încercări. | Important în activitățile zilnice; sprijină productivitatea la locul de muncă. |
+:::
+
+
+## Instrumenete IA generativă
+
+
+
+![](/assets/imagini/gen-ai-tools.png){fig-align="center" style="margin-top: 3%;" height="540" width="1060"}
+
+<div class="smallest" style="text-align: left; margin-top: 0px;">
+Sursa: [Top Generative AI Tools and Applications](https://www.turing.com/resources/generative-ai-tools)
+</div>
+
+
+## Comparație între trei intrumente IA generativă
+
+::: {.columns}
+
+::: {.column width="33%" .medium}
+![](/assets/imagini/logos--openai-icon.svg){style="margin-top: 1%;" width="60"} <span style="font-size: 1.9em;">**ChatGPT**</span>
+
+**Cel mai bun pentru:** suport clienți, scriere creativă, brainstorming  
+<br>
+
+✅ Răspunsuri naturale și relevante  
+✅ Generare idei și marketing  
+⚠️ Uneori generic, lipsă precizie pe domenii specifice  
+
+<br>
+**Funcționalități cheie:**  
+- Brainstorming și generare idei  
+- Text creativ și marketing  
+- Conținut fluent și contextualizat  
+:::
+
+::: {.column width="33%" .medium}
+![](/assets/imagini/logos--claude.svg){style="margin-top: 5%;" width="230"} 
+
+**Cel mai bun pentru:** conversații, rezumare documente, extragere de cunoștințe  
+
+✅ Răspunsuri detaliate și contextuale  
+✅ Rezumate precise  
+⚠️ Integrare limitată cu aplicații externe  
+
+<br>
+**Funcționalități cheie:**  
+- Rezumarea și extragerea <br>insight-urilor din documente  
+- Discuții aprofundate  
+- Scriere bazată pe cercetare  
+:::
+
+::: {.column width="33%" .medium}
+![](/assets/imagini/logos--google-gemini.svg){style="margin-top: 3%;" width="150"} 
+
+**Cel mai bun pentru:** căutare folosind IA, raționament, generare text  
+
+<br>
+
+✅ Integrare cu ecosistemul Google  
+✅ Răspunsuri structurate și clare  
+⚠️ Disponibilitate limitată pentru aplicații comerciale 
+
+<br>
+**Funcționalități cheie:**  
+- Asistent IA pentru căutare și cercetare  
+- Explicații structurate  
+- Conținut multilingv  
+:::
+
+:::
+
+<div class="smallest" style="text-align: left; margin-top: 0px;">
+Sursa: [Top Generative AI Tools and Applications](https://www.turing.com/resources/generative-ai-tools)
+</div>
+
+## Performața comparativă între trei instrumente IA
+
+::: {.center .small style="margin-top: 3%;"}
+Rezultatele unde s-a testat performanța**[^2] **reală:
+:::
+
+[^2]: Date de performanță, teste comparative valabile în mai 2025
+
+::: {.center .small style="margin-top: 2%;" tbl-colwidths="[25,23,20,32]"}
+
+| Capacitate | Cel mai bun performer[^3] | Locul 2 | Concluzie |
+|---------------|---------------|---------------|---------------------------|
+| **Asistență tehnică** | ![](/assets/imagini/logos--google-gemini.svg){width="100"} | ![](/assets/imagini/logos--claude.svg){width="130"} | Gemini conduce semnificativ |
+| **Căutare informații** | ![](/assets/imagini/logos--openai-icon.svg){width="50"} ChatGPT (62,5%) | ![](/assets/imagini/logos--google-gemini.svg){width="100"} (52,9%) | Punct forte ChatGPT |
+| **Rezumare** | ![](/assets/imagini/logos--google-gemini.svg){width="100"} (89,1%) | ![](/assets/imagini/logos--claude.svg){width="130"} (79,4%) | Ambele au performanțe ridicate |
+| **Generare de conținut** | ![](/assets/imagini/logos--google-gemini.svg){width="100"} | ![](/assets/imagini/logos--openai-icon.svg){width="50"} ChatGPT | Competiție strânsă |
+:::
+
+[^3]: Nu există încă teste comparative pentru **Revizuirea muncii** și **Structurarea datelor**.
+
+## Recapitulare: Cele 3 elemente cheie ale deciziei
+
+<br>
+
+::: {.columns .center}
+
+::: {.column width="33%"}
+### 1. Capacități
+**CE poate face IA?**
+
+<br>
+
+Am identificat <br> **6 capacități principale** <br> pe care le putem mapa <br> pe sarcinile noastre.
+
+:::
+
+::: {.column width="33%"}
+### 2. Criterii
+**CUM evaluăm rezultatul?**
+
+<br>
+
+Avem<br> **5 criterii de calitate** <br>pentru a evalua dacă <br>răspunsul este bun pentru sarcina noastră.
+
+:::
+
+::: {.column width="33%"}
+### 3. Instrumente
+**CU CE lucrăm?**
+
+<br>
+
+Am analizat <br>**3 instrumente** <br>și performanța lor <br>pentru capacitățile cheie.
+
+<div style="margin-top: 1rem;">
+![](/assets/imagini/logos--openai-icon.svg){height="35" style="vertical-align: middle;"} 
+![](/assets/imagini/logos--google-gemini.svg){height="35" style="vertical-align: middle;"} 
+![](/assets/imagini/logos--claude.svg){height="35" style="vertical-align: middle;"}
+</div>
+
+:::
+
+:::
+
+
+
+
+## Ce urmează?
+
+<br>
+Cadru sistematic de decizie pentru instrumentele IA: capacități, criterii, context
+
+<br>
+Cum să implementezi:
+
+::: {.left .large style="margin-top: 4%;"}
+**Context → Capacitate → Criterii → Instrument**
+
+:::
+
+
+## Context
+

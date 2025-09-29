@@ -1,0 +1,86 @@
+---
+title: "<b>Fundamentele Inteligenței Artificiale Generative</b>"
+subtitle: "<b>Când să folosești, când să eviți și<br> cum să alegi instrumentele IA Generativă</b>"
+format: html
+toc: false
+title-block-banner: true
+title-block-style: default
+---
+
+```{=html}
+<style>
+.quarto-title-banner {
+    color: #000;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    transition: filter 15s;
+}
+.quarto-title {
+    position: absolute;
+    top: 2rem;
+    left: 1.5rem;
+    grid-column: unset !important;
+}
+.quarto-title > * {
+    z-index: 1;
+    position: relative;
+}
+.quarto-title-banner .quarto-title::before {
+    position: absolute;
+    inset: 0;
+    content: "";
+    z-index: 0;
+}
+.quarto-title-banner h1 {
+    color: #000;
+    font-weight: 600 !important;
+    font-size: max(min(4vw, 2.5em), 1.8em);
+    text-wrap: pretty;
+}
+.quarto-title-banner .subtitle {
+    color: #000;
+    font-size: max(min(3.5vw, 2em), 1.4em);
+    font-weight: 400;
+}
+@media (max-width: 575.98px) {
+    .quarto-title-banner {
+        height: 300px;
+    }
+}
+header#title-block-header::before {
+    content: "";
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    background-color: #eee;
+    top: -80px;
+}
+</style>
+```
+
+## Introducere
+
+Inteligența artificială generativă (IA generativă) oferă capabilități care pot îmbunătăți modul în care realizăm diverse sarcini, atât în plan personal cât și profesional.
+
+Obiectivul acestui workshop este de a sprijini participanții să ia decizii informate cu privire la utilizarea instrumentelor de IA generativă.
+Participanții vor învăța când să folosească IA generativă, când să evite utilizarea IA generativă și cum să aleagă instrumentul optim pentru situații specifice de lucru.
+
+La finalul workshopului, participanții:
+
+- Vor putea evalua sarcini de lucru și vor decide, pe baza unor criterii clare, dacă utilizarea IA generativă este potrivită sau nu.
+
+- Vor compara trei instrumente de IA generativă (ChatGPT, Claude, Gemini) și vor alege varianta potrivită pentru sarcini concrete.
+
+
+Workshopul este destinat atât începătorilor, cât și utilizatorilor cu experiență în IA generativă, care doresc să înțeleagă contextul optim de aplicare.
+
+Participanții vor dobândi o metodă clară de luare a deciziilor și vor avea încrederea necesară pentru a folosi IA generativă în mod informat, etic și adaptat nevoilor lor profesionale și personale.
+
+
+
+## Link-uri
+
+::: {.lead .fs-3}
+📘 [Workshop: Materiale](content/00_agenda.qmd)
+:::

@@ -1,0 +1,15 @@
+---
+title: "Alegerea instrumentului de IA generativă"
+description: Cadru de decizie pentru instrumentele IA generativă.
+description-short: Cadru de decizie pentru instrumentele IA generativă.
+duration: 40 min
+---
+
+## Slide-uri
+
+[Vezi slide-urile pe ecran complet](slides/03_slide.html)
+
+```{=html}
+<iframe class="slide-deck" src="slides/03_slide.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
+```
+
