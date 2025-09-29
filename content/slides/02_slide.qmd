@@ -167,14 +167,14 @@ Benlisquare, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4
 :::
 
 
-## Cum funcționează IA generativă?
+## Cum funcționează IA generativă? (1/2)
 
 <br>
 
 ![](/assets/imagini/black-box.svg){fig-align="center"}
 
 
-## Cum funcționează IA generativă?
+## Cum funcționează IA generativă? (2/2)
 
 <br>
 
