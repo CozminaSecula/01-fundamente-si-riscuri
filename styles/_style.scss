@@ -41,8 +41,22 @@
 }
 
 
-
 /*-- scss:rules --*/
+
+.slide-deck {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border: 1px solid #123233;
+}
+@media (max-width: 575.98px) {
+    .quarto-title-banner {
+        height: 300px;
+    }
+}
+
+
+
+
 
 .small {
   font-size: 0.8em;

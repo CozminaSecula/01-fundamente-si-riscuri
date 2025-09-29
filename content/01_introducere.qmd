@@ -11,8 +11,9 @@ duration: 10 min
 [Vezi slide-urile pe ecran complet](slides/01_slide.html)
 
 ```{=html}
-<iframe class="slide-deck" src="slides/01_slide.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
+<iframe class="slide-deck" src="slides/01_slide.html"></iframe>
 ```
+
 
 ## Să începem!
 

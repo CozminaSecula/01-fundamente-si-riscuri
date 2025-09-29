@@ -61,23 +61,22 @@ header#title-block-header::before {
 
 ## Introducere
 
-Inteligența artificială generativă (IA generativă) oferă capabilități care pot îmbunătăți modul în care realizăm diverse sarcini, atât în plan personal cât și profesional.
+Inteligența artificială generativă (IA generativă) ne poate ajuta să îmbunătățim modul în care realizăm diverse sarcini, atât în plan personal cât și profesional.
 
 Obiectivul acestui workshop este de a sprijini participanții să ia decizii informate cu privire la utilizarea instrumentelor de IA generativă.
 Participanții vor învăța când să folosească IA generativă, când să evite utilizarea IA generativă și cum să aleagă instrumentul optim pentru situații specifice de lucru.
 
 La finalul workshopului, participanții:
 
-- Vor putea evalua sarcini de lucru și vor decide, pe baza unor criterii clare, dacă utilizarea IA generativă este potrivită sau nu.
+- Vor putea evalua o sarcină de lucru pentru a determina dacă IA generativă este soluția potrivită, pe baza unor criterii clare precum riscul, acuratețea și confidențialitatea.
 
-- Vor compara trei instrumente de IA generativă (ChatGPT, Claude, Gemini) și vor alege varianta potrivită pentru sarcini concrete.
+- Vor putea compara principalele instrumente de pe piață (ChatGPT, Gemini, Claude) pentru a alege cea mai bună variantă pentru nevoile specifice.
 
+- Vor putea utiliza IA generativă în mod informat, responsabil și eficient, atât pentru proiecte profesionale, cât și personale.
 
-Workshopul este destinat atât începătorilor, cât și utilizatorilor cu experiență în IA generativă, care doresc să înțeleagă contextul optim de aplicare.
+Indiferent dacă sunteți la început de drum sau aveți deja experiență, acest workshop vă va oferi o metodă clară de a integra IA generativă în activitățile zilnice.
 
-Participanții vor dobândi o metodă clară de luare a deciziilor și vor avea încrederea necesară pentru a folosi IA generativă în mod informat, etic și adaptat nevoilor lor profesionale și personale.
-
-
+Participanții vor dobândi o metodă clară de luare a deciziilor pentru interacțiunea cu IA și vor avea încrederea necesară pentru a folosi IA generativă în mod informat, etic și adaptat nevoilor lor profesionale și personale.
 
 ## Link-uri
 
