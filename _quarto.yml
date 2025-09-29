@@ -1,5 +1,15 @@
 project:
   type: website
+  render:
+   - "*.qmd"
+   - "content/*.qmd"
+   - "content/resurse/*.qmd"
+   - "content/slides/*.qmd"
+  resources:
+    - "assets/"
+  preview:
+    port: 4200
+
 
 website:
   title: ""
