@@ -29,7 +29,7 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-136d3c4124249b0ab3b5c39f11f3506d.css">
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-8e219cf63f3d741cc5b59c34487a4a8d.css">
   <link href="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -121,9 +121,6 @@
       margin-right: 0; 
     }
   </style>
-  <script src="../../site_libs/quarto-diagram/mermaid.min.js"></script>
-  <script src="../../site_libs/quarto-diagram/mermaid-init.js"></script>
-  <link href="../../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
   <link href="../../site_libs/countdown-0.4.0/countdown.css" rel="stylesheet">
   <script src="../../site_libs/countdown-0.4.0/countdown.js"></script>
 </head>
@@ -253,33 +250,11 @@
 <h2>Când să folosesc și când să evit să folosesc IA generativă? (1/7)</h2>
 <div class="columns">
 <div class="column center" style="width:30;">
-<div class="cell" data-reveal="true" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class=""><p></p>
-<div>
-<pre class="mermaid mermaid-js">%%{init: {'theme':'base','flowchart':{'htmlLabels':false},'themeVariables':{
-    'fontSize':'22px',
-    'primaryColor':'#ffffff',
-    'primaryTextColor':'#000000',
-    'nodeTextColor':'#000000',
-    'textColor':'#000000',
-    'primaryBorderColor':'#000000',
-    'lineColor':'#000000'
-}}}%%
-
-flowchart TD
-%% Start
-A([Start]) --&gt; B{Sarcina este clară și &lt;br&gt;cu risc scăzut?}
-B --&gt;|Nu| Z([❌ Opriți - Inadecvat&lt;br&gt;Ex: contract legal,&lt;br&gt; sfat medical])
-B --&gt;|Da| C{pasul următor}
-
-classDef default fill:#ffffff,stroke:#000000,color:#000000;
-
-</pre>
-</div>
-<p></p></figure><p></p>
-</div>
+<div class="center" style="margin-top: 2%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../../assets/imagini/1_diagram.svg" class="quarto-figure quarto-figure-center"></p>
+</figure>
 </div>
 </div>
 </div><div class="column" style="width:30;">
@@ -299,33 +274,11 @@ classDef default fill:#ffffff,stroke:#000000,color:#000000;
 <h2>Când să folosesc și când să evit să folosesc IA generativă? (2/7)</h2>
 <div class="columns">
 <div class="column center" style="width:30;">
-<div class="cell" data-reveal="true" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class=""><p></p>
-<div>
-<pre class="mermaid mermaid-js">%%{init: {'theme':'base','flowchart':{'htmlLabels':false},'themeVariables':{
-    'fontSize':'22px',
-    'primaryColor':'#ffffff',
-    'primaryTextColor':'#000000',
-    'nodeTextColor':'#000000',
-    'textColor':'#000000',
-    'primaryBorderColor':'#000000',
-    'lineColor':'#000000'
-}}}%%
-
-flowchart TD
-%% Accuracy check
-B([Sarcina este clară și &lt;br&gt;cu risc scăzut?]) --&gt;|Da| C{Rezultatul trebuie să fie &lt;br&gt;100% corect?}
-C --&gt;|Da| D([❌ Evită IA Generativă &lt;br&gt; Ex: proceduri de siguranță])
-C --&gt;|Nu| E([✅ Continuă])
-
-classDef default fill:#ffffff,stroke:#000000,color:#000000;
-
-</pre>
-</div>
-<p></p></figure><p></p>
-</div>
+<div class="center" style="margin-top: 2%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../../assets/imagini/2_diagram.svg" class="quarto-figure quarto-figure-center"></p>
+</figure>
 </div>
 </div>
 </div><div class="column" style="width:40;">
@@ -345,33 +298,11 @@ classDef default fill:#ffffff,stroke:#000000,color:#000000;
 <h2>Când să folosesc și când să evit să folosesc IA generativă? (3/7)</h2>
 <div class="columns">
 <div class="column center" style="width:30;">
-<div class="cell" data-reveal="true" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class=""><p></p>
-<div>
-<pre class="mermaid mermaid-js">%%{init: {'theme':'base','flowchart':{'htmlLabels':false},'themeVariables':{
-    'fontSize':'22px',
-    'primaryColor':'#ffffff',
-    'primaryTextColor':'#000000',
-    'nodeTextColor':'#000000',
-    'textColor':'#000000',
-    'primaryBorderColor':'#000000',
-    'lineColor':'#000000'
-}}}%%
-
-flowchart TD
- %% Verification expertise
-E([Rezultatul trebuie să fie &lt;br&gt;100% corect?]) --&gt;|NU| F{Ai expertiza să&lt;br&gt; verifici rezultatul?}
-F --&gt;|Nu| G([⚠️ Nesigur &lt;br&gt; risc de erori / bias&lt;br&gt;Ex: rezumat IA fără verificare])
-F --&gt;|Da| H([✅ Continuă])
-
-classDef default fill:#ffffff,stroke:#000000,color:#000000;
-
-</pre>
-</div>
-<p></p></figure><p></p>
-</div>
+<div class="center" style="margin-top: 2%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../../assets/imagini/3_diagram.svg" class="quarto-figure quarto-figure-center"></p>
+</figure>
 </div>
 </div>
 </div><div class="column" style="width:40;">
@@ -391,34 +322,11 @@ classDef default fill:#ffffff,stroke:#000000,color:#000000;
 <h2>Când să folosesc și când să evit să folosesc IA generativă? (4/7)</h2>
 <div class="columns">
 <div class="column center" style="width:30;">
-<div class="cell" data-reveal="true" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class=""><p></p>
-<div>
-<pre class="mermaid mermaid-js">%%{init: {'theme':'base','flowchart':{'htmlLabels':false},'themeVariables':{
-    'fontSize':'22px',
-    'primaryColor':'#ffffff',
-    'primaryTextColor':'#000000',
-    'nodeTextColor':'#000000',
-    'textColor':'#000000',
-    'primaryBorderColor':'#000000',
-    'lineColor':'#000000'
-}}}%%
-
-flowchart TD
-
-%% Confidential data
-H([Ai expertiza să&lt;br&gt; verifici rezultatul?]) --&gt;|DA| I{Sunt implicate date &lt;br&gt;confidențiale / personale?}
-I --&gt;|Da| J([❌ Nu folosi IA Generativă&lt;br&gt; risc de confidențialitate&lt;br&gt;Ex: fișe de client,&lt;br&gt; date angajați])
-I --&gt;|Nu| K([✅ Continuă])
-
-classDef default fill:#ffffff,stroke:#000000,color:#000000;
-
-</pre>
-</div>
-<p></p></figure><p></p>
-</div>
+<div class="center" style="margin-top: 2%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../../assets/imagini/4_diagram.svg" class="quarto-figure quarto-figure-center"></p>
+</figure>
 </div>
 </div>
 </div><div class="column" style="width:40;">
@@ -439,34 +347,11 @@ classDef default fill:#ffffff,stroke:#000000,color:#000000;
 <h2>Când să folosesc și când să evit să folosesc IA generativă? (5/7)</h2>
 <div class="columns">
 <div class="column center" style="width:30;">
-<div class="cell" data-reveal="true" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class=""><p></p>
-<div>
-<pre class="mermaid mermaid-js">%%{init: {'theme':'base','flowchart':{'htmlLabels':false},'themeVariables':{
-    'fontSize':'22px',
-    'primaryColor':'#ffffff',
-    'primaryTextColor':'#000000',
-    'nodeTextColor':'#000000',
-    'textColor':'#000000',
-    'primaryBorderColor':'#000000',
-    'lineColor':'#000000'
-}}}%%
-
-flowchart TD
-
-%% Ethical / bias check
-K([Sunt implicate date &lt;br&gt;confidențiale / personale?]) --&gt;|NU| L{Există risc etic /&lt;br&gt; părtinire?}
-L --&gt;|Da| M([⚠️ Atenție &lt;br&gt; verificare sau evită&lt;br&gt;Ex: recomandări angajare, &lt;br&gt;conținut sensibil])
-L --&gt;|Nu| N([✅ Continuă])
-
-classDef default fill:#ffffff,stroke:#000000,color:#000000;
-
-</pre>
-</div>
-<p></p></figure><p></p>
-</div>
+<div class="center" style="margin-top: 2%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../../assets/imagini/5_diagram.svg" class="quarto-figure quarto-figure-center"></p>
+</figure>
 </div>
 </div>
 </div><div class="column" style="width:40;">
@@ -483,33 +368,11 @@ classDef default fill:#ffffff,stroke:#000000,color:#000000;
 <h2>Când să folosesc și când să evit să folosesc IA generativă? (6/7)</h2>
 <div class="columns">
 <div class="column center" style="width:30;">
-<div class="cell" data-reveal="true" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class=""><p></p>
-<div>
-<pre class="mermaid mermaid-js">%%{init: {'theme':'base','flowchart':{'htmlLabels':false},'themeVariables':{
-    'fontSize':'22px',
-    'primaryColor':'#ffffff',
-    'primaryTextColor':'#000000',
-    'nodeTextColor':'#000000',
-    'textColor':'#000000',
-    'primaryBorderColor':'#000000',
-    'lineColor':'#000000'
-}}}%%
-
-flowchart TD
-
-%% Tool selection
-N([Există risc etic /părtinire?]) --&gt;|NU| O{Alege instrumentul potrivit pentru sarcină}
-O --&gt; P([✅ Compară instrumente: &lt;br&gt;ChatGPT, Gemini, &lt;br&gt;Claude, etc])
-
-classDef default fill:#ffffff,stroke:#000000,color:#000000;
-
-</pre>
-</div>
-<p></p></figure><p></p>
-</div>
+<div class="center" style="margin-top: 2%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../../assets/imagini/6_diagram.svg" class="quarto-figure quarto-figure-center"></p>
+</figure>
 </div>
 </div>
 </div><div class="column" style="width:40;">
@@ -530,33 +393,11 @@ classDef default fill:#ffffff,stroke:#000000,color:#000000;
 <h2>Când să folosesc și când să evit să folosesc IA generativă? (7/7)</h2>
 <div class="columns">
 <div class="column center" style="width:30;">
-<div class="cell" data-reveal="true" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class=""><p></p>
-<div>
-<pre class="mermaid mermaid-js">%%{init: {'theme':'base','flowchart':{'htmlLabels':false},'themeVariables':{
-    'fontSize':'30px',
-    'primaryColor':'#ffffff',
-    'primaryTextColor':'#000000',
-    'nodeTextColor':'#000000',
-    'textColor':'#000000',
-    'primaryBorderColor':'#000000',
-    'lineColor':'#000000'
-}}}%%
-
-flowchart TD
-
-%% Responsible use
-P([Alege instrumentul &lt;br&gt;potrivit pentru sarcină]) --&gt;Q([✅ Folosește responsabil, verifică rezultate&lt;br&gt;verifică sursele,&lt;br&gt; corectează erorile])
-Q --&gt; R([Final])
-
-classDef default fill:#ffffff,stroke:#000000,color:#000000;
-
-</pre>
-</div>
-<p></p></figure><p></p>
-</div>
+<div class="center" style="margin-top: 2%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../../assets/imagini/7_diagram.svg" class="quarto-figure quarto-figure-center"></p>
+</figure>
 </div>
 </div>
 </div><div class="column" style="width:40;">
@@ -586,7 +427,7 @@ classDef default fill:#ffffff,stroke:#000000,color:#000000;
 </div>
 <div class="cell">
 <div class="cell-output-display">
-<div class="countdown" id="timer_470e7aea" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
+<div class="countdown" id="timer_596234f0" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
 <div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">07</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -607,7 +448,7 @@ classDef default fill:#ffffff,stroke:#000000,color:#000000;
 </ul>
 <div class="cell">
 <div class="cell-output-display">
-<div class="countdown" id="timer_558365ef" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
+<div class="countdown" id="timer_48c1433b" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
 <div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">03</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -629,7 +470,7 @@ classDef default fill:#ffffff,stroke:#000000,color:#000000;
 </ul>
 <div class="cell">
 <div class="cell-output-display">
-<div class="countdown" id="timer_d3aed1ff" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
+<div class="countdown" id="timer_6a219673" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
 <div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">03</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -652,7 +493,7 @@ classDef default fill:#ffffff,stroke:#000000,color:#000000;
 </ul>
 <div class="cell">
 <div class="cell-output-display">
-<div class="countdown" id="timer_455618ef" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
+<div class="countdown" id="timer_eb710e43" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
 <div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">03</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -674,7 +515,7 @@ classDef default fill:#ffffff,stroke:#000000,color:#000000;
 </ul>
 <div class="cell">
 <div class="cell-output-display">
-<div class="countdown" id="timer_8b630ba5" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
+<div class="countdown" id="timer_de71c87a" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
 <div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">03</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -695,7 +536,7 @@ classDef default fill:#ffffff,stroke:#000000,color:#000000;
 </ul>
 <div class="cell">
 <div class="cell-output-display">
-<div class="countdown" id="timer_a9b2df1e" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
+<div class="countdown" id="timer_8d21a175" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
 <div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">03</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -716,7 +557,7 @@ classDef default fill:#ffffff,stroke:#000000,color:#000000;
 </ul>
 <div class="cell">
 <div class="cell-output-display">
-<div class="countdown" id="timer_4a80bc83" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
+<div class="countdown" id="timer_3bc751fa" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
 <div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">03</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -778,7 +619,7 @@ classDef default fill:#ffffff,stroke:#000000,color:#000000;
       // Full list of configuration options available at:
       // https://revealjs.com/config/
       Reveal.initialize({
-'controlsAuto': true,
+'controlsAuto': false,
 'previewLinksAuto': false,
 'pdfSeparateFragments': false,
 'autoAnimateEasing': "ease",
@@ -789,7 +630,7 @@ classDef default fill:#ffffff,stroke:#000000,color:#000000;
 'smaller': false,
  
         // Display controls in the bottom right corner
-        controls: false,
+        controls: true,
 
         // Help the user learn the controls by providing hints, for example by
         // bouncing the down arrow when they first encounter a vertical slide

@@ -28,7 +28,7 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-136d3c4124249b0ab3b5c39f11f3506d.css">
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-8e219cf63f3d741cc5b59c34487a4a8d.css">
   <link href="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -120,9 +120,6 @@
       margin-right: 0; 
     }
   </style>
-  <script src="../../site_libs/quarto-diagram/mermaid.min.js"></script>
-  <script src="../../site_libs/quarto-diagram/mermaid-init.js"></script>
-  <link href="../../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 </head>
 <body class="quarto-light">
   <div class="reveal">
@@ -199,62 +196,70 @@
 </div>
 <aside><ol class="aside-footnotes"><li id="fn1"><p>Procentele din tabel reflectă cât de frecvent este relevantă fiecare capacitate IA pentru top 100 de sarcini ocupaționale, pe baza analizei a peste 4 milioane de solicitări.</p></li></ol></aside></section>
 <section id="criterii-de-calitate-în-evaluarea-conținutului-generat-de-ia" class="slide level2">
-<h2>Criterii de calitate în evaluarea<br> conținutului generat de IA</h2>
-<div style="margin-top: 6%;">
-<div class="cell" data-reveal="true" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class=""><p></p>
-<div>
-<pre class="mermaid mermaid-js">%%{init: {'theme':'base','flowchart':{'htmlLabels':false,'nodeSpacing':150,'rankSpacing':180},'themeVariables':{
-    'fontSize':'38px',
-    'primaryColor':'#ffffff',
-    'primaryTextColor':'#000000',
-    'nodeTextColor':'#000000',
-    'textColor':'#000000',
-    'primaryBorderColor':'#000000',
-    'lineColor':'#000000'
-}}}%%
-
-graph TD
-    A[Criterii de Calitate]:::rootStyle
-
-    A --&gt; B(Acuratețe):::c1
-    B --&gt; B1(Informație corectă)
-    B --&gt; B2(Fără halucinații)
-
-    A --&gt; C(Relevanță):::c2
-    C --&gt; C1(Răspuns la subiect)
-    C --&gt; C2(Răspunde nevoii tale)
-
-    A --&gt; D(Eficiență):::c5
-    D --&gt; D1(Rezultat rapid)
-    D --&gt; D2(Puține încercări)
-
-    A --&gt; E(Claritate):::c4
-    E --&gt; E1(Limbaj simplu)
-    E --&gt; E2(Ușor de înțeles)
-
-    A --&gt; F(Coerență):::c3
-    F --&gt; F1(Logic și structurat)
-    F --&gt; F2(Fără contradicții)
-
-
-
-classDef c1 fill:#ca5800,color:#fff,stroke:#ca5800
-classDef c2 fill:#fdbf11,color:#000,stroke:#fdbf11
-classDef c3 fill:#73bfe2,color:#000,stroke:#73bfe2
-classDef c4 fill:#1696d2,color:#fff,stroke:#1696d2
-classDef c5 fill:#fdd870,color:#000,stroke:#fdd870
-
-classDef default fill:#ffffff,stroke:#000000,color:#000000;
-</pre>
+<h2>Criterii de calitate în evaluarea conținutului generat de IA</h2>
+<p><br></p>
+<div class="columns middle" style="font-size: 1.2em; text-align: center;">
+<div class="column" style="width:16.6%;">
+<div style="background: #73bfe2; color: #000; border: 1px solid #ccc; padding: 10px; height: 250px; display: flex; flex-direction: column; justify-content: center;">
+<p>
+<b>Acuratețe</b>
+</p>
 </div>
-<p></p></figure><p></p>
+<div style="font-size: 0.9em; text-align: left; margin-top: 15px;">
+<ul>
+<li>Informație corectă</li>
+<li>Fără halucinații</li>
+</ul>
 </div>
+</div><div class="column" style="width:16.6%;">
+<div style="background: #73bfe2; color: #000; border: 1px solid #ccc; padding: 10px; height: 250px; display: flex; flex-direction: column; justify-content: center;">
+<p>
+<b>Relevanță</b>
+</p>
 </div>
+<div style="font-size: 0.9em; text-align: left; margin-top: 15px;">
+<ul>
+<li>Răspuns la subiect</li>
+<li>Răspunde nevoii tale</li>
+</ul>
 </div>
+</div><div class="column" style="width:16.6%;">
+<div style="background: #73bfe2; color: #000; border: 1px solid #ccc; padding: 10px; height: 250px; display: flex; flex-direction: column; justify-content: center;">
+<p>
+<b>Eficiență</b>
+</p>
 </div>
+<div style="font-size: 0.9em; text-align: left; margin-top: 15px;">
+<ul>
+<li>Rezultat rapid</li>
+<li>Puține încercări</li>
+</ul>
+</div>
+</div><div class="column" style="width:16.6%;">
+<div style="background: #73bfe2; color: #000; border: 1px solid #ccc; padding: 10px; height: 250px; display: flex; flex-direction: column; justify-content: center;">
+<p>
+<b>Claritate</b>
+</p>
+</div>
+<div style="font-size: 0.9em; text-align: left; margin-top: 15px;">
+<ul>
+<li>Limbaj simplu</li>
+<li>Ușor de înțeles</li>
+</ul>
+</div>
+</div><div class="column" style="width:16.6%;">
+<div style="background: #73bfe2; color: #000; border: 1px solid #ccc; padding: 10px; height: 250px; display: flex; flex-direction: column; justify-content: center;">
+<p>
+<b>Coerență</b>
+</p>
+</div>
+<div style="font-size: 0.9em; text-align: left; margin-top: 15px;">
+<ul>
+<li>Logic și structurat</li>
+<li>Fără contradicții</li>
+</ul>
+</div>
+</div></div>
 <aside class="notes">
 <div class="center small" style="margin-top: 2%;" data-tbl-colwidths="[20,40,40]">
 <table class="caption-top">
@@ -417,17 +422,17 @@ classDef default fill:#ffffff,stroke:#000000,color:#000000;
 <p><br></p>
 <div class="columns center">
 <div class="column" style="width:33%;">
-<h3 id="capacități">1. Capacități</h3>
+<h3 class="mark" style="color: #fff" id="capacități">1. Capacități</h3>
 <p><strong>CE poate face IA?</strong></p>
 <p><br></p>
 <p>Am identificat <br> <strong>6 capacități principale</strong> <br> pe care le putem mapa <br> pe sarcinile noastre.</p>
 </div><div class="column" style="width:33%;">
-<h3 id="criterii">2. Criterii</h3>
+<h3 class="mark" style="color: #fff" id="criterii">2. Criterii</h3>
 <p><strong>CUM evaluăm rezultatul?</strong></p>
 <p><br></p>
 <p>Avem<br> <strong>5 criterii de calitate</strong> <br>pentru a evalua dacă <br>răspunsul este bun pentru sarcina noastră.</p>
 </div><div class="column" style="width:33%;">
-<h3 id="instrumente">3. Instrumente</h3>
+<h3 class="mark" style="color: #fff" id="instrumente">3. Instrumente</h3>
 <p><strong>CU CE lucrăm?</strong></p>
 <p><br></p>
 <p>Am analizat <br><strong>3 instrumente</strong> <br>și performanța lor <br>pentru capacitățile cheie.</p>
@@ -602,46 +607,8 @@ classDef default fill:#ffffff,stroke:#000000,color:#000000;
 <section id="sinteza-cadrului-de-decizie" class="slide level2">
 <h2>Sinteza cadrului de decizie</h2>
 <div style="margin-top: 10%;">
-<div class="cell" data-reveal="true" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class=""><p></p>
-<div>
-<pre class="mermaid mermaid-js">%%{init: {'theme':'base','flowchart':{'htmlLabels':false},'themeVariables':{
-    'fontSize':'36px',
-    'primaryColor':'#ffffff',
-    'primaryTextColor':'#000000',
-    'nodeTextColor':'#000000',
-    'textColor':'#000000',
-    'primaryBorderColor':'#000000',
-    'lineColor':'#000000'
-}}}%%
-
-graph LR
-    subgraph " "
-        direction LR
-        A[Context] --&gt; B[Capabilitate] --&gt; C[Criterii]
-    end
-    subgraph " "
-        direction LR
-        D[Instrument] --&gt; E[Integrare] --&gt; F[Succes]
-    end
-    C --&gt; D
-
-    style A fill:#fff,stroke:#000,stroke-width:2px,color:#000
-    style B fill:#fff,stroke:#000,stroke-width:2px,color:#000
-    style C fill:#fff,stroke:#000,stroke-width:2px,color:#000
-    style D fill:#fff,stroke:#000,stroke-width:2px,color:#000
-    style E fill:#fff,stroke:#000,stroke-width:2px,color:#000
-    style F fill:#fff,stroke:#000,stroke-width:2px,color:#000
-
-</pre>
-</div>
-<p></p></figure><p></p>
-</div>
-</div>
-</div>
-<div class="columns center" style="font-weight: bold;">
+<p><img data-src="../../assets/imagini/8_diagrame.svg" style="width:100.0%"></p>
+<div class="columns left" style="font-weight: bold;">
 <div class="column" style="width:16%;">
 <p>Rol</p>
 <p>Sarcină</p>
@@ -693,7 +660,7 @@ graph LR
       // Full list of configuration options available at:
       // https://revealjs.com/config/
       Reveal.initialize({
-'controlsAuto': true,
+'controlsAuto': false,
 'previewLinksAuto': false,
 'pdfSeparateFragments': false,
 'autoAnimateEasing': "ease",
@@ -704,7 +671,7 @@ graph LR
 'smaller': false,
  
         // Display controls in the bottom right corner
-        controls: false,
+        controls: true,
 
         // Help the user learn the controls by providing hints, for example by
         // bouncing the down arrow when they first encounter a vertical slide
