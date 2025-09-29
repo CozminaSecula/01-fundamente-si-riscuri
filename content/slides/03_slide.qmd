@@ -38,7 +38,60 @@ Ce vom face în partea a doua a workshopului?
 
 [^1]: Procentele din tabel reflectă cât de frecvent este relevantă fiecare capacitate IA pentru top 100 de sarcini ocupaționale, pe baza analizei a peste 4 milioane de solicitări.
 
-## Criterii de calitate în evaluarea conținutului generat de IA
+## Criterii de calitate în evaluarea<br> conținutului generat de IA
+
+
+::: { style="margin-top: 6%;"}
+
+```{mermaid}
+
+%%{init: {'theme':'base','flowchart':{'htmlLabels':false,'nodeSpacing':150,'rankSpacing':180},'themeVariables':{
+    'fontSize':'38px',
+    'primaryColor':'#ffffff',
+    'primaryTextColor':'#000000',
+    'nodeTextColor':'#000000',
+    'textColor':'#000000',
+    'primaryBorderColor':'#000000',
+    'lineColor':'#000000'
+}}}%%
+
+graph TD
+    A[Criterii de Calitate]:::rootStyle
+
+    A --> B(Acuratețe):::c1
+    B --> B1(Informație corectă)
+    B --> B2(Fără halucinații)
+
+    A --> C(Relevanță):::c2
+    C --> C1(Răspuns la subiect)
+    C --> C2(Răspunde nevoii tale)
+
+    A --> D(Eficiență):::c5
+    D --> D1(Rezultat rapid)
+    D --> D2(Puține încercări)
+
+    A --> E(Claritate):::c4
+    E --> E1(Limbaj simplu)
+    E --> E2(Ușor de înțeles)
+
+    A --> F(Coerență):::c3
+    F --> F1(Logic și structurat)
+    F --> F2(Fără contradicții)
+
+
+
+classDef c1 fill:#ca5800,color:#fff,stroke:#ca5800
+classDef c2 fill:#fdbf11,color:#000,stroke:#fdbf11
+classDef c3 fill:#73bfe2,color:#000,stroke:#73bfe2
+classDef c4 fill:#1696d2,color:#fff,stroke:#1696d2
+classDef c5 fill:#fdd870,color:#000,stroke:#fdd870
+
+classDef default fill:#ffffff,stroke:#000000,color:#000000;
+```
+
+:::
+
+::: notes
 
 ::: {.center .small style="margin-top: 2%;" tbl-colwidths="[20,40,40]"}
 | Criteriu | Ce înseamnă? | De ce este important? |
@@ -49,7 +102,7 @@ Ce vom face în partea a doua a workshopului?
 | **Relevanță** | Răspunsul se referă exact la ce ai întrebat și răspunde nevoii tale. | Economisești timp și primești informații utile. |
 | **Eficiență** | Cât de repede și ușor obții un rezultat bun, cu puține încercări. | Important în activitățile zilnice; sprijină productivitatea la locul de muncă. |
 :::
-
+:::
 
 ## Instrumenete IA generativă
 
@@ -188,21 +241,283 @@ Am analizat <br>**3 instrumente** <br>și performanța lor <br>pentru capacită�
 :::
 
 
-
-
 ## Ce urmează?
 
 <br>
 Cadru sistematic de decizie pentru instrumentele IA: capacități, criterii, context
 
-<br>
 Cum să implementezi:
 
-::: {.left .large style="margin-top: 4%;"}
+::: {.left .large style="margin-top: 2%;"}
 **Context → Capacitate → Criterii → Instrument**
+
+
+::: {.r-stack .medium}
+::: {.fragment .fade-in-then-out}
+**CONTEXT**
+
+- Care este sarcina de lucru? 
+- Care este riscul?
+  - Ce se întâmplă daca IA greșeste?
+- Cât timp aloc pentru această sarcină?
+
+:::
+::: {.fragment .fade-in-then-out}
+**CAPACITATE**
+
+Ce tip de muncă trebuie să facă AI-ul?
+
+- Genereze/corecteze conținut?
+- Să caute informații?
+- Să facă un rezumat?
+
+:::
+::: {.fragment .fade-in-then-out}
+**CRITERII**
+
+Ce standarde de calitate contează cel mai mult?
+
+- Acuratețe
+- Claritate
+- Eficiență
+
+:::
+::: {.fragment .fade-in-then-out}
+**INSTRUMENT**
+
+Care instrument IA performează cel mai bine pentru aceast tip de muncă?
+
+- ![](/assets/imagini/logos--openai-icon.svg){height="45" style="vertical-align: middle;"} **ChatGPT**
+- ![](/assets/imagini/logos--google-gemini.svg){height="45" style="vertical-align: middle;"} 
+- Alt instrument?
+
+:::
+::: {.fragment .fade-in-then-out}
+**INTEGRARE**
+
+Cum voi colabora cu IA pentru a finaliza sarcina?
+
+- Care este rolul IA în contextul sarcinii?
+- Care este rolul meu în contextul sarcinii?
+- Cum se integrează acestea în cadrul mai larg al muncii mele?
+
+:::
+::: {.fragment .fade-in-then-out}
+**SUCCES**
+
+Cum voi ști că a funcționat bine?
+
+- Eficiență: Cât timp ar trebui să economisesc?
+- Calitate: Cum voi ști că IA a făcut o treabă bună?
+
+:::
+:::
 
 :::
 
+## Aplicare cadru sistematic de decizie și lucru cu IA
 
-## Context
+Exemplu practic
+
+::: {.r-stack}
+
+::: {.fragment .fade-in-then-out}
+
+**Contextul Sarcinii**
+
+<br>
+
+**Rolul**: Consultant
+
+**Sarcina**: Analiza unui raport public de 50 pagini despre trenduri în industria e-commerce.
+
+**Frecvența**: Trimestrial (odată cu apariția rapoartelor majore)
+
+**Miza**: Medie (informare, explorare oportunități, inspirație pentru client)
+
+**Timp**: 2 ore disponibile
+:::
+
+
+::: {.fragment .fade-in-then-out}
+**Capacitatea necesară**
+
+<br>
+
+**Tip sarcina pentru IA**: Rezumat raport + extragere insight-uri și informații
+
+**Exemplu**: 
+
+- "Sumarizează raportul și extrage 5 trenduri noi din raportul de e-commerce. 
+- Sugerează posibile implicații pentru un retailer mediu din România."
+:::
+
+
+::: {.fragment .fade-in-then-out}
+**Criterii de Utilitate** (Prioritizate)
+
+::: {.columns}
+::: {.column width="33%"}
+1. **Acuratețea** (principal)
+
+- Insight-urile trebuie <br>să fie în concordanță <br>cu datele și graficele raportului.
+- Contează pentru credibilitate.
+:::
+
+::: {.column width="33%"}
+2. **Relevanța** (secundar)
+
+- Selectarea trendurilor cu impact posibil pentru un retailer mediu din România (nu doar globale sau irelevante).
+
+:::
+
+::: {.column width="33%"}
+3. **Coerență** (secundar)
+
+- Răspunsul este logic, bine structurat și nu se contrazice. Poate fi folosit direct într-un material pentru un client.
+:::
+:::
+:::
+
+::: {.fragment .fade-in-then-out}
+
+**Selecția instrumentului IA**
+
+- Prima alegere: ![](/assets/imagini/logos--google-gemini.svg){height="45" style="vertical-align: middle;"} - bun pentru rezumate, explicații structurate, conținut multilingv
+
+- Planul de rezervă: ![](/assets/imagini/logos--claude.svg){height="45" style="vertical-align: middle;"}   - bun pentru rezumate precise și extragerea insight-urilor din documente  
+
+**Considerații secundare:**
+
+- interfață familiară vs. performanța
+- costuri / accesibilitate
+:::
+
+
+::: {.fragment .fade-in-then-out}
+
+**Planul de integrare, colaborarea cu IA**
+
+<br>
+
+- **Rolul IA**: Primul draft cu trenduri și implicații potențiale.
+
+- **Rolul consultantului**: 
+
+  - Confirmă cifrele și infomațiile, 
+  - Adaptează insight-urile la contextul clientului, 
+  - Realizează și validează forma finală.
+
+:::
+
+::: {.fragment .fade-in-then-out}
+
+**Indicatori de succes**
+
+<br>
+
+::: {.columns}
+::: {.column width="33%"}
+- **Câștig: eficiență**
+<br><br>
+
+2 h citire → 30–40 min analiză
+
+:::
+
+::: {.column width="33%"}
+- **Verificare calitate**
+<br><br>
+
+Trendurile pot fi <br>prezentate cu <br>încredere clientului.
+
+:::
+
+::: {.column width="33%"}
+- **Integrare în fluxul de lucru**
+
+  Rezumatul și insight-urile sunt gata în timp util și pot fi folosite pentru întâlnirea cu clientul.
+:::
+:::
+
+:::
+
+:::
+
+## Sinteza cadrului de decizie
+
+::: {style="margin-top: 10%;"}
+
+```{mermaid}
+
+%%{init: {'theme':'base','flowchart':{'htmlLabels':false},'themeVariables':{
+    'fontSize':'36px',
+    'primaryColor':'#ffffff',
+    'primaryTextColor':'#000000',
+    'nodeTextColor':'#000000',
+    'textColor':'#000000',
+    'primaryBorderColor':'#000000',
+    'lineColor':'#000000'
+}}}%%
+
+graph LR
+    subgraph " "
+        direction LR
+        A[Context] --> B[Capabilitate] --> C[Criterii]
+    end
+    subgraph " "
+        direction LR
+        D[Instrument] --> E[Integrare] --> F[Succes]
+    end
+    C --> D
+
+    style A fill:#fff,stroke:#000,stroke-width:2px,color:#000
+    style B fill:#fff,stroke:#000,stroke-width:2px,color:#000
+    style C fill:#fff,stroke:#000,stroke-width:2px,color:#000
+    style D fill:#fff,stroke:#000,stroke-width:2px,color:#000
+    style E fill:#fff,stroke:#000,stroke-width:2px,color:#000
+    style F fill:#fff,stroke:#000,stroke-width:2px,color:#000
+
+```
+
+::: {.columns .center style="font-weight: bold;"}
+::: {.column width="16%"}
+
+Rol
+
+Sarcină
+
+Risc
+
+Timp
+
+:::
+::: {.column width="16%"}
+
+Tipul <br> sarcinii<br> pentru IA
+
+:::
+::: {.column width="16%"}
+
+Standarde <br> de calitate
+
+:::
+::: {.column width="4%"}
+:::
+::: {.column width="16%"}
+
+Alegerea<br>sistemului IA
+
+:::
+::: {.column width="16%"}
+
+Colaborare <br> om-IA
+
+:::
+::: {.column width="16%"}
+
+Măsurarea <br>rezultatelor
+
+:::
+::: 
 
