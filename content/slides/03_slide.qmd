@@ -8,7 +8,8 @@ format:
     height: "900"
     slide-number: c/t
     link-external-newwindow: true
-    chalkboard: false  
+    chalkboard: false
+    controls: true  
 ---
 
 ## Cadru de decizie pentru instrumentele IA generativă: capacități, criterii și context
@@ -38,58 +39,74 @@ Ce vom face în partea a doua a workshopului?
 
 [^1]: Procentele din tabel reflectă cât de frecvent este relevantă fiecare capacitate IA pentru top 100 de sarcini ocupaționale, pe baza analizei a peste 4 milioane de solicitări.
 
-## Criterii de calitate în evaluarea<br> conținutului generat de IA
 
+## Criterii de calitate în evaluarea conținutului generat de IA
 
-::: { style="margin-top: 6%;"}
+<br>
 
-```{mermaid}
+::: {.columns .middle style="font-size: 1.2em; text-align: center;"}
+::: {.column width="16.6%"}
+<div style="background: #73bfe2; color: #000; border: 1px solid #ccc; padding: 10px; height: 250px; display: flex; flex-direction: column; justify-content: center;">
+<p><b>Acuratețe</b></p>
+</div>
 
-%%{init: {'theme':'base','flowchart':{'htmlLabels':false,'nodeSpacing':150,'rankSpacing':180},'themeVariables':{
-    'fontSize':'38px',
-    'primaryColor':'#ffffff',
-    'primaryTextColor':'#000000',
-    'nodeTextColor':'#000000',
-    'textColor':'#000000',
-    'primaryBorderColor':'#000000',
-    'lineColor':'#000000'
-}}}%%
-
-graph TD
-    A[Criterii de Calitate]:::rootStyle
-
-    A --> B(Acuratețe):::c1
-    B --> B1(Informație corectă)
-    B --> B2(Fără halucinații)
-
-    A --> C(Relevanță):::c2
-    C --> C1(Răspuns la subiect)
-    C --> C2(Răspunde nevoii tale)
-
-    A --> D(Eficiență):::c5
-    D --> D1(Rezultat rapid)
-    D --> D2(Puține încercări)
-
-    A --> E(Claritate):::c4
-    E --> E1(Limbaj simplu)
-    E --> E2(Ușor de înțeles)
-
-    A --> F(Coerență):::c3
-    F --> F1(Logic și structurat)
-    F --> F2(Fără contradicții)
-
-
-
-classDef c1 fill:#ca5800,color:#fff,stroke:#ca5800
-classDef c2 fill:#fdbf11,color:#000,stroke:#fdbf11
-classDef c3 fill:#73bfe2,color:#000,stroke:#73bfe2
-classDef c4 fill:#1696d2,color:#fff,stroke:#1696d2
-classDef c5 fill:#fdd870,color:#000,stroke:#fdd870
-
-classDef default fill:#ffffff,stroke:#000000,color:#000000;
-```
+<div style="font-size: 0.9em; text-align: left; margin-top: 15px;">
+ - Informație corectă
+ - Fără halucinații
+</div>
 
 :::
+
+::: {.column width="16.6%"}
+<div style="background: #73bfe2; color: #000; border: 1px solid #ccc; padding: 10px; height: 250px; display: flex; flex-direction: column; justify-content: center;">
+<p><b>Relevanță</b></p>
+</div>
+
+<div style="font-size: 0.9em; text-align: left; margin-top: 15px;">
+- Răspuns la subiect
+- Răspunde nevoii tale
+</div>
+
+:::
+
+::: {.column width="16.6%"}
+<div style="background: #73bfe2; color: #000; border: 1px solid #ccc; padding: 10px; height: 250px; display: flex; flex-direction: column; justify-content: center;">
+<p><b>Eficiență</b></p>
+</div>
+
+<div style="font-size: 0.9em; text-align: left; margin-top: 15px;">
+- Rezultat rapid
+- Puține încercări
+</div>
+
+:::
+
+::: {.column width="16.6%"}
+<div style="background: #73bfe2; color: #000; border: 1px solid #ccc; padding: 10px; height: 250px; display: flex; flex-direction: column; justify-content: center;">
+<p><b>Claritate</b></p>
+</div>
+
+<div style="font-size: 0.9em; text-align: left; margin-top: 15px;">
+- Limbaj simplu
+- Ușor de înțeles
+</div>
+
+:::
+
+::: {.column width="16.6%"}
+<div style="background: #73bfe2; color: #000; border: 1px solid #ccc; padding: 10px; height: 250px; display: flex; flex-direction: column; justify-content: center;">
+<p><b>Coerență</b></p>
+</div>
+
+<div style="font-size: 0.9em; text-align: left; margin-top: 15px;">
+- Logic și structurat
+- Fără contradicții
+</div>
+
+:::
+
+:::
+
 
 ::: notes
 
@@ -203,7 +220,7 @@ Rezultatele unde s-a testat performanța**[^2] **reală:
 ::: {.columns .center}
 
 ::: {.column width="33%"}
-### 1. Capacități
+### 1. Capacități{.mark style="color: #fff"} 
 **CE poate face IA?**
 
 <br>
@@ -213,7 +230,7 @@ Am identificat <br> **6 capacități principale** <br> pe care le putem mapa <br
 :::
 
 ::: {.column width="33%"}
-### 2. Criterii
+### 2. Criterii{.mark style="color: #fff"}
 **CUM evaluăm rezultatul?**
 
 <br>
@@ -223,7 +240,7 @@ Avem<br> **5 criterii de calitate** <br>pentru a evalua dacă <br>răspunsul est
 :::
 
 ::: {.column width="33%"}
-### 3. Instrumente
+### 3. Instrumente{.mark style="color: #fff"}
 **CU CE lucrăm?**
 
 <br>
@@ -448,39 +465,9 @@ Trendurile pot fi <br>prezentate cu <br>încredere clientului.
 
 ::: {style="margin-top: 10%;"}
 
-```{mermaid}
+![](/assets/imagini/8_diagrame.svg){width="100%"}
 
-%%{init: {'theme':'base','flowchart':{'htmlLabels':false},'themeVariables':{
-    'fontSize':'36px',
-    'primaryColor':'#ffffff',
-    'primaryTextColor':'#000000',
-    'nodeTextColor':'#000000',
-    'textColor':'#000000',
-    'primaryBorderColor':'#000000',
-    'lineColor':'#000000'
-}}}%%
-
-graph LR
-    subgraph " "
-        direction LR
-        A[Context] --> B[Capabilitate] --> C[Criterii]
-    end
-    subgraph " "
-        direction LR
-        D[Instrument] --> E[Integrare] --> F[Succes]
-    end
-    C --> D
-
-    style A fill:#fff,stroke:#000,stroke-width:2px,color:#000
-    style B fill:#fff,stroke:#000,stroke-width:2px,color:#000
-    style C fill:#fff,stroke:#000,stroke-width:2px,color:#000
-    style D fill:#fff,stroke:#000,stroke-width:2px,color:#000
-    style E fill:#fff,stroke:#000,stroke-width:2px,color:#000
-    style F fill:#fff,stroke:#000,stroke-width:2px,color:#000
-
-```
-
-::: {.columns .center style="font-weight: bold;"}
+::: {.columns .left style="font-weight: bold;"}
 ::: {.column width="16%"}
 
 Rol

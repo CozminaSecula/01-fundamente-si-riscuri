@@ -9,6 +9,7 @@ format:
     slide-number: c/t
     link-external-newwindow: true
     chalkboard: false  
+    controls: true
 
 ---
 

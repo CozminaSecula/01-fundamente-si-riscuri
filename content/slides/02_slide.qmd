@@ -9,6 +9,7 @@ format:
     slide-number: c/t
     link-external-newwindow: true
     chalkboard: false  
+    controls: true
 
 ---
 
@@ -169,31 +170,13 @@ Benlisquare, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4
 
 ::: {.columns}
 ::: {.column width="30" .center}
+::: {.center style="margin-top: 2%;"}
 
-
-```{mermaid}
-
-%%{init: {'theme':'base','flowchart':{'htmlLabels':false},'themeVariables':{
-    'fontSize':'22px',
-    'primaryColor':'#ffffff',
-    'primaryTextColor':'#000000',
-    'nodeTextColor':'#000000',
-    'textColor':'#000000',
-    'primaryBorderColor':'#000000',
-    'lineColor':'#000000'
-}}}%%
-
-flowchart TD
-%% Start
-A([Start]) --> B{Sarcina este clară și <br>cu risc scăzut?}
-B -->|Nu| Z([❌ Opriți - Inadecvat<br>Ex: contract legal,<br> sfat medical])
-B -->|Da| C{pasul următor}
-
-classDef default fill:#ffffff,stroke:#000000,color:#000000;
-
-```
-
+![](/assets/imagini/1_diagram.svg){fig-align="center"}
 :::
+:::
+
+
 ::: {.column width="30"}
 
 <div style="background: #a2d4ec; color: #000; border: 1px solid #ccc; padding: 10px; height: 700px; display: flex; flex-direction: column; justify-content: center;">
@@ -216,30 +199,11 @@ classDef default fill:#ffffff,stroke:#000000,color:#000000;
 ::: {.columns}
 ::: {.column width="30" .center}
 
-
-```{mermaid}
-
-%%{init: {'theme':'base','flowchart':{'htmlLabels':false},'themeVariables':{
-    'fontSize':'22px',
-    'primaryColor':'#ffffff',
-    'primaryTextColor':'#000000',
-    'nodeTextColor':'#000000',
-    'textColor':'#000000',
-    'primaryBorderColor':'#000000',
-    'lineColor':'#000000'
-}}}%%
-
-flowchart TD
-%% Accuracy check
-B([Sarcina este clară și <br>cu risc scăzut?]) -->|Da| C{Rezultatul trebuie să fie <br>100% corect?}
-C -->|Da| D([❌ Evită IA Generativă <br> Ex: proceduri de siguranță])
-C -->|Nu| E([✅ Continuă])
-
-classDef default fill:#ffffff,stroke:#000000,color:#000000;
-
-```
-
+::: {.center style="margin-top: 2%;"}
+![](/assets/imagini/2_diagram.svg){fig-align="center"}
 :::
+:::
+
 ::: {.column width="40"}
 
 <div style="background: #a2d4ec; color: #000; border: 1px solid #ccc; padding: 10px; height: 700px; display: flex; flex-direction: column; justify-content: center;">
@@ -260,30 +224,11 @@ classDef default fill:#ffffff,stroke:#000000,color:#000000;
 ::: {.columns}
 ::: {.column width="30" .center}
 
-
-```{mermaid}
-
-%%{init: {'theme':'base','flowchart':{'htmlLabels':false},'themeVariables':{
-    'fontSize':'22px',
-    'primaryColor':'#ffffff',
-    'primaryTextColor':'#000000',
-    'nodeTextColor':'#000000',
-    'textColor':'#000000',
-    'primaryBorderColor':'#000000',
-    'lineColor':'#000000'
-}}}%%
-
-flowchart TD
- %% Verification expertise
-E([Rezultatul trebuie să fie <br>100% corect?]) -->|NU| F{Ai expertiza să<br> verifici rezultatul?}
-F -->|Nu| G([⚠️ Nesigur <br> risc de erori / bias<br>Ex: rezumat IA fără verificare])
-F -->|Da| H([✅ Continuă])
-
-classDef default fill:#ffffff,stroke:#000000,color:#000000;
-
-```
-
+::: {.center style="margin-top: 2%;"}
+![](/assets/imagini/3_diagram.svg){fig-align="center"}
 :::
+:::
+
 ::: {.column width="40"}
 
 <div style="background: #a2d4ec; color: #000; border: 1px solid #ccc; padding: 10px; height: 700px; display: flex; flex-direction: column; justify-content: center;">
@@ -303,32 +248,13 @@ classDef default fill:#ffffff,stroke:#000000,color:#000000;
 
 ::: {.columns}
 ::: {.column width="30" .center}
+::: {.center style="margin-top: 2%;"}
 
-
-```{mermaid}
-
-%%{init: {'theme':'base','flowchart':{'htmlLabels':false},'themeVariables':{
-    'fontSize':'22px',
-    'primaryColor':'#ffffff',
-    'primaryTextColor':'#000000',
-    'nodeTextColor':'#000000',
-    'textColor':'#000000',
-    'primaryBorderColor':'#000000',
-    'lineColor':'#000000'
-}}}%%
-
-flowchart TD
-
-%% Confidential data
-H([Ai expertiza să<br> verifici rezultatul?]) -->|DA| I{Sunt implicate date <br>confidențiale / personale?}
-I -->|Da| J([❌ Nu folosi IA Generativă<br> risc de confidențialitate<br>Ex: fișe de client,<br> date angajați])
-I -->|Nu| K([✅ Continuă])
-
-classDef default fill:#ffffff,stroke:#000000,color:#000000;
-
-```
-
+![](/assets/imagini/4_diagram.svg){fig-align="center"}
 :::
+:::
+
+
 ::: {.column width="40"}
 
 <div style="background: #a2d4ec; color: #000; border: 1px solid #ccc; padding: 10px; height: 700px; display: flex; flex-direction: column; justify-content: center;">
@@ -352,31 +278,13 @@ classDef default fill:#ffffff,stroke:#000000,color:#000000;
 ::: {.columns}
 ::: {.column width="30" .center}
 
+::: {.center style="margin-top: 2%;"}
 
-```{mermaid}
-
-%%{init: {'theme':'base','flowchart':{'htmlLabels':false},'themeVariables':{
-    'fontSize':'22px',
-    'primaryColor':'#ffffff',
-    'primaryTextColor':'#000000',
-    'nodeTextColor':'#000000',
-    'textColor':'#000000',
-    'primaryBorderColor':'#000000',
-    'lineColor':'#000000'
-}}}%%
-
-flowchart TD
-
-%% Ethical / bias check
-K([Sunt implicate date <br>confidențiale / personale?]) -->|NU| L{Există risc etic /<br> părtinire?}
-L -->|Da| M([⚠️ Atenție <br> verificare sau evită<br>Ex: recomandări angajare, <br>conținut sensibil])
-L -->|Nu| N([✅ Continuă])
-
-classDef default fill:#ffffff,stroke:#000000,color:#000000;
-
-```
-
+![](/assets/imagini/5_diagram.svg){fig-align="center"}
 :::
+:::
+
+
 ::: {.column width="40"}
 
 <div style="background: #a2d4ec; color: #000; border: 1px solid #ccc; padding: 10px; height: 700px; display: flex; flex-direction: column; justify-content: center;">
@@ -396,30 +304,12 @@ Această secțiune evaluează potențialul ca rezultatul IA să fie discriminato
 ::: {.columns}
 ::: {.column width="30" .center}
 
+::: {.center style="margin-top: 2%;"}
 
-```{mermaid}
-
-%%{init: {'theme':'base','flowchart':{'htmlLabels':false},'themeVariables':{
-    'fontSize':'22px',
-    'primaryColor':'#ffffff',
-    'primaryTextColor':'#000000',
-    'nodeTextColor':'#000000',
-    'textColor':'#000000',
-    'primaryBorderColor':'#000000',
-    'lineColor':'#000000'
-}}}%%
-
-flowchart TD
-
-%% Tool selection
-N([Există risc etic /părtinire?]) -->|NU| O{Alege instrumentul potrivit pentru sarcină}
-O --> P([✅ Compară instrumente: <br>ChatGPT, Gemini, <br>Claude, etc])
-
-classDef default fill:#ffffff,stroke:#000000,color:#000000;
-
-```
-
+![](/assets/imagini/6_diagram.svg){fig-align="center"}
 :::
+:::
+
 ::: {.column width="40"}
 
 <div style="background: #a2d4ec; color: #000; border: 1px solid #ccc; padding: 10px; height: 700px; display: flex; flex-direction: column; justify-content: center;">
@@ -443,30 +333,12 @@ Pentru alegerea celui mai potrivit instrument de IA generativă, este necesară 
 ::: {.columns}
 ::: {.column width="30" .center}
 
+::: {.center style="margin-top: 2%;"}
 
-```{mermaid}
-
-%%{init: {'theme':'base','flowchart':{'htmlLabels':false},'themeVariables':{
-    'fontSize':'30px',
-    'primaryColor':'#ffffff',
-    'primaryTextColor':'#000000',
-    'nodeTextColor':'#000000',
-    'textColor':'#000000',
-    'primaryBorderColor':'#000000',
-    'lineColor':'#000000'
-}}}%%
-
-flowchart TD
-
-%% Responsible use
-P([Alege instrumentul <br>potrivit pentru sarcină]) -->Q([✅ Folosește responsabil, verifică rezultate<br>verifică sursele,<br> corectează erorile])
-Q --> R([Final])
-
-classDef default fill:#ffffff,stroke:#000000,color:#000000;
-
-```
-
+![](/assets/imagini/7_diagram.svg){fig-align="center"}
 :::
+:::
+
 ::: {.column width="40"}
 
 <div style="background: #a2d4ec; color: #000; border: 1px solid #ccc; padding: 10px; height: 700px; display: flex; flex-direction: column; justify-content: center;">
