@@ -22,6 +22,27 @@
     ]
   },
   {
+    "objectID": "content/slides/01_slide.html#bine-ați-venit",
+    "href": "content/slides/01_slide.html#bine-ați-venit",
+    "title": "Bine ați venit!",
+    "section": "Bine ați venit!",
+    "text": "Bine ați venit!\n Să ne cunoaștem…\n\n👋 Salut, numele meu este…\n🤖 Aș spune despre mine ca sunt, legat de IA, … [sceptic, realist, entuziasmat]\n⚡ Împărtășește un moment când IA te-a surprins."
+  },
+  {
+    "objectID": "content/slides/01_slide.html#agenda",
+    "href": "content/slides/01_slide.html#agenda",
+    "title": "Bine ați venit!",
+    "section": "Agenda",
+    "text": "Agenda\n\n\n\n\n\n\n\nTimp\nSubiect\n\n\n\n\n 10 min\nIntroducere și bun venit\n\n\n 35 min\nPartea I: Fundamente • Ce este IA generativă? • Când să folosim și când să evităm IA? • Aplicații practice\n\n\n 55 min\nPartea a II-a: Instrumente  • Cadru de decizie pentru lucru cu IA • Aplicații practice\n\n\n 10 min\nÎntrebări și încheiere"
+  },
+  {
+    "objectID": "content/slides/01_slide.html#ce-veți-putea-face-la-finalul-workshopului",
+    "href": "content/slides/01_slide.html#ce-veți-putea-face-la-finalul-workshopului",
+    "title": "Bine ați venit!",
+    "section": "Ce veți putea face la finalul workshopului",
+    "text": "Ce veți putea face la finalul workshopului\n\n\n✔ Evaluați când să folosiți IA generativă.\nVeți învăța să determinați dacă IA este potrivită pentru o sarcină, folosind criterii clare precum risc, acuratețe, expertiză, confidențialitate și etică.\n✔ Alegeți instrumentul potrivit.\nVeți aplica un cadru de decizie sistematic (Context → Capacitate → Criterii → Instrument) pentru a selecta cel mai eficient instrument de IA pentru sarcinile voastre.\n✔ Comparați instrumentele de top.\nVeți înțelege diferențele de capabilități și performanță între ChatGPT, Gemini și Claude pentru sarcini comune precum sumarizarea, generarea de conținut și asistența tehnică.\n✔ Utilizați IA în mod responsabil.\nVeți învăța să recunoașteți riscurile și să aplicați bune practici pentru a colabora eficient și etic cu IA."
+  },
+  {
     "objectID": "content/slides/02_slide.html#section",
     "href": "content/slides/02_slide.html#section",
     "title": "Provocările IA generative: noțiuni de bază",
@@ -328,7 +349,7 @@
     "href": "content/slides/03_slide.html#criterii-de-calitate-în-evaluarea-conținutului-generat-de-ia",
     "title": "Alegerea instrumentului de IA generativă",
     "section": "Criterii de calitate în evaluarea conținutului generat de IA",
-    "text": "Criterii de calitate în evaluarea conținutului generat de IA\n\n\n\n\n\n\n\n\n\nCriteriu\nCe înseamnă?\nDe ce este important?\n\n\n\n\nCoerență\nRăspunsul este logic, bine structurat și nu se contrazice.\nInformația poate fi folosită direct, fără multe corecturi; sprijină claritatea.\n\n\nAcuratețe\nCât de des informația este corectă și fără erori sau invenții („halucinații”).\nInformația greșită poate induce în eroare; corectitudinea este importantă.\n\n\nClaritate\nLimbaj simplu și ușor de înțeles, fără jargon complicat.\nAjută utilizatorii să înțeleagă ușor; reduce neînțelegerile.\n\n\nRelevanță\nRăspunsul se referă exact la ce ai întrebat și răspunde nevoii tale.\nEconomisești timp și primești informații utile.\n\n\nEficiență\nCât de repede și ușor obții un rezultat bun, cu puține încercări.\nImportant în activitățile zilnice; sprijină productivitatea la locul de muncă."
+    "text": "Criterii de calitate în evaluarea conținutului generat de IA\n\n\n\n\n\n\n%%{init: {'theme':'base','flowchart':{'htmlLabels':false,'nodeSpacing':150,'rankSpacing':180},'themeVariables':{\n    'fontSize':'38px',\n    'primaryColor':'#ffffff',\n    'primaryTextColor':'#000000',\n    'nodeTextColor':'#000000',\n    'textColor':'#000000',\n    'primaryBorderColor':'#000000',\n    'lineColor':'#000000'\n}}}%%\n\ngraph TD\n    A[Criterii de Calitate]:::rootStyle\n\n    A --&gt; B(Acuratețe):::c1\n    B --&gt; B1(Informație corectă)\n    B --&gt; B2(Fără halucinații)\n\n    A --&gt; C(Relevanță):::c2\n    C --&gt; C1(Răspuns la subiect)\n    C --&gt; C2(Răspunde nevoii tale)\n\n    A --&gt; D(Eficiență):::c5\n    D --&gt; D1(Rezultat rapid)\n    D --&gt; D2(Puține încercări)\n\n    A --&gt; E(Claritate):::c4\n    E --&gt; E1(Limbaj simplu)\n    E --&gt; E2(Ușor de înțeles)\n\n    A --&gt; F(Coerență):::c3\n    F --&gt; F1(Logic și structurat)\n    F --&gt; F2(Fără contradicții)\n\n\n\nclassDef c1 fill:#ca5800,color:#fff,stroke:#ca5800\nclassDef c2 fill:#fdbf11,color:#000,stroke:#fdbf11\nclassDef c3 fill:#73bfe2,color:#000,stroke:#73bfe2\nclassDef c4 fill:#1696d2,color:#fff,stroke:#1696d2\nclassDef c5 fill:#fdd870,color:#000,stroke:#fdd870\n\nclassDef default fill:#ffffff,stroke:#000000,color:#000000;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCriteriu\nCe înseamnă?\nDe ce este important?\n\n\n\n\nCoerență\nRăspunsul este logic, bine structurat și nu se contrazice.\nInformația poate fi folosită direct, fără multe corecturi; sprijină claritatea.\n\n\nAcuratețe\nCât de des informația este corectă și fără erori sau invenții („halucinații”).\nInformația greșită poate induce în eroare; corectitudinea este importantă.\n\n\nClaritate\nLimbaj simplu și ușor de înțeles, fără jargon complicat.\nAjută utilizatorii să înțeleagă ușor; reduce neînțelegerile.\n\n\nRelevanță\nRăspunsul se referă exact la ce ai întrebat și răspunde nevoii tale.\nEconomisești timp și primești informații utile.\n\n\nEficiență\nCât de repede și ușor obții un rezultat bun, cu puține încercări.\nImportant în activitățile zilnice; sprijină productivitatea la locul de muncă."
   },
   {
     "objectID": "content/slides/03_slide.html#instrumenete-ia-generativă",
@@ -363,14 +384,21 @@
     "href": "content/slides/03_slide.html#ce-urmează",
     "title": "Alegerea instrumentului de IA generativă",
     "section": "Ce urmează?",
-    "text": "Ce urmează?\n Cadru sistematic de decizie pentru instrumentele IA: capacități, criterii, context\n Cum să implementezi:\n\nContext → Capacitate → Criterii → Instrument"
+    "text": "Ce urmează?\n Cadru sistematic de decizie pentru instrumentele IA: capacități, criterii, context\nCum să implementezi:\n\nContext → Capacitate → Criterii → Instrument\n\n\nCONTEXT\n\nCare este sarcina de lucru?\nCare este riscul?\n\nCe se întâmplă daca IA greșeste?\n\nCât timp aloc pentru această sarcină?\n\n\n\nCAPACITATE\nCe tip de muncă trebuie să facă AI-ul?\n\nGenereze/corecteze conținut?\nSă caute informații?\nSă facă un rezumat?\n\n\n\nCRITERII\nCe standarde de calitate contează cel mai mult?\n\nAcuratețe\nClaritate\nEficiență\n\n\n\nINSTRUMENT\nCare instrument IA performează cel mai bine pentru aceast tip de muncă?\n\n ChatGPT\n\nAlt instrument?\n\n\n\nINTEGRARE\nCum voi colabora cu IA pentru a finaliza sarcina?\n\nCare este rolul IA în contextul sarcinii?\nCare este rolul meu în contextul sarcinii?\nCum se integrează acestea în cadrul mai larg al muncii mele?\n\n\n\nSUCCES\nCum voi ști că a funcționat bine?\n\nEficiență: Cât timp ar trebui să economisesc?\nCalitate: Cum voi ști că IA a făcut o treabă bună?"
   },
   {
-    "objectID": "content/slides/03_slide.html#context",
-    "href": "content/slides/03_slide.html#context",
+    "objectID": "content/slides/03_slide.html#aplicare-cadru-sistematic-de-decizie-și-lucru-cu-ia",
+    "href": "content/slides/03_slide.html#aplicare-cadru-sistematic-de-decizie-și-lucru-cu-ia",
     "title": "Alegerea instrumentului de IA generativă",
-    "section": "Context",
-    "text": "Context"
+    "section": "Aplicare cadru sistematic de decizie și lucru cu IA",
+    "text": "Aplicare cadru sistematic de decizie și lucru cu IA\nExemplu practic\n\n\nContextul Sarcinii\n\nRolul: Consultant\nSarcina: Analiza unui raport public de 50 pagini despre trenduri în industria e-commerce.\nFrecvența: Trimestrial (odată cu apariția rapoartelor majore)\nMiza: Medie (informare, explorare oportunități, inspirație pentru client)\nTimp: 2 ore disponibile\n\n\nCapacitatea necesară\n\nTip sarcina pentru IA: Rezumat raport + extragere insight-uri și informații\nExemplu:\n\n“Sumarizează raportul și extrage 5 trenduri noi din raportul de e-commerce.\nSugerează posibile implicații pentru un retailer mediu din România.”\n\n\n\nCriterii de Utilitate (Prioritizate)\n\n\n\nAcuratețea (principal)\n\n\nInsight-urile trebuie să fie în concordanță cu datele și graficele raportului.\nContează pentru credibilitate.\n\n\n\nRelevanța (secundar)\n\n\nSelectarea trendurilor cu impact posibil pentru un retailer mediu din România (nu doar globale sau irelevante).\n\n\n\nCoerență (secundar)\n\n\nRăspunsul este logic, bine structurat și nu se contrazice. Poate fi folosit direct într-un material pentru un client.\n\n\n\n\nSelecția instrumentului IA\n\nPrima alegere:  - bun pentru rezumate, explicații structurate, conținut multilingv\nPlanul de rezervă:  - bun pentru rezumate precise și extragerea insight-urilor din documente\n\nConsiderații secundare:\n\ninterfață familiară vs. performanța\ncosturi / accesibilitate\n\n\n\nPlanul de integrare, colaborarea cu IA\n\n\nRolul IA: Primul draft cu trenduri și implicații potențiale.\nRolul consultantului:\n\nConfirmă cifrele și infomațiile,\nAdaptează insight-urile la contextul clientului,\nRealizează și validează forma finală.\n\n\n\n\nIndicatori de succes\n\n\n\n\nCâștig: eficiență \n\n2 h citire → 30–40 min analiză\n\n\nVerificare calitate \n\nTrendurile pot fi prezentate cu încredere clientului.\n\n\nIntegrare în fluxul de lucru\nRezumatul și insight-urile sunt gata în timp util și pot fi folosite pentru întâlnirea cu clientul."
+  },
+  {
+    "objectID": "content/slides/03_slide.html#sinteza-cadrului-de-decizie",
+    "href": "content/slides/03_slide.html#sinteza-cadrului-de-decizie",
+    "title": "Alegerea instrumentului de IA generativă",
+    "section": "Sinteza cadrului de decizie",
+    "text": "Sinteza cadrului de decizie\n\n\n\n\n\n\n%%{init: {'theme':'base','flowchart':{'htmlLabels':false},'themeVariables':{\n    'fontSize':'36px',\n    'primaryColor':'#ffffff',\n    'primaryTextColor':'#000000',\n    'nodeTextColor':'#000000',\n    'textColor':'#000000',\n    'primaryBorderColor':'#000000',\n    'lineColor':'#000000'\n}}}%%\n\ngraph LR\n    subgraph \" \"\n        direction LR\n        A[Context] --&gt; B[Capabilitate] --&gt; C[Criterii]\n    end\n    subgraph \" \"\n        direction LR\n        D[Instrument] --&gt; E[Integrare] --&gt; F[Succes]\n    end\n    C --&gt; D\n\n    style A fill:#fff,stroke:#000,stroke-width:2px,color:#000\n    style B fill:#fff,stroke:#000,stroke-width:2px,color:#000\n    style C fill:#fff,stroke:#000,stroke-width:2px,color:#000\n    style D fill:#fff,stroke:#000,stroke-width:2px,color:#000\n    style E fill:#fff,stroke:#000,stroke-width:2px,color:#000\n    style F fill:#fff,stroke:#000,stroke-width:2px,color:#000\n\n\n\n\n\n\n\n\n\nRol\nSarcină\nRisc\nTimp\n\nTipul  sarcinii pentru IA\n\nStandarde  de calitate\n\n\n\nAlegereasistemului IA\n\nColaborare  om-IA\n\nMăsurarea rezultatelor"
   },
   {
     "objectID": "content/03_cadru_decizie.html",

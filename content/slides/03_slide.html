@@ -120,6 +120,9 @@
       margin-right: 0; 
     }
   </style>
+  <script src="../../site_libs/quarto-diagram/mermaid.min.js"></script>
+  <script src="../../site_libs/quarto-diagram/mermaid-init.js"></script>
+  <link href="../../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 </head>
 <body class="quarto-light">
   <div class="reveal">
@@ -196,7 +199,63 @@
 </div>
 <aside><ol class="aside-footnotes"><li id="fn1"><p>Procentele din tabel reflectă cât de frecvent este relevantă fiecare capacitate IA pentru top 100 de sarcini ocupaționale, pe baza analizei a peste 4 milioane de solicitări.</p></li></ol></aside></section>
 <section id="criterii-de-calitate-în-evaluarea-conținutului-generat-de-ia" class="slide level2">
-<h2>Criterii de calitate în evaluarea conținutului generat de IA</h2>
+<h2>Criterii de calitate în evaluarea<br> conținutului generat de IA</h2>
+<div style="margin-top: 6%;">
+<div class="cell" data-reveal="true" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<pre class="mermaid mermaid-js">%%{init: {'theme':'base','flowchart':{'htmlLabels':false,'nodeSpacing':150,'rankSpacing':180},'themeVariables':{
+    'fontSize':'38px',
+    'primaryColor':'#ffffff',
+    'primaryTextColor':'#000000',
+    'nodeTextColor':'#000000',
+    'textColor':'#000000',
+    'primaryBorderColor':'#000000',
+    'lineColor':'#000000'
+}}}%%
+
+graph TD
+    A[Criterii de Calitate]:::rootStyle
+
+    A --&gt; B(Acuratețe):::c1
+    B --&gt; B1(Informație corectă)
+    B --&gt; B2(Fără halucinații)
+
+    A --&gt; C(Relevanță):::c2
+    C --&gt; C1(Răspuns la subiect)
+    C --&gt; C2(Răspunde nevoii tale)
+
+    A --&gt; D(Eficiență):::c5
+    D --&gt; D1(Rezultat rapid)
+    D --&gt; D2(Puține încercări)
+
+    A --&gt; E(Claritate):::c4
+    E --&gt; E1(Limbaj simplu)
+    E --&gt; E2(Ușor de înțeles)
+
+    A --&gt; F(Coerență):::c3
+    F --&gt; F1(Logic și structurat)
+    F --&gt; F2(Fără contradicții)
+
+
+
+classDef c1 fill:#ca5800,color:#fff,stroke:#ca5800
+classDef c2 fill:#fdbf11,color:#000,stroke:#fdbf11
+classDef c3 fill:#73bfe2,color:#000,stroke:#73bfe2
+classDef c4 fill:#1696d2,color:#fff,stroke:#1696d2
+classDef c5 fill:#fdd870,color:#000,stroke:#fdd870
+
+classDef default fill:#ffffff,stroke:#000000,color:#000000;
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</div>
+<aside class="notes">
 <div class="center small" style="margin-top: 2%;" data-tbl-colwidths="[20,40,40]">
 <table class="caption-top">
 <colgroup>
@@ -240,6 +299,17 @@
 </tbody>
 </table>
 </div>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
 <section id="instrumenete-ia-generativă" class="slide level2">
 <h2>Instrumenete IA generativă</h2>
@@ -369,15 +439,230 @@
 <section id="ce-urmează" class="slide level2">
 <h2>Ce urmează?</h2>
 <p><br> Cadru sistematic de decizie pentru instrumentele IA: capacități, criterii, context</p>
-<p><br> Cum să implementezi:</p>
-<div class="left large" style="margin-top: 4%;">
+<p>Cum să implementezi:</p>
+<div class="left large" style="margin-top: 2%;">
 <p><strong>Context → Capacitate → Criterii → Instrument</strong></p>
+<div class="r-stack medium">
+<div class="fragment fade-in-then-out">
+<p><strong>CONTEXT</strong></p>
+<ul>
+<li>Care este sarcina de lucru?</li>
+<li>Care este riscul?
+<ul>
+<li>Ce se întâmplă daca IA greșeste?</li>
+</ul></li>
+<li>Cât timp aloc pentru această sarcină?</li>
+</ul>
+</div>
+<div class="fragment fade-in-then-out">
+<p><strong>CAPACITATE</strong></p>
+<p>Ce tip de muncă trebuie să facă AI-ul?</p>
+<ul>
+<li>Genereze/corecteze conținut?</li>
+<li>Să caute informații?</li>
+<li>Să facă un rezumat?</li>
+</ul>
+</div>
+<div class="fragment fade-in-then-out">
+<p><strong>CRITERII</strong></p>
+<p>Ce standarde de calitate contează cel mai mult?</p>
+<ul>
+<li>Acuratețe</li>
+<li>Claritate</li>
+<li>Eficiență</li>
+</ul>
+</div>
+<div class="fragment fade-in-then-out">
+<p><strong>INSTRUMENT</strong></p>
+<p>Care instrument IA performează cel mai bine pentru aceast tip de muncă?</p>
+<ul>
+<li><img data-src="../../assets/imagini/logos--openai-icon.svg" style="vertical-align: middle;" height="45"> <strong>ChatGPT</strong></li>
+<li><img data-src="../../assets/imagini/logos--google-gemini.svg" style="vertical-align: middle;" height="45"></li>
+<li>Alt instrument?</li>
+</ul>
+</div>
+<div class="fragment fade-in-then-out">
+<p><strong>INTEGRARE</strong></p>
+<p>Cum voi colabora cu IA pentru a finaliza sarcina?</p>
+<ul>
+<li>Care este rolul IA în contextul sarcinii?</li>
+<li>Care este rolul meu în contextul sarcinii?</li>
+<li>Cum se integrează acestea în cadrul mai larg al muncii mele?</li>
+</ul>
+</div>
+<div class="fragment fade-in-then-out">
+<p><strong>SUCCES</strong></p>
+<p>Cum voi ști că a funcționat bine?</p>
+<ul>
+<li>Eficiență: Cât timp ar trebui să economisesc?</li>
+<li>Calitate: Cum voi ști că IA a făcut o treabă bună?</li>
+</ul>
+</div>
+</div>
 </div>
 </section>
-<section id="context" class="slide level2">
-<h2>Context</h2>
+<section id="aplicare-cadru-sistematic-de-decizie-și-lucru-cu-ia" class="slide level2">
+<h2>Aplicare cadru sistematic de decizie și lucru cu IA</h2>
+<p>Exemplu practic</p>
+<div class="r-stack">
+<div class="fragment fade-in-then-out">
+<p><strong>Contextul Sarcinii</strong></p>
+<p><br></p>
+<p><strong>Rolul</strong>: Consultant</p>
+<p><strong>Sarcina</strong>: Analiza unui raport public de 50 pagini despre trenduri în industria e-commerce.</p>
+<p><strong>Frecvența</strong>: Trimestrial (odată cu apariția rapoartelor majore)</p>
+<p><strong>Miza</strong>: Medie (informare, explorare oportunități, inspirație pentru client)</p>
+<p><strong>Timp</strong>: 2 ore disponibile</p>
+</div>
+<div class="fragment fade-in-then-out">
+<p><strong>Capacitatea necesară</strong></p>
+<p><br></p>
+<p><strong>Tip sarcina pentru IA</strong>: Rezumat raport + extragere insight-uri și informații</p>
+<p><strong>Exemplu</strong>:</p>
+<ul>
+<li>“Sumarizează raportul și extrage 5 trenduri noi din raportul de e-commerce.</li>
+<li>Sugerează posibile implicații pentru un retailer mediu din România.”</li>
+</ul>
+</div>
+<div class="fragment fade-in-then-out">
+<p><strong>Criterii de Utilitate</strong> (Prioritizate)</p>
+<div class="columns">
+<div class="column" style="width:33%;">
+<ol type="1">
+<li><strong>Acuratețea</strong> (principal)</li>
+</ol>
+<ul>
+<li>Insight-urile trebuie <br>să fie în concordanță <br>cu datele și graficele raportului.</li>
+<li>Contează pentru credibilitate.</li>
+</ul>
+</div><div class="column" style="width:33%;">
+<ol start="2" type="1">
+<li><strong>Relevanța</strong> (secundar)</li>
+</ol>
+<ul>
+<li>Selectarea trendurilor cu impact posibil pentru un retailer mediu din România (nu doar globale sau irelevante).</li>
+</ul>
+</div><div class="column" style="width:33%;">
+<ol start="3" type="1">
+<li><strong>Coerență</strong> (secundar)</li>
+</ol>
+<ul>
+<li>Răspunsul este logic, bine structurat și nu se contrazice. Poate fi folosit direct într-un material pentru un client.</li>
+</ul>
+</div></div>
+</div>
+<div class="fragment fade-in-then-out">
+<p><strong>Selecția instrumentului IA</strong></p>
+<ul>
+<li><p>Prima alegere: <img data-src="../../assets/imagini/logos--google-gemini.svg" style="vertical-align: middle;" height="45"> - bun pentru rezumate, explicații structurate, conținut multilingv</p></li>
+<li><p>Planul de rezervă: <img data-src="../../assets/imagini/logos--claude.svg" style="vertical-align: middle;" height="45"> - bun pentru rezumate precise și extragerea insight-urilor din documente</p></li>
+</ul>
+<p><strong>Considerații secundare:</strong></p>
+<ul>
+<li>interfață familiară vs.&nbsp;performanța</li>
+<li>costuri / accesibilitate</li>
+</ul>
+</div>
+<div class="fragment fade-in-then-out">
+<p><strong>Planul de integrare, colaborarea cu IA</strong></p>
+<p><br></p>
+<ul>
+<li><p><strong>Rolul IA</strong>: Primul draft cu trenduri și implicații potențiale.</p></li>
+<li><p><strong>Rolul consultantului</strong>:</p>
+<ul>
+<li>Confirmă cifrele și infomațiile,</li>
+<li>Adaptează insight-urile la contextul clientului,</li>
+<li>Realizează și validează forma finală.</li>
+</ul></li>
+</ul>
+</div>
+<div class="fragment fade-in-then-out">
+<p><strong>Indicatori de succes</strong></p>
+<p><br></p>
+<div class="columns">
+<div class="column" style="width:33%;">
+<ul>
+<li><strong>Câștig: eficiență</strong> <br><br></li>
+</ul>
+<p>2 h citire → 30–40 min analiză</p>
+</div><div class="column" style="width:33%;">
+<ul>
+<li><strong>Verificare calitate</strong> <br><br></li>
+</ul>
+<p>Trendurile pot fi <br>prezentate cu <br>încredere clientului.</p>
+</div><div class="column" style="width:33%;">
+<ul>
+<li><p><strong>Integrare în fluxul de lucru</strong></p>
+<p>Rezumatul și insight-urile sunt gata în timp util și pot fi folosite pentru întâlnirea cu clientul.</p></li>
+</ul>
+</div></div>
+</div>
+</div>
+</section>
+<section id="sinteza-cadrului-de-decizie" class="slide level2">
+<h2>Sinteza cadrului de decizie</h2>
+<div style="margin-top: 10%;">
+<div class="cell" data-reveal="true" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<pre class="mermaid mermaid-js">%%{init: {'theme':'base','flowchart':{'htmlLabels':false},'themeVariables':{
+    'fontSize':'36px',
+    'primaryColor':'#ffffff',
+    'primaryTextColor':'#000000',
+    'nodeTextColor':'#000000',
+    'textColor':'#000000',
+    'primaryBorderColor':'#000000',
+    'lineColor':'#000000'
+}}}%%
+
+graph LR
+    subgraph " "
+        direction LR
+        A[Context] --&gt; B[Capabilitate] --&gt; C[Criterii]
+    end
+    subgraph " "
+        direction LR
+        D[Instrument] --&gt; E[Integrare] --&gt; F[Succes]
+    end
+    C --&gt; D
+
+    style A fill:#fff,stroke:#000,stroke-width:2px,color:#000
+    style B fill:#fff,stroke:#000,stroke-width:2px,color:#000
+    style C fill:#fff,stroke:#000,stroke-width:2px,color:#000
+    style D fill:#fff,stroke:#000,stroke-width:2px,color:#000
+    style E fill:#fff,stroke:#000,stroke-width:2px,color:#000
+    style F fill:#fff,stroke:#000,stroke-width:2px,color:#000
+
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<div class="columns center" style="font-weight: bold;">
+<div class="column" style="width:16%;">
+<p>Rol</p>
+<p>Sarcină</p>
+<p>Risc</p>
+<p>Timp</p>
+</div><div class="column" style="width:16%;">
+<p>Tipul <br> sarcinii<br> pentru IA</p>
+</div><div class="column" style="width:16%;">
+<p>Standarde <br> de calitate</p>
+</div><div class="column" style="width:4%;">
+
+</div><div class="column" style="width:16%;">
+<p>Alegerea<br>sistemului IA</p>
+</div><div class="column" style="width:16%;">
+<p>Colaborare <br> om-IA</p>
+</div><div class="column" style="width:16%;">
+<p>Măsurarea <br>rezultatelor</p>
+</div></div>
 
 
+</div>
 </section>
 
     </div>
