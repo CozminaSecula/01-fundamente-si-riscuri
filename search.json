@@ -4,7 +4,7 @@
     "href": "content/00_agenda.html",
     "title": "Agenda",
     "section": "",
-    "text": "Titlu\n\n\n\nDurata\n\n\n\nDescriere\n\n\n\n\n\n\n\n\nBine ați venit!\n\n\n10 min\n\n\nBun venit la workshop!\n\n\n\n\n\n\nProvocările IA Generativă: noțiuni de bază\n\n\n35 min\n\n\nGhid practic - cum să determini dacă să folosești sau nu IA generativă.\n\n\n\n\n\n\nAlegerea instrumentului de IA generativă\n\n\n40 min\n\n\nCadru de decizie pentru instrumentele IA generativă.\n\n\n\n\n\n\nNo matching items",
+    "text": "Titlu\n\n\n\nDurata\n\n\n\nDescriere\n\n\n\n\n\n\n\n\nBine ați venit!\n\n\n10 min\n\n\nBun venit la workshop!\n\n\n\n\n\n\nProvocările IA Generativă: noțiuni de bază\n\n\n35 min\n\n\nGhid practic - cum să determini dacă să folosești sau nu IA generativă.\n\n\n\n\n\n\nAlegerea instrumentului de IA generativă\n\n\n55 min\n\n\nUn cadru de decizie bazat pe capacități și criterii.\n\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Workshop",
       "Agenda"
@@ -15,7 +15,7 @@
     "href": "content/00_agenda.html#section",
     "title": "Agenda",
     "section": "",
-    "text": "Titlu\n\n\n\nDurata\n\n\n\nDescriere\n\n\n\n\n\n\n\n\nBine ați venit!\n\n\n10 min\n\n\nBun venit la workshop!\n\n\n\n\n\n\nProvocările IA Generativă: noțiuni de bază\n\n\n35 min\n\n\nGhid practic - cum să determini dacă să folosești sau nu IA generativă.\n\n\n\n\n\n\nAlegerea instrumentului de IA generativă\n\n\n40 min\n\n\nCadru de decizie pentru instrumentele IA generativă.\n\n\n\n\n\n\nNo matching items",
+    "text": "Titlu\n\n\n\nDurata\n\n\n\nDescriere\n\n\n\n\n\n\n\n\nBine ați venit!\n\n\n10 min\n\n\nBun venit la workshop!\n\n\n\n\n\n\nProvocările IA Generativă: noțiuni de bază\n\n\n35 min\n\n\nGhid practic - cum să determini dacă să folosești sau nu IA generativă.\n\n\n\n\n\n\nAlegerea instrumentului de IA generativă\n\n\n55 min\n\n\nUn cadru de decizie bazat pe capacități și criterii.\n\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Workshop",
       "Agenda"
@@ -33,14 +33,14 @@
     "href": "content/slides/01_slide.html#agenda",
     "title": "Bine ați venit!",
     "section": "Agenda",
-    "text": "Agenda\n\n\n\n\n\n\n\nTimp\nSubiect\n\n\n\n\n 10 min\nIntroducere și bun venit\n\n\n 35 min\nPartea I: Fundamente • Ce este IA generativă? • Când să folosim și când să evităm IA? • Aplicații practice\n\n\n 55 min\nPartea a II-a: Instrumente  • Cadru de decizie pentru lucru cu IA • Aplicații practice\n\n\n 10 min\nÎntrebări și încheiere"
+    "text": "Agenda\n\n\n\n\n\n\n\nTimp\nSubiect\n\n\n\n\n 10 min\nIntroducere și bun venit\n\n\n 35 min\nPartea I: Fundamente • Ce este IA generativă? • Când să folosim și când să evităm IA? • Activități practice\n\n\n 55 min\nPartea a II-a: Instrumente  • Cadru de decizie pentru lucru cu IA • Activități practice\n\n\n 10 min\nÎntrebări și încheiere"
   },
   {
-    "objectID": "content/slides/01_slide.html#ce-veți-putea-face-la-finalul-workshopului",
-    "href": "content/slides/01_slide.html#ce-veți-putea-face-la-finalul-workshopului",
+    "objectID": "content/slides/01_slide.html#la-finalul-workshopului",
+    "href": "content/slides/01_slide.html#la-finalul-workshopului",
     "title": "Bine ați venit!",
-    "section": "Ce veți putea face la finalul workshopului",
-    "text": "Ce veți putea face la finalul workshopului\n\n\n✔ Evaluați când să folosiți IA generativă.\nVeți învăța să determinați dacă IA este potrivită pentru o sarcină, folosind criterii clare precum risc, acuratețe, expertiză, confidențialitate și etică.\n✔ Alegeți instrumentul potrivit.\nVeți aplica un cadru de decizie sistematic (Context → Capacitate → Criterii → Instrument) pentru a selecta cel mai eficient instrument de IA pentru sarcinile voastre.\n✔ Comparați instrumentele de top.\nVeți înțelege diferențele de capabilități și performanță între ChatGPT, Gemini și Claude pentru sarcini comune precum sumarizarea, generarea de conținut și asistența tehnică.\n✔ Utilizați IA în mod responsabil.\nVeți învăța să recunoașteți riscurile și să aplicați bune practici pentru a colabora eficient și etic cu IA."
+    "section": "La finalul workshopului:",
+    "text": "La finalul workshopului:\n\n\n✔ Evaluați când să folosiți IA generativă.\nVeți putea decide dacă IA este potrivită pentru o sarcină, folosind criterii clare precum risc, acuratețe, expertiză, confidențialitate și etică.\n✔ Alegeți instrumentul potrivit.\nVeți putea aplica un cadru de decizie sistematic (Context → Capacitate → Criterii → Instrument) pentru a selecta cel mai eficient instrument de IA pentru sarcinile voastre.\n✔ Comparați instrumentele de top.\nVeți putea înțelege diferențele de capabilități și performanță între ChatGPT, Gemini și Claude pentru sarcini comune precum sumarizarea, generarea de conținut și asistența tehnică.\n✔ Utilizați IA în mod responsabil.\nVeți putea recunoaște riscurile și veti putea aplica bune practici pentru a colabora eficient și etic cu IA."
   },
   {
     "objectID": "content/slides/02_slide.html#section",
@@ -90,6 +90,20 @@
     "title": "Provocările IA generative: noțiuni de bază",
     "section": "Ce este IA generativă?",
     "text": "Ce este IA generativă?\n\nIA generativă se referă la sistemele IA care învață din datele existente pentru a crea conținut nou, precum text, imagini, muzică sau cod.\n\n\n\n\n\n\n\n\n\n\n\n\n\n  Your browser does not support the audio element. \n\n\nBenlisquare, CC BY-SA 4.0, via Wikimedia Commons"
+  },
+  {
+    "objectID": "content/slides/02_slide.html#cum-funcționează-ia-generativă",
+    "href": "content/slides/02_slide.html#cum-funcționează-ia-generativă",
+    "title": "Provocările IA generative: noțiuni de bază",
+    "section": "Cum funcționează IA generativă?",
+    "text": "Cum funcționează IA generativă?"
+  },
+  {
+    "objectID": "content/slides/02_slide.html#cum-funcționează-ia-generativă-1",
+    "href": "content/slides/02_slide.html#cum-funcționează-ia-generativă-1",
+    "title": "Provocările IA generative: noțiuni de bază",
+    "section": "Cum funcționează IA generativă?",
+    "text": "Cum funcționează IA generativă?"
   },
   {
     "objectID": "content/slides/02_slide.html#când-să-folosesc-și-când-să-evit-să-folosesc-ia-generativă-17",
@@ -220,17 +234,6 @@
     "title": "Bine ați venit!",
     "section": "",
     "text": "Vezi slide-urile pe ecran complet",
-    "crumbs": [
-      "Workshop",
-      "Bine ați venit!"
-    ]
-  },
-  {
-    "objectID": "content/01_introducere.html#să-începem",
-    "href": "content/01_introducere.html#să-începem",
-    "title": "Bine ați venit!",
-    "section": "Să începem!",
-    "text": "Să începem!\n\nIntroducere și bun venit: Prezentarea workshop-ului și a obiectivelor.\nActivitate: Ne prezentăm colegilor de workshop.",
     "crumbs": [
       "Workshop",
       "Bine ați venit!"
