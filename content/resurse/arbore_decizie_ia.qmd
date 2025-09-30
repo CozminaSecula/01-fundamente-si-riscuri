@@ -37,7 +37,7 @@ F -->|Da| H([✅ Continuă])
 
 %% Confidential data
 H --> I{Sunt implicate date <br>confidențiale / personale?}
-I -->|Da| J([❌ Nu folosi IA Generativă<br> risc de confidențialitate<br>Ex: fișe de client,<br> date angajați])
+I -->|Da| J([❌ Nu folosi IA Generativă<br>aplicații publice<br> risc de confidențialitate<br>Ex: fișe de client,<br> date angajați])
 I -->|Nu| K([✅ Continuă])
 
 %% Ethical / bias check
@@ -121,7 +121,7 @@ Exemple de sarcini cu risc ridicat:
 - Date financiare personale (bugete, tranzacții, conturi)
 - Documente juridice cu părți nominale
 
-Dacă nu sunt implicate date personale sau confidențiale, sau dacă sunt implicate, ele sunt anonimizate și manipularea lor respectă normele legale aplicabile (de ex. GDPR), se poate utiliza IA generativă.
+Dacă nu sunt implicate date personale sau confidențiale, sau dacă sunt implicate, ele sunt anonimizate și manipularea lor respectă normele legale aplicabile (de ex. GDPR), se poate utiliza IA generativă. Se poate utiliza IA generativă și în cazul unui sistem securizat care garantează confidențialitatea datelor conform politicilor de utilizare ale companiei/organizației.
 
 Chiar și atunci când datele sunt prelucrate corect, trebuie să vă asigurați că nu există riscuri evidente de prejudecăți, discriminare sau impact etic negativ. Pentru sarcinile sensibile (precum cele din domeniul resurselor umane sau financiar), este necesară o validare etică suplimentară a rezultatelor, indiferent de nivelul de utilizare a IA.
 

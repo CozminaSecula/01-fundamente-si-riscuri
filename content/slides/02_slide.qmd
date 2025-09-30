@@ -10,7 +10,6 @@ format:
     link-external-newwindow: true
     chalkboard: false  
     controls: true
-    controls-tutorial: true 
 
 ---
 
@@ -276,13 +275,12 @@ Benlisquare, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4
 
 <div style="background: #a2d4ec; color: #000; border: 1px solid #ccc; padding: 10px; height: 700px; display: flex; flex-direction: column; justify-content: center;">
 <p><b> Sunt implicate date confidențiale sau personale?</b></p>
+<b>Se poate utiliza IA generativă:</b>
+
 <span style="font-size: 0.8em;">
-
- Se poate utiliza IA generativă:
-
-- Dacă nu sunt implicate date personale sau confidențiale.
-
-- Dacă datele sunt anonimizate și prelucrarea respectă normele legale aplicabile (Ex: GDPR).</span>
+- Dacă nu sunt implicate date personale sau confidențiale.<br>
+- Dacă datele sunt anonimizate și prelucrarea respectă normele legale aplicabile (Ex: GDPR).<br>
+- Dacă sistemul IA generativă este securizat și garantează confidențialitatea datelor.</span>
 </div>
 
 :::
