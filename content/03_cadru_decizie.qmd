@@ -12,3 +12,7 @@ duration: 55 min
 ```{=html}
 <iframe class="slide-deck" src="slides/03_slide.html"></iframe>
 ```
+
+## Materiale
+
+[Cadru de decizie în 6 pași (CCCIIS)](/content/resurse/cadru_decizie_ia.html)

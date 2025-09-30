@@ -507,4 +507,76 @@ Măsurarea <br>rezultatelor
 
 :::
 ::: 
+:::
 
+
+## Activitate Practică
+
+<br>
+
+**Obiectiv**: Aplicarea cadrului de decizie pentru a rezolva o problemă reală, de la evaluarea inițială până la planul de implementare.
+
+<br>
+
+**Durata totală**: 35 de minute
+
+
+
+
+## Pașii Activității
+
+<br>
+
+::: {.columns .v-center}
+::: {.column width="50%"}
+#### **1. {{< bi clipboard-data >}} Prezentarea scenariului (3 min)**
+<div class="small">
+Rolul, contextul, sarcina de lucru și obiectivul activității.
+</div>
+
+
+<br><br>
+
+#### **3. {{< bi people >}} Discuție în grup (7 min)**
+<div class="small">
+- Comparați analizele și ajungeți la un consens de grup pentru fiecare pas.
+- Pregătiți-vă să prezentați deciziile cheie.
+</div>
+
+:::
+
+::: {.column width="50%"}
+#### **2. {{< bi person >}} Analiză individuală (10 min)**
+<div class="small">
+- Aplicați [**Arborele de Decizie**](/content/resurse/arbore_decizie_ia.html).
+- Schițați răspunsurile pentru [**Cadrul de Decizie în 6 Pași**](/content/resurse/cadru_decizie_ia.html).
+</div>
+
+<br>
+
+#### **4. {{< bi megaphone >}} Debrief și concluzii (15 min)**
+<div class="small">
+Un purtător de cuvânt din fiecare grup prezintă pe scurt concluziile (**3 min/prezentare**).
+</div>
+
+:::
+:::
+
+
+## Scenariu 1
+
+::: goal
+
+**Rol**: Bibliotecar 
+
+**Context**: O bibliotecă deține un număr mare de volume vechi (documente, rapoarte, jurnale) care nu au metadate detaliate (cuvinte cheie, descriere, clasificare tematică).
+
+<br>
+
+**Sarcină**: Accelerați procesul de catalogare pentru a îmbunătăți accesul utilizatorilor la aceste materiale.
+
+<br>
+
+**Obiectivul activității**:  Creați un plan pentru a folosi IA generativă în acest scop, folosind cadrul de decizie.
+
+:::

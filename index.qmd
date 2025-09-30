@@ -1,6 +1,6 @@
 ---
 title: "<b>Fundamentele Inteligenței Artificiale Generative</b>"
-subtitle: "<b>Când să folosești, când să eviți și<br> cum să alegi instrumentele IA Generativă</b>"
+subtitle: "<b>Când să folosești, când să eviți și cum să alegi instrumentele IA Generativă</b>"
 format: html
 toc: false
 title-block-banner: true

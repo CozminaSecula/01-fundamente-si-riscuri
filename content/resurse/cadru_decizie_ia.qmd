@@ -1,0 +1,80 @@
+---
+title: "Ghid practic: Cadrul de decizie în 6 pași (CCCIIS)"
+---
+
+Acest ghid detaliază cadrul sistematic pentru selectarea, utilizarea și evaluarea unui instrument de IA generativă pentru o sarcină specifică. Poate fi folosit ca referință în timpul activității practice pentru a vă structura analiza.
+
+---
+
+### Pasul 1: **Contextul** sarcinii
+
+**Scop**: Definirea clară a cadrului de lucru: cine ești, ce trebuie să faci, care sunt constrângerile și care este miza.
+
+**Întrebări ajutătoare**:
+
+- **Rolul meu**: Ce poziție ocup? Ce responsabilități am?
+- **Sarcina exactă**: Ce trebuie să realizez? Care este rezultatul final dorit?
+- **Miza / Riscul**: Ce se întâmplă dacă rezultatul este greșit sau de calitate slabă? Cât de importantă este această sarcină?
+- **Timpul disponibil**: Cât timp aloc în mod normal acestei sarcini? Cât timp aș dori să aloc folosind IA?
+
+
+---
+
+### Pasul 2: **Capabilitatea** Necesară
+
+**Scop**: Identificarea tipului de "muncă" pe care IA trebuie să o presteze, pe baza listei de capabilități discutate.
+
+**Întrebări ajutătoare**:
+
+- Ce capabilitate IA se potrivește cel mai bine sarcinii mele? (Rezumare, Generare de conținut, Asistență tehnică etc.)
+- Pot combina mai multe capabilități?
+- Cum ar suna un prompt inițial pentru această sarcină?
+
+---
+
+### Pasul 3: **Criterii** de Utilitate
+
+**Scop**: Stabilirea standardelor de calitate. Cum arată un rezultat "bun" pentru această sarcină specifică?
+
+**Întrebări ajutătoare**:
+
+- Din lista de 5 criterii (Acuratețe, Relevanță, Eficiență, Claritate, Coerență), care sunt, două, cele mai importante pentru mine?
+- De ce sunt acestea prioritare? Ce anume voi evalua?
+
+---
+
+### Pasul 4: Selecția **Instrumentului**
+
+**Scop**: Alegerea celui mai potrivit instrument IA, pe baza datelor de performanță pentru capabilitatea și criteriile definite.
+
+**Întrebări ajutătoare**:
+
+- Ce instrument (ChatGPT, Gemini, Claude etc.) performează cel mai bine pentru capabilitatea de care am nevoie?
+- Are instrumentul funcționalități specifice care mă ajută (ex: încărcarea de documente lungi)?
+- Care este planul B dacă primul instrument nu oferă rezultate bune?
+
+---
+
+### Pasul 5: Planul de **Integrare** (Colaborarea Om-IA)
+
+**Scop**: Definirea unui flux de lucru clar care specifică rolul fiecărei părți (om și IA).
+
+**Întrebări ajutătoare**:
+
+- **Rolul IA**: Ce face exact sistemul IA? (ex: generează un prim draft, oferă opțiuni, corectează text).
+- **Rolul Meu (Omul)**: Ce fac eu? (ex: validez informațiile, adaug context, iau decizia finală, editez stilul).
+- Cum arată procesul pas cu pas?
+
+
+---
+
+### Pasul 6: Indicatori de **Succes**
+
+**Scop**: Măsurarea impactului. Cum voi ști dacă utilizarea IA a fost o decizie bună și a adus valoare?
+
+**Întrebări ajutătoare**:
+
+- **Eficiență**: Cât timp am economisit? Procesul a devenit mai rapid?
+- **Calitate**: Rezultatul final este mai bun, la fel de bun sau mai slab decât înainte?
+- **Integrare**: Cât de ușor a fost să integrez acest nou flux de lucru? Este sustenabil pe termen lung?
+
