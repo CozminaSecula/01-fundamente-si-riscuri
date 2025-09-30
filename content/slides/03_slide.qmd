@@ -12,8 +12,7 @@ format:
     controls: true  
 ---
 
-## Cadru de decizie pentru instrumentele IA Generativă: capabilități, criterii și context
-
+## Cadru de decizie pentru instrumentele IA Generativă
 <br>
 
 Ce vom face în partea a doua a workshopului?
@@ -199,7 +198,7 @@ Sursa: [Top Generative AI Tools and Applications](https://www.turing.com/resourc
 Rezultatele unde s-a testat performanța**[^2] **reală:
 :::
 
-[^2]: Date de performanță, teste comparative valabile în mai 2025
+[^2]: Date de performanță, teste comparative valabile în mai 2025. 
 
 ::: {.center .small style="margin-top: 2%;" tbl-colwidths="[25,23,20,32]"}
 
@@ -211,7 +210,7 @@ Rezultatele unde s-a testat performanța**[^2] **reală:
 | **Generare de conținut** | ![](/assets/imagini/logos--google-gemini.svg){width="100"} | ![](/assets/imagini/logos--openai-icon.svg){width="50"} ChatGPT | Competiție strânsă |
 :::
 
-[^3]: Nu există încă teste comparative pentru **Revizuirea muncii** și **Structurarea datelor**.
+[^3]: Nu sunt incluse teste comparative pentru **Revizuirea muncii** și **Structurarea datelor**. <br>Sursa: [Evaluating LLM Metrics Through Real-World Capabilities](https://arxiv.org/abs/2505.08253)
 
 ## Recapitulare: Cele 3 elemente cheie ale deciziei
 
@@ -258,39 +257,56 @@ Am analizat <br>**3 instrumente** <br>și performanța lor <br>pentru capabilit�
 :::
 
 
-## Ce urmează?
+## Cum implementăm? 
 
 <br>
-Cadru sistematic de decizie pentru instrumentele IA: capabilități, criterii, context
 
-Cum să implementezi:
+Cadrul de decizie în 6 pași **CCCIIS**
 
-::: {.left .large style="margin-top: 2%;"}
-**Context → Capabilitate → Criterii → Instrument**
+Proces complet care ne ghidează de la definirea sarcinii până la măsurarea succesului.
+
+<br>
+
+::: {.center style="font-weight: bold; font-size: 1.5em;"}
+Context → Capabilitate → Criterii → Instrument → Integrare → Succes
+:::
+
+<br>
+
+O decizie ad-hoc transformată într-un plan de acțiune structurat.
 
 
-::: {.r-stack .medium}
+## Detalierea cadrului CCCIIS
+
+::: {.r-stack}
+::: {style="margin-top: 5%;"}
 ::: {.fragment .fade-in-then-out}
-**CONTEXT**
+
+#### **1. CONTEXT**
 
 - Care este sarcina de lucru? 
 - Care este riscul?
-  - Ce se întâmplă daca IA greșeste?
+  - Ce se întâmplă daca IA greșește?
 - Cât timp aloc pentru această sarcină?
 
 :::
+:::
+
+::: {style="margin-top: 5%;"}
 ::: {.fragment .fade-in-then-out}
-**CAPABILITATE**
+#### **2. CAPABILITATE**
 
 Ce tip de muncă trebuie să facă AI-ul?
 
 - Genereze/corecteze conținut?
 - Să caute informații?
 - Să facă un rezumat?
-
 :::
+:::
+
+::: {style="margin-top: 5%;"}
 ::: {.fragment .fade-in-then-out}
-**CRITERII**
+#### **3. CRITERII**
 
 Ce standarde de calitate contează cel mai mult?
 
@@ -299,18 +315,24 @@ Ce standarde de calitate contează cel mai mult?
 - Eficiență
 
 :::
-::: {.fragment .fade-in-then-out}
-**INSTRUMENT**
+:::
 
-Care instrument IA performează cel mai bine pentru aceast tip de muncă?
+::: {style="margin-top: 5%;"}
+::: {.fragment .fade-in-then-out}
+#### **4. INSTRUMENT**
+
+Care instrument IA performează cel mai bine pentru acest tip de muncă?
 
 - ![](/assets/imagini/logos--openai-icon.svg){height="45" style="vertical-align: middle;"} **ChatGPT**
 - ![](/assets/imagini/logos--google-gemini.svg){height="45" style="vertical-align: middle;"} 
 - Alt instrument?
 
 :::
+:::
+
+::: {style="margin-top: 5%;"}
 ::: {.fragment .fade-in-then-out}
-**INTEGRARE**
+#### **5. INTEGRARE**
 
 Cum voi colabora cu IA pentru a finaliza sarcina?
 
@@ -319,8 +341,11 @@ Cum voi colabora cu IA pentru a finaliza sarcina?
 - Cum se integrează acestea în cadrul mai larg al muncii mele?
 
 :::
+:::
+
+::: {style="margin-top: 5%;"}
 ::: {.fragment .fade-in-then-out}
-**SUCCES**
+#### **6. SUCCES**
 
 Cum voi ști că a funcționat bine?
 
@@ -329,12 +354,11 @@ Cum voi ști că a funcționat bine?
 
 :::
 :::
-
 :::
 
-## Aplicare cadru sistematic de decizie și lucru cu IA
 
-Exemplu practic
+## Cadrul CCCIIS în acțiune: un exemplu practic
+
 
 ::: {.r-stack}
 
@@ -529,7 +553,7 @@ Măsurarea <br>rezultatelor
 
 ::: {.columns .v-center}
 ::: {.column width="50%"}
-#### **1. {{< bi clipboard-data >}} Prezentarea scenariului (3 min)**
+#### **1. {{< bi clipboard-data >}} Prezentarea scenariului**
 <div class="small">
 Rolul, contextul, sarcina de lucru și obiectivul activității.
 </div>
@@ -537,7 +561,7 @@ Rolul, contextul, sarcina de lucru și obiectivul activității.
 
 <br><br>
 
-#### **3. {{< bi people >}} Discuție în grup (7 min)**
+#### **3. {{< bi people >}} Discuție în grup**
 <div class="small">
 - Comparați analizele și ajungeți la un consens de grup pentru fiecare pas.
 - Pregătiți-vă să prezentați deciziile cheie.
@@ -546,7 +570,7 @@ Rolul, contextul, sarcina de lucru și obiectivul activității.
 :::
 
 ::: {.column width="50%"}
-#### **2. {{< bi person >}} Analiză individuală (10 min)**
+#### **2. {{< bi person >}} Analiză individuală**
 <div class="small">
 - Aplicați [**Arborele de Decizie**](/content/resurse/arbore_decizie_ia.html).
 - Schițați răspunsurile pentru [**Cadrul de Decizie în 6 Pași**](/content/resurse/cadru_decizie_ia.html).
@@ -554,7 +578,7 @@ Rolul, contextul, sarcina de lucru și obiectivul activității.
 
 <br>
 
-#### **4. {{< bi megaphone >}} Debrief și concluzii (15 min)**
+#### **4. {{< bi megaphone >}} Debrief și concluzii**
 <div class="small">
 Un purtător de cuvânt din fiecare grup prezintă pe scurt concluziile (**3 min/prezentare**).
 </div>
