@@ -385,11 +385,11 @@
     "text": "La finalul workshopului:\n\n\n✔ Evaluați când să folosiți IA generativă.\nVeți putea decide dacă IA este potrivită pentru o sarcină, folosind criterii clare precum risc, acuratețe, expertiză, confidențialitate și etică.\n✔ Alegeți instrumentul potrivit.\nVeți putea aplica un cadru de decizie sistematic (Context → Capacitate → Criterii → Instrument) pentru a selecta cel mai eficient instrument de IA pentru sarcinile voastre.\n✔ Comparați instrumentele de top.\nVeți putea înțelege diferențele de capabilități și performanță între ChatGPT, Gemini și Claude pentru sarcini comune precum sumarizarea, generarea de conținut și asistența tehnică.\n✔ Utilizați IA în mod responsabil.\nVeți putea recunoaște riscurile și veti putea aplica bune practici pentru a colabora eficient și etic cu IA."
   },
   {
-    "objectID": "content/slides/03_slide.html#cadru-de-decizie-pentru-instrumentele-ia-generativă-capabilități-criterii-și-context",
-    "href": "content/slides/03_slide.html#cadru-de-decizie-pentru-instrumentele-ia-generativă-capabilități-criterii-și-context",
+    "objectID": "content/slides/03_slide.html#cadru-de-decizie-pentru-instrumentele-ia-generativă",
+    "href": "content/slides/03_slide.html#cadru-de-decizie-pentru-instrumentele-ia-generativă",
     "title": "Alegerea instrumentului de IA Generativă",
-    "section": "Cadru de decizie pentru instrumentele IA Generativă: capabilități, criterii și context",
-    "text": "Cadru de decizie pentru instrumentele IA Generativă: capabilități, criterii și context\n\nCe vom face în partea a doua a workshopului?\n\n\nIdentificăm cum ne poate ajuta IA în munca noastră.\nEvaluăm sistematic trei instrumente de IA generativă.\nAplicăm un cadru de decizie practic pentru situații reale."
+    "section": "Cadru de decizie pentru instrumentele IA Generativă",
+    "text": "Cadru de decizie pentru instrumentele IA Generativă\n\nCe vom face în partea a doua a workshopului?\n\n\nIdentificăm cum ne poate ajuta IA în munca noastră.\nEvaluăm sistematic trei instrumente de IA generativă.\nAplicăm un cadru de decizie practic pentru situații reale."
   },
   {
     "objectID": "content/slides/03_slide.html#pentru-ce-folosesc-oamenii-ia",
@@ -424,7 +424,7 @@
     "href": "content/slides/03_slide.html#performața-comparativă-între-trei-instrumente-ia",
     "title": "Alegerea instrumentului de IA Generativă",
     "section": "Performața comparativă între trei instrumente IA",
-    "text": "Performața comparativă între trei instrumente IA\n\nRezultatele unde s-a testat performanța1 reală:\n\n\n\n\n\n\n\n\n\n\n\nCapabilitate\nCel mai bun performer2\nLocul 2\nConcluzie\n\n\n\n\nAsistență tehnică\n\n\nGemini conduce semnificativ\n\n\nCăutare informații\n ChatGPT (62,5%)\n (52,9%)\nPunct forte ChatGPT\n\n\nRezumare\n (89,1%)\n (79,4%)\nAmbele au performanțe ridicate\n\n\nGenerare de conținut\n\n ChatGPT\nCompetiție strânsă\n\n\n\n\nDate de performanță, teste comparative valabile în mai 2025Nu există încă teste comparative pentru Revizuirea muncii și Structurarea datelor."
+    "text": "Performața comparativă între trei instrumente IA\n\nRezultatele unde s-a testat performanța1 reală:\n\n\n\n\n\n\n\n\n\n\n\nCapabilitate\nCel mai bun performer2\nLocul 2\nConcluzie\n\n\n\n\nAsistență tehnică\n\n\nGemini conduce semnificativ\n\n\nCăutare informații\n ChatGPT (62,5%)\n (52,9%)\nPunct forte ChatGPT\n\n\nRezumare\n (89,1%)\n (79,4%)\nAmbele au performanțe ridicate\n\n\nGenerare de conținut\n\n ChatGPT\nCompetiție strânsă\n\n\n\n\nDate de performanță, teste comparative valabile în mai 2025.Nu sunt incluse teste comparative pentru Revizuirea muncii și Structurarea datelor. Sursa: Evaluating LLM Metrics Through Real-World Capabilities"
   },
   {
     "objectID": "content/slides/03_slide.html#recapitulare-cele-3-elemente-cheie-ale-deciziei",
@@ -434,18 +434,25 @@
     "text": "Recapitulare: Cele 3 elemente cheie ale deciziei\n\n\n\n1. Capabilități\nCE poate face IA?\n\nAm identificat  6 capabilități principale  pe care le putem mapa  pe sarcinile noastre.\n\n2. Criterii\nCUM evaluăm rezultatul?\n\nAvem 5 criterii de calitate pentru a evalua dacă răspunsul este bun pentru sarcina noastră.\n\n3. Instrumente\nCU CE lucrăm?\n\nAm analizat 3 instrumente și performanța lor pentru capabilitățile principale."
   },
   {
-    "objectID": "content/slides/03_slide.html#ce-urmează",
-    "href": "content/slides/03_slide.html#ce-urmează",
+    "objectID": "content/slides/03_slide.html#cum-implementăm",
+    "href": "content/slides/03_slide.html#cum-implementăm",
     "title": "Alegerea instrumentului de IA Generativă",
-    "section": "Ce urmează?",
-    "text": "Ce urmează?\n Cadru sistematic de decizie pentru instrumentele IA: capabilități, criterii, context\nCum să implementezi:\n\nContext → Capabilitate → Criterii → Instrument\n\n\nCONTEXT\n\nCare este sarcina de lucru?\nCare este riscul?\n\nCe se întâmplă daca IA greșeste?\n\nCât timp aloc pentru această sarcină?\n\n\n\nCAPABILITATE\nCe tip de muncă trebuie să facă AI-ul?\n\nGenereze/corecteze conținut?\nSă caute informații?\nSă facă un rezumat?\n\n\n\nCRITERII\nCe standarde de calitate contează cel mai mult?\n\nAcuratețe\nClaritate\nEficiență\n\n\n\nINSTRUMENT\nCare instrument IA performează cel mai bine pentru aceast tip de muncă?\n\n ChatGPT\n\nAlt instrument?\n\n\n\nINTEGRARE\nCum voi colabora cu IA pentru a finaliza sarcina?\n\nCare este rolul IA în contextul sarcinii?\nCare este rolul meu în contextul sarcinii?\nCum se integrează acestea în cadrul mai larg al muncii mele?\n\n\n\nSUCCES\nCum voi ști că a funcționat bine?\n\nEficiență: Cât timp ar trebui să economisesc?\nCalitate: Cum voi ști că IA a făcut o treabă bună?"
+    "section": "Cum implementăm?",
+    "text": "Cum implementăm?\n\nCadrul de decizie în 6 pași CCCIIS\nProces complet care ne ghidează de la definirea sarcinii până la măsurarea succesului.\n\n\nContext → Capabilitate → Criterii → Instrument → Integrare → Succes\n\n\nO decizie ad-hoc transformată într-un plan de acțiune structurat."
   },
   {
-    "objectID": "content/slides/03_slide.html#aplicare-cadru-sistematic-de-decizie-și-lucru-cu-ia",
-    "href": "content/slides/03_slide.html#aplicare-cadru-sistematic-de-decizie-și-lucru-cu-ia",
+    "objectID": "content/slides/03_slide.html#detalierea-cadrului-ccciis",
+    "href": "content/slides/03_slide.html#detalierea-cadrului-ccciis",
     "title": "Alegerea instrumentului de IA Generativă",
-    "section": "Aplicare cadru sistematic de decizie și lucru cu IA",
-    "text": "Aplicare cadru sistematic de decizie și lucru cu IA\nExemplu practic\n\n\nContextul Sarcinii\n\nRolul: Consultant\nSarcina: Analiza unui raport public de 50 pagini despre trenduri în industria e-commerce.\nFrecvența: Trimestrial (odată cu apariția rapoartelor majore)\nMiza: Medie (informare, explorare oportunități, inspirație pentru client)\nTimp: 2 ore disponibile\n\n\nCapabilitatea necesară\n\nTip sarcina pentru IA: Rezumat raport + extragere insight-uri și informații\nExemplu:\n\n“Sumarizează raportul și extrage 5 trenduri noi din raportul de e-commerce.\nSugerează posibile implicații pentru un retailer mediu din România.”\n\n\n\nCriterii de Utilitate (Prioritizate)\n\n\n\nAcuratețea (principal)\n\n\nInsight-urile trebuie să fie în concordanță cu datele și graficele raportului.\nContează pentru credibilitate.\n\n\n\nRelevanța (secundar)\n\n\nSelectarea trendurilor cu impact posibil pentru un retailer mediu din România (nu doar globale sau irelevante).\n\n\n\nCoerență (secundar)\n\n\nRăspunsul este logic, bine structurat și nu se contrazice. Poate fi folosit direct într-un material pentru un client.\n\n\n\n\nSelecția instrumentului IA\n\nPrima alegere:  - bun pentru rezumate, explicații structurate, conținut multilingv\nPlanul de rezervă:  - bun pentru rezumate precise și extragerea insight-urilor din documente\n\nConsiderații secundare:\n\ninterfață familiară vs. performanța\ncosturi / accesibilitate\n\n\n\nPlanul de integrare, colaborarea cu IA\n\n\nRolul IA: Primul draft cu trenduri și implicații potențiale.\nRolul consultantului:\n\nConfirmă cifrele și infomațiile,\nAdaptează insight-urile la contextul clientului,\nRealizează și validează forma finală.\n\n\n\n\nIndicatori de succes\n\n\n\n\nCâștig: eficiență \n\n2 h citire → 30–40 min analiză\n\n\nVerificare calitate \n\nTrendurile pot fi prezentate cu încredere clientului.\n\n\nIntegrare în fluxul de lucru\nRezumatul și insight-urile sunt gata în timp util și pot fi folosite pentru întâlnirea cu clientul."
+    "section": "Detalierea cadrului CCCIIS",
+    "text": "Detalierea cadrului CCCIIS\n\n\n\n1. CONTEXT\n\nCare este sarcina de lucru?\nCare este riscul?\n\nCe se întâmplă daca IA greșește?\n\nCât timp aloc pentru această sarcină?\n\n\n\n\n\n2. CAPABILITATE\nCe tip de muncă trebuie să facă AI-ul?\n\nGenereze/corecteze conținut?\nSă caute informații?\nSă facă un rezumat?\n\n\n\n\n\n3. CRITERII\nCe standarde de calitate contează cel mai mult?\n\nAcuratețe\nClaritate\nEficiență\n\n\n\n\n\n4. INSTRUMENT\nCare instrument IA performează cel mai bine pentru acest tip de muncă?\n\n ChatGPT\n\nAlt instrument?\n\n\n\n\n\n5. INTEGRARE\nCum voi colabora cu IA pentru a finaliza sarcina?\n\nCare este rolul IA în contextul sarcinii?\nCare este rolul meu în contextul sarcinii?\nCum se integrează acestea în cadrul mai larg al muncii mele?\n\n\n\n\n\n6. SUCCES\nCum voi ști că a funcționat bine?\n\nEficiență: Cât timp ar trebui să economisesc?\nCalitate: Cum voi ști că IA a făcut o treabă bună?"
+  },
+  {
+    "objectID": "content/slides/03_slide.html#cadrul-ccciis-în-acțiune-un-exemplu-practic",
+    "href": "content/slides/03_slide.html#cadrul-ccciis-în-acțiune-un-exemplu-practic",
+    "title": "Alegerea instrumentului de IA Generativă",
+    "section": "Cadrul CCCIIS în acțiune: un exemplu practic",
+    "text": "Cadrul CCCIIS în acțiune: un exemplu practic\n\n\nContextul Sarcinii\n\nRolul: Consultant\nSarcina: Analiza unui raport public de 50 pagini despre trenduri în industria e-commerce.\nFrecvența: Trimestrial (odată cu apariția rapoartelor majore)\nMiza: Medie (informare, explorare oportunități, inspirație pentru client)\nTimp: 2 ore disponibile\n\n\nCapabilitatea necesară\n\nTip sarcina pentru IA: Rezumat raport + extragere insight-uri și informații\nExemplu:\n\n“Sumarizează raportul și extrage 5 trenduri noi din raportul de e-commerce.\nSugerează posibile implicații pentru un retailer mediu din România.”\n\n\n\nCriterii de Utilitate (Prioritizate)\n\n\n\nAcuratețea (principal)\n\n\nInsight-urile trebuie să fie în concordanță cu datele și graficele raportului.\nContează pentru credibilitate.\n\n\n\nRelevanța (secundar)\n\n\nSelectarea trendurilor cu impact posibil pentru un retailer mediu din România (nu doar globale sau irelevante).\n\n\n\nCoerență (secundar)\n\n\nRăspunsul este logic, bine structurat și nu se contrazice. Poate fi folosit direct într-un material pentru un client.\n\n\n\n\nSelecția instrumentului IA\n\nPrima alegere:  - bun pentru rezumate, explicații structurate, conținut multilingv\nPlanul de rezervă:  - bun pentru rezumate precise și extragerea insight-urilor din documente\n\nConsiderații secundare:\n\ninterfață familiară vs. performanța\ncosturi / accesibilitate\n\n\n\nPlanul de integrare, colaborarea cu IA\n\n\nRolul IA: Primul draft cu trenduri și implicații potențiale.\nRolul consultantului:\n\nConfirmă cifrele și infomațiile,\nAdaptează insight-urile la contextul clientului,\nRealizează și validează forma finală.\n\n\n\n\nIndicatori de succes\n\n\n\n\nCâștig: eficiență \n\n2 h citire → 30–40 min analiză\n\n\nVerificare calitate \n\nTrendurile pot fi prezentate cu încredere clientului.\n\n\nIntegrare în fluxul de lucru\nRezumatul și insight-urile sunt gata în timp util și pot fi folosite pentru întâlnirea cu clientul."
   },
   {
     "objectID": "content/slides/03_slide.html#sinteza-cadrului-de-decizie",
@@ -466,7 +473,7 @@
     "href": "content/slides/03_slide.html#pașii-activității",
     "title": "Alegerea instrumentului de IA Generativă",
     "section": "Pașii Activității",
-    "text": "Pașii Activității\n\n\n\n1.  Prezentarea scenariului (3 min)\n\nRolul, contextul, sarcina de lucru și obiectivul activității.\n\n\n3.  Discuție în grup (7 min)\n\n\nComparați analizele și ajungeți la un consens de grup pentru fiecare pas.\nPregătiți-vă să prezentați deciziile cheie.\n\n\n\n2.  Analiză individuală (10 min)\n\n\nAplicați Arborele de Decizie.\nSchițați răspunsurile pentru Cadrul de Decizie în 6 Pași.\n\n\n\n4.  Debrief și concluzii (15 min)\n\nUn purtător de cuvânt din fiecare grup prezintă pe scurt concluziile (3 min/prezentare)."
+    "text": "Pașii Activității\n\n\n\n1.  Prezentarea scenariului\n\nRolul, contextul, sarcina de lucru și obiectivul activității.\n\n\n3.  Discuție în grup\n\n\nComparați analizele și ajungeți la un consens de grup pentru fiecare pas.\nPregătiți-vă să prezentați deciziile cheie.\n\n\n\n2.  Analiză individuală\n\n\nAplicați Arborele de Decizie.\nSchițați răspunsurile pentru Cadrul de Decizie în 6 Pași.\n\n\n\n4.  Debrief și concluzii\n\nUn purtător de cuvânt din fiecare grup prezintă pe scurt concluziile (3 min/prezentare)."
   },
   {
     "objectID": "content/slides/03_slide.html#scenariu-1-catalogare-și-metadate",
