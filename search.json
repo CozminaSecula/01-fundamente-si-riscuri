@@ -133,11 +133,11 @@
     "text": "Când să folosesc și când să evit să folosesc IA generativă? (7/7)\n\n\n\n\n\n\n\n\n\n\n\n\nUtilizează IA generativă responsabil\n\n\n\nVerifică rezultatele\nVerifică sursele\nCorectează erorile"
   },
   {
-    "objectID": "content/slides/02_slide.html#activitate",
-    "href": "content/slides/02_slide.html#activitate",
+    "objectID": "content/slides/02_slide.html#activitate-practică",
+    "href": "content/slides/02_slide.html#activitate-practică",
     "title": "Provocările IA Generative: noțiuni de bază",
-    "section": "Activitate",
-    "text": "Activitate\n\n\n\nLucrați în grup.\nCitiți scenariile primite.\nPentru fiecare scenariu discutați intrebările pentru grup.\n\n\n\n\n\n−+\n07:00"
+    "section": "Activitate Practică",
+    "text": "Activitate Practică\n\n\n\nLucrați în grup.\nCitiți scenariile primite.\nPentru fiecare scenariu discutați intrebările pentru grup.\n\n\n\n\n\n−+\n07:00"
   },
   {
     "objectID": "content/slides/02_slide.html#scenariul-1-diagnostic-medical",
@@ -218,76 +218,14 @@
     ]
   },
   {
-    "objectID": "content/03_cadru_decizie.html",
-    "href": "content/03_cadru_decizie.html",
-    "title": "Alegerea instrumentului de IA Generativă",
+    "objectID": "content/resurse/arbore_decizie_ia.html",
+    "href": "content/resurse/arbore_decizie_ia.html",
+    "title": "Arbore de decizie: Folosesc sau nu IA Generativă?",
     "section": "",
-    "text": "Vezi slide-urile pe ecran complet",
+    "text": "Resursa de mai jos este o schemă care vă poate ajuta să evaluați dacă este adecvat să utilizați IA Generativă.\n\n\n\n\n\n\n%%{init: {'theme':'base','flowchart':{'htmlLabels':false},'themeVariables':{'primaryColor':'#ffffff','primaryTextColor':'#000000','nodeTextColor':'#000000','textColor':'#000000','primaryBorderColor':'#000000','lineColor':'#000000'}}}%%\n\nflowchart TD\n%% Start\nA([Start]) --&gt; B{Sarcina este clară și &lt;br&gt;cu risc scăzut?}\nB --&gt;|Nu| Z([❌ Opriți - Inadecvat&lt;br&gt;Ex: contract legal,&lt;br&gt; sfat medical])\nB --&gt;|Da| C{Rezultatul trebuie să fie &lt;br&gt;100% corect?}\n\n%% Accuracy check\nC --&gt;|Da| D([❌ Evită IA Generativă &lt;br&gt; Ex: proceduri de siguranță])\nC --&gt;|Nu| E([✅ Continuă])\n\n%% Verification expertise\nE --&gt; F{Ai expertiza să&lt;br&gt; verifici rezultatul?}\nF --&gt;|Nu| G([⚠️ Nesigur &lt;br&gt; risc de erori / bias&lt;br&gt;Ex: rezumat IA fără verificare])\nF --&gt;|Da| H([✅ Continuă])\n\n%% Confidential data\nH --&gt; I{Sunt implicate date &lt;br&gt;confidențiale / personale?}\nI --&gt;|Da| J([❌ Nu folosi IA Generativă&lt;br&gt; risc de confidențialitate&lt;br&gt;Ex: fișe de client,&lt;br&gt; date angajați])\nI --&gt;|Nu| K([✅ Continuă])\n\n%% Ethical / bias check\nK --&gt; L{Există risc etic /&lt;br&gt; părtinire?}\nL --&gt;|Da| M([⚠️ Atenție &lt;br&gt; verificare sau evită&lt;br&gt;Ex: recomandări angajare, &lt;br&gt;conținut sensibil])\nL --&gt;|Nu| N([✅ Continuă])\n\n%% Tool selection\nN --&gt; O{Alege instrumentul &lt;br&gt;potrivit pentru sarcină}\nO --&gt; P([✅ Compară instrumente: &lt;br&gt;ChatGPT, Gemini, &lt;br&gt;Claude, etc])\n\n%% Responsible use\nP --&gt; Q([✅ Folosește responsabil,&lt;br&gt; verifică rezultate&lt;br&gt;verifică sursele,&lt;br&gt; corectează erorile])\nQ --&gt; R([Final])\n\nclassDef default fill:#ffffff,stroke:#000000,color:#000000;\n\n\n\n\n\n\n\n\nSarcina este clară și cu risc scăzut?\nO sarcină este considerată clară și cu risc scăzut dacă îndeplinește concomitent următoarele criterii:\n\nObiectivul este bine definit, cu așteptări specifice și explicite privind intrarea (datele oferite) și ieșirea (rezultatul dorit).\nRiscul este scăzut, ceea ce înseamnă că erorile sau inconsecvențele au consecințe minime. De exemplu, nu afectează:\n\nSiguranța fizică sau emoțională a persoanelor.\nConformitatea legală sau reglementările.\nInformațiile sensibile sau datele cu caracter personal.\n\n\nExemple de sarcini adecvate:\n\nRedactarea și corectarea de e-mailuri cu importanță scăzută sau alte texte simple.\nRezumarea articolelor sau a documentelor cum ar fi cele de presă.\nGenerarea de idei creative sau de brainstorming.\n\nExemple de sarcini cu risc ridicat sau neclare:\n\nStabilirea de diagnostice medicale sau tratamente.\nRedactarea de contracte legale sau documente oficiale.\nOferirea de consultanță financiară sau investițională.\nUtilizarea sau manipularea datelor sensibile (medicale, financiare) fără protecții adecvate.\n\n\n\nRezultatul trebuie să fie 100% corect?\nDacă rezultatul trebuie să fie complet corect, evită folosirea IA generative. În astfel de cazuri, chiar și mici erori pot avea consecințe semnificative.\nSarcina necesită rezultate verificabile, complet corecte.\n\nPersoana care lansează sarcina are competența, timpul sau resursele necesare pentru a verifica, corecta sau valida rezultatul.\nRezultatul generat trebuie să fie transparent sau explicabil în măsura în care identifici sursele sau raționamentul.\n\nIA generativă poate produce informații plauzibile, dar incorecte (halucinații) și nu este sigură pentru sarcinile în care greșelile sunt nu sunt acceptate. Exemple:\n\nNotarea examenelor\nPrescrierea de medicamente\nProceduri de siguranță\n\n\n\nAi expertiza să verifici rezultatul?\nDacă nu este necesară o acuratețe absolută, dar totuși folosești IA generativă, este necesar să ai expertiza necesară pentru a verifica și corecta rezultatul. Nu utiliza IA generativă pentru sarcini critice dacă nu poți evalua corectitudinea răspunsului.\nExemple de situații unde este necesară verificarea pe baza expertizei:\n\nRezumate de texte complexe (ex: articole științifice).\nGenerarea de cod sau soluții tehnice.\nCrearea de conținut pentru publicare oficială.\n\nDacă nu ai expertiza necesară, există riscul să accepți rezultate incorecte sau părtinitoare.\n\n\nSunt implicate date confidențiale sau personale?\nSe referă la situația în care sarcina implică informații sensibile sau de identificare personală care ar putea fi expuse sau utilizate în mod abuziv dacă ar fi introduse într-un instrument de inteligență artificială generativă.\nExemple de sarcini cu risc ridicat:\n\nDocumente de angajare (care implică date din CV, evaluări, etc.)\nDate financiare personale (bugete, tranzacții, conturi)\nDocumente juridice cu părți nominale\n\nDacă nu sunt implicate date personale sau confidențiale, sau dacă sunt implicate, ele sunt anonimizate și manipularea lor respectă normele legale aplicabile (de ex. GDPR), se poate utiliza IA generativă.\nChiar și atunci când datele sunt prelucrate corect, trebuie să vă asigurați că nu există riscuri evidente de prejudecăți, discriminare sau impact etic negativ. Pentru sarcinile sensibile (precum cele din domeniul resurselor umane sau financiar), este necesară o validare etică suplimentară a rezultatelor, indiferent de nivelul de utilizare a IA.\n\n\nExistă risc etic/ părtinire?\nAceastă secțiune evaluează potențialul ca rezultatul IA să fie discriminatoriu, părtinitor sau dăunător, afectând negativ utilizatorii sau terții (publicul larg).\nExemple de risc etic:\n\nGenerarea de recomandări/decizii de angajare fără auditarea prealabilă a algoritmului pentru a detecta și corecta părtinirea (bias-ul) inerent datelor de antrenament.\nProducerea de conținut insensibil din punct de vedere cultural, social sau etnic, care poate fi perceput ca ofensator sau dăunător.\nDezinformarea/manipularea, generarea de știri false (deepfakes) sau de conținut menit să manipuleze opinia publică.\n\n\n\nAlege instrumentul potrivit pentru sarcină\nPentru alegerea celui mai potrivit instrument de IA generativă, este necesară o evaluare pe baza mai multor criterii. Câteva dintre criterii sunt prezentate mai jos.\n\nPerformanță și încredere\n\nAceste criterii sunt esențiale pentru a asigura calitatea și etica rezultatelor.\n\n\n\n\n\n\n\nCriteriu\nDetaliu\n\n\n\n\nAcuratețea\nCât de precis și relevant este rezultatul generat (ex: răspunsuri factuale corecte, cod funcțional).\n\n\nTransparența\nClaritatea modului în care IA ajunge la rezultat (ex: posibilitatea de a verifica sursa informației, înțelegerea limitărilor modelului).\n\n\nFiabilitatea\nConsistența și stabilitatea instrumentului în timp. Include rezistența la halucinații (generarea de informații false) și riscul de părtinire (bias).\n\n\n\n\n\nTipul de conținut și funcționalități\n\nInstrumentul selectat trebuie să fie optimizat pentru formatul conținutului pe care dorești să-l prelucrezi sau să-l generezi.\n\n\n\n\n\n\n\nTip de conținut\nExemple de instrumente sau funcționalități cheie\n\n\n\n\nText\nGenerare, rezumare, traducere. (Ex: ChatGPT, Gemini, Claude).\n\n\nDocumente lungi\nFuncții avansate de încărcare și interogare a fișierelor PDF/DOC.\n\n\nImagini\nGenerare de imagini de la zero sau editare pe bază de text (prompt). (Ex: Midjourney, DALL-E).\n\n\nCod",
     "crumbs": [
       "Workshop",
-      "Alegerea instrumentului de IA Generativă"
-    ]
-  },
-  {
-    "objectID": "content/03_cadru_decizie.html#slide-uri",
-    "href": "content/03_cadru_decizie.html#slide-uri",
-    "title": "Alegerea instrumentului de IA Generativă",
-    "section": "",
-    "text": "Vezi slide-urile pe ecran complet",
-    "crumbs": [
-      "Workshop",
-      "Alegerea instrumentului de IA Generativă"
-    ]
-  },
-  {
-    "objectID": "content/01_introducere.html",
-    "href": "content/01_introducere.html",
-    "title": "Bine ați venit!",
-    "section": "",
-    "text": "Vezi slide-urile pe ecran complet",
-    "crumbs": [
-      "Workshop",
-      "Bine ați venit!"
-    ]
-  },
-  {
-    "objectID": "content/01_introducere.html#slide-uri",
-    "href": "content/01_introducere.html#slide-uri",
-    "title": "Bine ați venit!",
-    "section": "",
-    "text": "Vezi slide-urile pe ecran complet",
-    "crumbs": [
-      "Workshop",
-      "Bine ați venit!"
-    ]
-  },
-  {
-    "objectID": "assets/schedule.html",
-    "href": "assets/schedule.html",
-    "title": "",
-    "section": "",
-    "text": "Time\n\nActivity\n\n\n\n\n09:00 - 10:30\n💬\nTalking with LLMs via Code\n\n\n10:30 - 11:00\n☕\nCoffee break\n\n\n11:00 - 12:30\n💻\nProgramming with LLMs\n\n\n12:30 - 13:30\n🍽️\nLunch break\n\n\n13:30 - 15:00\n🔍\nAugmented Generation\n\n\n15:00 - 15:30\n☕\nCoffee break\n\n\n15:30 - 17:00\n🚀\nBeyond Tools"
-  },
-  {
-    "objectID": "content/00_agenda.html",
-    "href": "content/00_agenda.html",
-    "title": "Agenda",
-    "section": "",
-    "text": "Titlu\n\n\n\nDurata\n\n\n\nDescriere\n\n\n\n\n\n\n\n\nBine ați venit!\n\n\n10 min\n\n\nBun venit la workshop!\n\n\n\n\n\n\nProvocările IA Generativă: noțiuni de bază\n\n\n35 min\n\n\nGhid practic - cum să determini dacă să folosești sau nu IA generativă.\n\n\n\n\n\n\nAlegerea instrumentului de IA Generativă\n\n\n55 min\n\n\nUn cadru de decizie bazat pe capabilități și criterii.\n\n\n\n\n\n\nNo matching items",
-    "crumbs": [
-      "Workshop",
-      "Agenda"
-    ]
-  },
-  {
-    "objectID": "content/00_agenda.html#section",
-    "href": "content/00_agenda.html#section",
-    "title": "Agenda",
-    "section": "",
-    "text": "Titlu\n\n\n\nDurata\n\n\n\nDescriere\n\n\n\n\n\n\n\n\nBine ați venit!\n\n\n10 min\n\n\nBun venit la workshop!\n\n\n\n\n\n\nProvocările IA Generativă: noțiuni de bază\n\n\n35 min\n\n\nGhid practic - cum să determini dacă să folosești sau nu IA generativă.\n\n\n\n\n\n\nAlegerea instrumentului de IA Generativă\n\n\n55 min\n\n\nUn cadru de decizie bazat pe capabilități și criterii.\n\n\n\n\n\n\nNo matching items",
-    "crumbs": [
-      "Workshop",
-      "Agenda"
+      "Arbore de decizie: Folosesc sau nu IA Generativă?"
     ]
   },
   {
@@ -324,14 +262,98 @@
     ]
   },
   {
-    "objectID": "content/resurse/arbore_decizie_ia.html",
-    "href": "content/resurse/arbore_decizie_ia.html",
-    "title": "Arbore de decizie: Folosesc sau nu IA Generativă?",
+    "objectID": "content/00_agenda.html",
+    "href": "content/00_agenda.html",
+    "title": "Agenda",
     "section": "",
-    "text": "Resursa de mai jos este o schemă care vă poate ajuta să evaluați dacă este adecvat să utilizați IA Generativă.\n\n\n\n\n\n\n%%{init: {'theme':'base','flowchart':{'htmlLabels':false},'themeVariables':{'primaryColor':'#ffffff','primaryTextColor':'#000000','nodeTextColor':'#000000','textColor':'#000000','primaryBorderColor':'#000000','lineColor':'#000000'}}}%%\n\nflowchart TD\n%% Start\nA([Start]) --&gt; B{Sarcina este clară și &lt;br&gt;cu risc scăzut?}\nB --&gt;|Nu| Z([❌ Opriți - Inadecvat&lt;br&gt;Ex: contract legal,&lt;br&gt; sfat medical])\nB --&gt;|Da| C{Rezultatul trebuie să fie &lt;br&gt;100% corect?}\n\n%% Accuracy check\nC --&gt;|Da| D([❌ Evită IA Generativă &lt;br&gt; Ex: proceduri de siguranță])\nC --&gt;|Nu| E([✅ Continuă])\n\n%% Verification expertise\nE --&gt; F{Ai expertiza să&lt;br&gt; verifici rezultatul?}\nF --&gt;|Nu| G([⚠️ Nesigur &lt;br&gt; risc de erori / bias&lt;br&gt;Ex: rezumat IA fără verificare])\nF --&gt;|Da| H([✅ Continuă])\n\n%% Confidential data\nH --&gt; I{Sunt implicate date &lt;br&gt;confidențiale / personale?}\nI --&gt;|Da| J([❌ Nu folosi IA Generativă&lt;br&gt; risc de confidențialitate&lt;br&gt;Ex: fișe de client,&lt;br&gt; date angajați])\nI --&gt;|Nu| K([✅ Continuă])\n\n%% Ethical / bias check\nK --&gt; L{Există risc etic /&lt;br&gt; părtinire?}\nL --&gt;|Da| M([⚠️ Atenție &lt;br&gt; verificare sau evită&lt;br&gt;Ex: recomandări angajare, &lt;br&gt;conținut sensibil])\nL --&gt;|Nu| N([✅ Continuă])\n\n%% Tool selection\nN --&gt; O{Alege instrumentul &lt;br&gt;potrivit pentru sarcină}\nO --&gt; P([✅ Compară instrumente: &lt;br&gt;ChatGPT, Gemini, &lt;br&gt;Claude, etc])\n\n%% Responsible use\nP --&gt; Q([✅ Folosește responsabil,&lt;br&gt; verifică rezultate&lt;br&gt;verifică sursele,&lt;br&gt; corectează erorile])\nQ --&gt; R([Final])\n\nclassDef default fill:#ffffff,stroke:#000000,color:#000000;\n\n\n\n\n\n\n\n\nSarcina este clară și cu risc scăzut?\nO sarcină este considerată clară și cu risc scăzut dacă îndeplinește concomitent următoarele criterii:\n\nObiectivul este bine definit, cu așteptări specifice și explicite privind intrarea (datele oferite) și ieșirea (rezultatul dorit).\nRiscul este scăzut, ceea ce înseamnă că erorile sau inconsecvențele au consecințe minime. De exemplu, nu afectează:\n\nSiguranța fizică sau emoțională a persoanelor.\nConformitatea legală sau reglementările.\nInformațiile sensibile sau datele cu caracter personal.\n\n\nExemple de sarcini adecvate:\n\nRedactarea și corectarea de e-mailuri cu importanță scăzută sau alte texte simple.\nRezumarea articolelor sau a documentelor cum ar fi cele de presă.\nGenerarea de idei creative sau de brainstorming.\n\nExemple de sarcini cu risc ridicat sau neclare:\n\nStabilirea de diagnostice medicale sau tratamente.\nRedactarea de contracte legale sau documente oficiale.\nOferirea de consultanță financiară sau investițională.\nUtilizarea sau manipularea datelor sensibile (medicale, financiare) fără protecții adecvate.\n\n\n\nRezultatul trebuie să fie 100% corect?\nDacă rezultatul trebuie să fie complet corect, evită folosirea IA generative. În astfel de cazuri, chiar și mici erori pot avea consecințe semnificative.\nSarcina necesită rezultate verificabile, complet corecte.\n\nPersoana care lansează sarcina are competența, timpul sau resursele necesare pentru a verifica, corecta sau valida rezultatul.\nRezultatul generat trebuie să fie transparent sau explicabil în măsura în care identifici sursele sau raționamentul.\n\nIA generativă poate produce informații plauzibile, dar incorecte (halucinații) și nu este sigură pentru sarcinile în care greșelile sunt nu sunt acceptate. Exemple:\n\nNotarea examenelor\nPrescrierea de medicamente\nProceduri de siguranță\n\n\n\nAi expertiza să verifici rezultatul?\nDacă nu este necesară o acuratețe absolută, dar totuși folosești IA generativă, este necesar să ai expertiza necesară pentru a verifica și corecta rezultatul. Nu utiliza IA generativă pentru sarcini critice dacă nu poți evalua corectitudinea răspunsului.\nExemple de situații unde este necesară verificarea pe baza expertizei:\n\nRezumate de texte complexe (ex: articole științifice).\nGenerarea de cod sau soluții tehnice.\nCrearea de conținut pentru publicare oficială.\n\nDacă nu ai expertiza necesară, există riscul să accepți rezultate incorecte sau părtinitoare.\n\n\nSunt implicate date confidențiale sau personale?\nSe referă la situația în care sarcina implică informații sensibile sau de identificare personală care ar putea fi expuse sau utilizate în mod abuziv dacă ar fi introduse într-un instrument de inteligență artificială generativă.\nExemple de sarcini cu risc ridicat:\n\nDocumente de angajare (care implică date din CV, evaluări, etc.)\nDate financiare personale (bugete, tranzacții, conturi)\nDocumente juridice cu părți nominale\n\nDacă nu sunt implicate date personale sau confidențiale, sau dacă sunt implicate, ele sunt anonimizate și manipularea lor respectă normele legale aplicabile (de ex. GDPR), se poate utiliza IA generativă.\nChiar și atunci când datele sunt prelucrate corect, trebuie să vă asigurați că nu există riscuri evidente de prejudecăți, discriminare sau impact etic negativ. Pentru sarcinile sensibile (precum cele din domeniul resurselor umane sau financiar), este necesară o validare etică suplimentară a rezultatelor, indiferent de nivelul de utilizare a IA.\n\n\nExistă risc etic/ părtinire?\nAceastă secțiune evaluează potențialul ca rezultatul IA să fie discriminatoriu, părtinitor sau dăunător, afectând negativ utilizatorii sau terții (publicul larg).\nExemple de risc etic:\n\nGenerarea de recomandări/decizii de angajare fără auditarea prealabilă a algoritmului pentru a detecta și corecta părtinirea (bias-ul) inerent datelor de antrenament.\nProducerea de conținut insensibil din punct de vedere cultural, social sau etnic, care poate fi perceput ca ofensator sau dăunător.\nDezinformarea/manipularea, generarea de știri false (deepfakes) sau de conținut menit să manipuleze opinia publică.\n\n\n\nAlege instrumentul potrivit pentru sarcină\nPentru alegerea celui mai potrivit instrument de IA generativă, este necesară o evaluare pe baza mai multor criterii. Câteva dintre criterii sunt prezentate mai jos.\n\nPerformanță și încredere\n\nAceste criterii sunt esențiale pentru a asigura calitatea și etica rezultatelor.\n\n\n\n\n\n\n\nCriteriu\nDetaliu\n\n\n\n\nAcuratețea\nCât de precis și relevant este rezultatul generat (ex: răspunsuri factuale corecte, cod funcțional).\n\n\nTransparența\nClaritatea modului în care IA ajunge la rezultat (ex: posibilitatea de a verifica sursa informației, înțelegerea limitărilor modelului).\n\n\nFiabilitatea\nConsistența și stabilitatea instrumentului în timp. Include rezistența la halucinații (generarea de informații false) și riscul de părtinire (bias).\n\n\n\n\n\nTipul de conținut și funcționalități\n\nInstrumentul selectat trebuie să fie optimizat pentru formatul conținutului pe care dorești să-l prelucrezi sau să-l generezi.\n\n\n\n\n\n\n\nTip de conținut\nExemple de instrumente sau funcționalități cheie\n\n\n\n\nText\nGenerare, rezumare, traducere. (Ex: ChatGPT, Gemini, Claude).\n\n\nDocumente lungi\nFuncții avansate de încărcare și interogare a fișierelor PDF/DOC.\n\n\nImagini\nGenerare de imagini de la zero sau editare pe bază de text (prompt). (Ex: Midjourney, DALL-E).\n\n\nCod",
+    "text": "Titlu\n\n\n\nDurata\n\n\n\nDescriere\n\n\n\n\n\n\n\n\nBine ați venit!\n\n\n10 min\n\n\nBun venit la workshop!\n\n\n\n\n\n\nProvocările IA Generativă: noțiuni de bază\n\n\n35 min\n\n\nGhid practic - cum să determini dacă să folosești sau nu IA generativă.\n\n\n\n\n\n\nAlegerea instrumentului de IA Generativă\n\n\n55 min\n\n\nUn cadru de decizie bazat pe capabilități și criterii.\n\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Workshop",
-      "Arbore de decizie: Folosesc sau nu IA Generativă?"
+      "Agenda"
+    ]
+  },
+  {
+    "objectID": "content/00_agenda.html#section",
+    "href": "content/00_agenda.html#section",
+    "title": "Agenda",
+    "section": "",
+    "text": "Titlu\n\n\n\nDurata\n\n\n\nDescriere\n\n\n\n\n\n\n\n\nBine ați venit!\n\n\n10 min\n\n\nBun venit la workshop!\n\n\n\n\n\n\nProvocările IA Generativă: noțiuni de bază\n\n\n35 min\n\n\nGhid practic - cum să determini dacă să folosești sau nu IA generativă.\n\n\n\n\n\n\nAlegerea instrumentului de IA Generativă\n\n\n55 min\n\n\nUn cadru de decizie bazat pe capabilități și criterii.\n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Workshop",
+      "Agenda"
+    ]
+  },
+  {
+    "objectID": "assets/schedule.html",
+    "href": "assets/schedule.html",
+    "title": "",
+    "section": "",
+    "text": "Time\n\nActivity\n\n\n\n\n09:00 - 10:30\n💬\nTalking with LLMs via Code\n\n\n10:30 - 11:00\n☕\nCoffee break\n\n\n11:00 - 12:30\n💻\nProgramming with LLMs\n\n\n12:30 - 13:30\n🍽️\nLunch break\n\n\n13:30 - 15:00\n🔍\nAugmented Generation\n\n\n15:00 - 15:30\n☕\nCoffee break\n\n\n15:30 - 17:00\n🚀\nBeyond Tools"
+  },
+  {
+    "objectID": "content/01_introducere.html",
+    "href": "content/01_introducere.html",
+    "title": "Bine ați venit!",
+    "section": "",
+    "text": "Vezi slide-urile pe ecran complet",
+    "crumbs": [
+      "Workshop",
+      "Bine ați venit!"
+    ]
+  },
+  {
+    "objectID": "content/01_introducere.html#slide-uri",
+    "href": "content/01_introducere.html#slide-uri",
+    "title": "Bine ați venit!",
+    "section": "",
+    "text": "Vezi slide-urile pe ecran complet",
+    "crumbs": [
+      "Workshop",
+      "Bine ați venit!"
+    ]
+  },
+  {
+    "objectID": "content/03_cadru_decizie.html",
+    "href": "content/03_cadru_decizie.html",
+    "title": "Alegerea instrumentului de IA Generativă",
+    "section": "",
+    "text": "Vezi slide-urile pe ecran complet",
+    "crumbs": [
+      "Workshop",
+      "Alegerea instrumentului de IA Generativă"
+    ]
+  },
+  {
+    "objectID": "content/03_cadru_decizie.html#slide-uri",
+    "href": "content/03_cadru_decizie.html#slide-uri",
+    "title": "Alegerea instrumentului de IA Generativă",
+    "section": "",
+    "text": "Vezi slide-urile pe ecran complet",
+    "crumbs": [
+      "Workshop",
+      "Alegerea instrumentului de IA Generativă"
+    ]
+  },
+  {
+    "objectID": "content/03_cadru_decizie.html#materiale",
+    "href": "content/03_cadru_decizie.html#materiale",
+    "title": "Alegerea instrumentului de IA Generativă",
+    "section": "Materiale",
+    "text": "Materiale\nCadru de decizie în 6 pași (CCCIIS)",
+    "crumbs": [
+      "Workshop",
+      "Alegerea instrumentului de IA Generativă"
+    ]
+  },
+  {
+    "objectID": "content/resurse/cadru_decizie_ia.html",
+    "href": "content/resurse/cadru_decizie_ia.html",
+    "title": "Ghid practic: Cadrul de decizie în 6 pași (CCCIIS)",
+    "section": "",
+    "text": "Acest ghid detaliază cadrul sistematic pentru selectarea, utilizarea și evaluarea unui instrument de IA generativă pentru o sarcină specifică. Poate fi folosit ca referință în timpul activității practice pentru a vă structura analiza.\n\n\nPasul 1: Contextul sarcinii\nScop: Definirea clară a cadrului de lucru: cine ești, ce trebuie să faci, care sunt constrângerile și care este miza.\nÎntrebări ajutătoare:\n\nRolul meu: Ce poziție ocup? Ce responsabilități am?\nSarcina exactă: Ce trebuie să realizez? Care este rezultatul final dorit?\nMiza / Riscul: Ce se întâmplă dacă rezultatul este greșit sau de calitate slabă? Cât de importantă este această sarcină?\nTimpul disponibil: Cât timp aloc în mod normal acestei sarcini? Cât timp aș dori să aloc folosind IA?\n\n\n\n\nPasul 2: Capabilitatea Necesară\nScop: Identificarea tipului de “muncă” pe care IA trebuie să o presteze, pe baza listei de capabilități discutate.\nÎntrebări ajutătoare:\n\nCe capabilitate IA se potrivește cel mai bine sarcinii mele? (Rezumare, Generare de conținut, Asistență tehnică etc.)\nPot combina mai multe capabilități?\nCum ar suna un prompt inițial pentru această sarcină?\n\n\n\n\nPasul 3: Criterii de Utilitate\nScop: Stabilirea standardelor de calitate. Cum arată un rezultat “bun” pentru această sarcină specifică?\nÎntrebări ajutătoare:\n\nDin lista de 5 criterii (Acuratețe, Relevanță, Eficiență, Claritate, Coerență), care sunt, două, cele mai importante pentru mine?\nDe ce sunt acestea prioritare? Ce anume voi evalua?\n\n\n\n\nPasul 4: Selecția Instrumentului\nScop: Alegerea celui mai potrivit instrument IA, pe baza datelor de performanță pentru capabilitatea și criteriile definite.\nÎntrebări ajutătoare:\n\nCe instrument (ChatGPT, Gemini, Claude etc.) performează cel mai bine pentru capabilitatea de care am nevoie?\nAre instrumentul funcționalități specifice care mă ajută (ex: încărcarea de documente lungi)?\nCare este planul B dacă primul instrument nu oferă rezultate bune?\n\n\n\n\nPasul 5: Planul de Integrare (Colaborarea Om-IA)\nScop: Definirea unui flux de lucru clar care specifică rolul fiecărei părți (om și IA).\nÎntrebări ajutătoare:\n\nRolul IA: Ce face exact sistemul IA? (ex: generează un prim draft, oferă opțiuni, corectează text).\nRolul Meu (Omul): Ce fac eu? (ex: validez informațiile, adaug context, iau decizia finală, editez stilul).\nCum arată procesul pas cu pas?\n\n\n\n\nPasul 6: Indicatori de Succes\nScop: Măsurarea impactului. Cum voi ști dacă utilizarea IA a fost o decizie bună și a adus valoare?\nÎntrebări ajutătoare:\n\nEficiență: Cât timp am economisit? Procesul a devenit mai rapid?\nCalitate: Rezultatul final este mai bun, la fel de bun sau mai slab decât înainte?\nIntegrare: Cât de ușor a fost să integrez acest nou flux de lucru? Este sustenabil pe termen lung?",
+    "crumbs": [
+      "Workshop",
+      "Ghid practic: Cadrul de decizie în 6 pași (CCCIIS)"
     ]
   },
   {
@@ -431,5 +453,26 @@
     "title": "Alegerea instrumentului de IA Generativă",
     "section": "Sinteza cadrului de decizie",
     "text": "Sinteza cadrului de decizie\n\n\n\n\nRol\nSarcină\nRisc\nTimp\n\nTipul  sarcinii pentru IA\n\nStandarde  de calitate\n\n\n\nAlegereasistemului IA\n\nColaborare  om-IA\n\nMăsurarea rezultatelor"
+  },
+  {
+    "objectID": "content/slides/03_slide.html#activitate-practică",
+    "href": "content/slides/03_slide.html#activitate-practică",
+    "title": "Alegerea instrumentului de IA Generativă",
+    "section": "Activitate Practică",
+    "text": "Activitate Practică\n\nObiectiv: Aplicarea cadrului de decizie pentru a rezolva o problemă reală, de la evaluarea inițială până la planul de implementare.\n\nDurata totală: 35 de minute"
+  },
+  {
+    "objectID": "content/slides/03_slide.html#pașii-activității",
+    "href": "content/slides/03_slide.html#pașii-activității",
+    "title": "Alegerea instrumentului de IA Generativă",
+    "section": "Pașii Activității",
+    "text": "Pașii Activității\n\n\n\n1.  Prezentarea scenariului (3 min)\n\nRolul, contextul, sarcina de lucru și obiectivul activității.\n\n\n3.  Discuție în grup (7 min)\n\n\nComparați analizele și ajungeți la un consens de grup pentru fiecare pas.\nPregătiți-vă să prezentați deciziile cheie.\n\n\n\n2.  Analiză individuală (10 min)\n\n\nAplicați Arborele de Decizie.\nSchițați răspunsurile pentru Cadrul de Decizie în 6 Pași.\n\n\n\n4.  Debrief și concluzii (15 min)\n\nUn purtător de cuvânt din fiecare grup prezintă pe scurt concluziile (3 min/prezentare)."
+  },
+  {
+    "objectID": "content/slides/03_slide.html#scenariu-1",
+    "href": "content/slides/03_slide.html#scenariu-1",
+    "title": "Alegerea instrumentului de IA Generativă",
+    "section": "Scenariu 1",
+    "text": "Scenariu 1\n\nRol: Bibliotecar\nContext: O bibliotecă deține un număr mare de volume vechi (documente, rapoarte, jurnale) care nu au metadate detaliate (cuvinte cheie, descriere, clasificare tematică).\n\nSarcină: Accelerați procesul de catalogare pentru a îmbunătăți accesul utilizatorilor la aceste materiale.\n\nObiectivul activității: Creați un plan pentru a folosi IA generativă în acest scop, folosind cadrul de decizie."
   }
 ]
