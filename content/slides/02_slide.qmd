@@ -1,5 +1,5 @@
 ---
-title: "Provocările IA generative:<br> noțiuni de bază"
+title: "Provocările IA Generative:<br> noțiuni de bază"
 subtitle: "Ghid practic cum să determini dacă să folosești sau nu IA generativă"
 format: 
   revealjs: 
@@ -39,7 +39,7 @@ Ce înseamnă asta pentru noi în plan personal și profesional?
 <br>
 
 ::: {.fragment}
-O **oportunitate fără precedent** de a lucra mai bine, mai creativ și mai eficient.
+O **oportunitate** de a lucra mai bine, mai creativ și mai eficient.
 :::
 :::
 
@@ -56,7 +56,7 @@ Dar, la fel ca în cazul focului sau al electricității...
 
 ::: {.fragment}
 <br>
-Acesta este obiectivul nostru astăzi.
+**Acesta este obiectivul nostru astăzi.**
 
 :::
 :::

@@ -21,9 +21,51 @@ Să ne cunoaștem...
 
 * 👋 Salut, numele meu este...
 
-* 🤖 Aș spune despre mine ca sunt, legat de IA, ... [\[sceptic, realist, entuziasmat\]]{.gray}
+* 🤖 Legat de IA, aș spune despre mine ca sunt... [\[sceptic, realist, entuziasmat\]]{.gray}
 
-* ⚡ Împărtășește un moment când IA te-a surprins.
+* 🎯 Așteptările mele de la acest workshop sunt...
+
+
+
+## Obiectivul nostru de astăzi
+
+Vom învăța **cum să decidem** în legătură cu IA, nu doar cum să o folosim.
+
+<br>
+
+::: {.columns .small style="margin-top: 2rem;"}
+::: {.column width="50%"}
+#### Ce **NU** este acest workshop:
+
+<br>
+
+❌ **Un curs tehnic**
+<br>
+Nu ne vom concentra pe a învăța fiecare funcție pentru un instrument specific.
+
+<br>
+
+❌ **O prezentare teoretică**
+<br>
+Nu ne vom axa pe teoria complexă din spatele IA.
+:::
+
+::: {.column width="50%"}
+#### Ce **ESTE** acest workshop:
+
+<br>
+
+✅ **Un ghid pentru decizii**
+<br>
+Vom învăța un cadru pentru a evalua **când**, **de ce** și **cum** să folosim IA.
+
+<br>
+
+✅ **Un antrenament pentru gândire critică**
+<br>
+Vom analiza scenarii, vom compara instrumente și vom evalua riscuri pentru a lua decizii informate.
+:::
+:::
 
 
 
@@ -35,7 +77,7 @@ Să ne cunoaștem...
 |:---|:---|
 | {{< bi clock >}} 10 min| Introducere și bun venit |
 | {{< bi clock >}} 35 min| **Partea I: Fundamente**<br> • Ce este IA generativă?<br> • Când să folosim și când să evităm IA?<br> • Activități practice |
-| {{< bi clock >}} 55 min| **Partea a II-a: Instrumente** <br> • Cadru de decizie pentru lucru cu IA<br> • Activități practice |
+| {{< bi clock >}} 55 min| **Partea a II-a: Instrumente** <br> • Cadru de decizie pentru lucrul cu IA<br> • Activități practice |
 | {{< bi clock >}} 10 min| Întrebări și încheiere |
 
 

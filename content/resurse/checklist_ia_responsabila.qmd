@@ -2,7 +2,7 @@
 title: "Checklist pentru utilizarea responsabilă IA Generativă"
 ---
 
-Înainte de a folosi orice instrument de IA Generativă, este important să reflectați asupra intenției, modului de utilizare și impactului său.
+Înainte de a folosi orice instrument de IA Generativă, este bine să reflectați asupra intenției, modului de utilizare și impactului său.
 
 Resursa de mai jos[^1] este o listă de verificare (un instrument de reflecție) menită să vă ajute să faceți o pauză și să gândiți critic înainte de a utiliza instrumentul de IA Generativă ales.
 

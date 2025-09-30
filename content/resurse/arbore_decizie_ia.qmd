@@ -101,9 +101,9 @@ Exemple:
 
 ###  Ai expertiza să verifici rezultatul?
 
-Dacă nu este necesară o acuratețe absolută, dar totuși folosești IA generativă, este esențial să ai expertiza necesară pentru a verifica și corecta rezultatul. Nu utiliza IA generativă pentru sarcini critice dacă nu poți evalua corectitudinea ieșirii.
+Dacă nu este necesară o acuratețe absolută, dar totuși folosești IA generativă, este necesar să ai expertiza necesară pentru a verifica și corecta rezultatul. Nu utiliza IA generativă pentru sarcini critice dacă nu poți evalua corectitudinea răspunsului.
 
-Exemple de situații unde este necesară verificarea de către un expert:
+Exemple de situații unde este necesară verificarea pe baza expertizei:
 
 - Rezumate de texte complexe (ex: articole științifice).
 - Generarea de cod sau soluții tehnice.
@@ -117,7 +117,7 @@ Se referă la situația în care sarcina implică informații sensibile sau de i
 
 Exemple de sarcini cu risc ridicat:
 
-- Documente de angajare (care implică date de CV, evaluări, etc.)
+- Documente de angajare (care implică date din CV, evaluări, etc.)
 - Date financiare personale (bugete, tranzacții, conturi)
 - Documente juridice cu părți nominale
 
@@ -137,7 +137,7 @@ Exemple de risc etic:
 
 ### Alege instrumentul potrivit pentru sarcină
 
-Pentru alegerea celui mai potrivit instrument de IA generativă, este necesară o evaluare pe baza mai multor criterii, cum sunt cele de mai jos.
+Pentru alegerea celui mai potrivit instrument de IA generativă, este necesară o evaluare pe baza mai multor criterii. Câteva dintre criterii sunt prezentate mai jos.
 
 1. **Performanță și încredere**
 
@@ -158,6 +158,6 @@ Instrumentul selectat trebuie să fie optimizat pentru formatul conținutului pe
 | Tip de conținut  | Exemple de instrumente sau funcționalități cheie                                                      |
 | ---------------- | ------------------------------------------------------------------------------------------------------ |
 | Text             | Generare, rezumare, traducere. (Ex: ChatGPT, Gemini, Claude).                                          |
-| Documente Lungi  | Funcții avansate de încărcare și interogare a fișierelor PDF/DOC.                                      |
+| Documente lungi  | Funcții avansate de încărcare și interogare a fișierelor PDF/DOC.                                      |
 | Imagini          | Generare de imagini de la zero sau editare pe bază de text (prompt). (Ex: Midjourney, DALL-E). |
 | Cod 

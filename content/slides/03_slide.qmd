@@ -1,6 +1,6 @@
 ---
-title: "Alegerea instrumentului de IA generativă"
-subtitle: " Un cadru de decizie bazat pe capacități și criterii."
+title: "Alegerea instrumentului de IA Generativă"
+subtitle: " Un cadru de decizie bazat pe capabilități și criterii."
 format: 
   revealjs: 
     theme: [default, "../../styles/_style.scss"]
@@ -12,7 +12,7 @@ format:
     controls: true  
 ---
 
-## Cadru de decizie pentru instrumentele IA generativă: capacități, criterii și context
+## Cadru de decizie pentru instrumentele IA Generativă: capabilități, criterii și context
 
 <br>
 
@@ -27,13 +27,13 @@ Ce vom face în partea a doua a workshopului?
 ## Pentru ce folosesc oamenii IA?
 
 ::: {.center .small style="margin-top: 2%;" tbl-colwidths="[25,15,50]"}
-| Capacitate IA | Utilizare reală[^1] | Exemple de lucru |
+| Capabilitate IA | Utilizare reală[^1] | Exemple de lucru |
 |-----------------------------|---------------------|----------------------|
 | **Asistență tehnică** | 65,1% | Depanare software, scriere formule, programare |
 | **Revizuirea muncii** | 58,9% | Verificare e-mailuri, corectură, control calitate |
 | **Generare de conținut** | 25,5% | Creare draft-uri, șabloane, idei de conținut |
 | **Căutare informații** | 16,6% | Verificarea faptelor, întrebări de cercetare, căutare date |
-| **Rezumare** | 16,6% | Note de ședință, rezumate de documente, puncte cheie |
+| **Rezumare** | 16,6% | Note de ședință, rezumate ale documentelor, puncte cheie |
 | **Structurarea datelor** | 4,0% | Conversie formate, organizarea listelor și tabelelor |
 :::
 
@@ -121,7 +121,7 @@ Ce vom face în partea a doua a workshopului?
 :::
 :::
 
-## Instrumenete IA generativă
+## Instrumenete IA Generativă
 
 
 
@@ -132,7 +132,7 @@ Sursa: [Top Generative AI Tools and Applications](https://www.turing.com/resourc
 </div>
 
 
-## Comparație între trei intrumente IA generativă
+## Comparație între trei intrumente IA Generativă
 
 ::: {.columns}
 
@@ -203,7 +203,7 @@ Rezultatele unde s-a testat performanța**[^2] **reală:
 
 ::: {.center .small style="margin-top: 2%;" tbl-colwidths="[25,23,20,32]"}
 
-| Capacitate | Cel mai bun performer[^3] | Locul 2 | Concluzie |
+| Capabilitate | Cel mai bun performer[^3] | Locul 2 | Concluzie |
 |---------------|---------------|---------------|---------------------------|
 | **Asistență tehnică** | ![](/assets/imagini/logos--google-gemini.svg){width="100"} | ![](/assets/imagini/logos--claude.svg){width="130"} | Gemini conduce semnificativ |
 | **Căutare informații** | ![](/assets/imagini/logos--openai-icon.svg){width="50"} ChatGPT (62,5%) | ![](/assets/imagini/logos--google-gemini.svg){width="100"} (52,9%) | Punct forte ChatGPT |
@@ -220,12 +220,12 @@ Rezultatele unde s-a testat performanța**[^2] **reală:
 ::: {.columns .center}
 
 ::: {.column width="33%"}
-### 1. Capacități{.mark style="color: #fff"} 
+### 1. Capabilități{.mark style="color: #fff"} 
 **CE poate face IA?**
 
 <br>
 
-Am identificat <br> **6 capacități principale** <br> pe care le putem mapa <br> pe sarcinile noastre.
+Am identificat <br> **6 capabilități principale** <br> pe care le putem mapa <br> pe sarcinile noastre.
 
 :::
 
@@ -245,7 +245,7 @@ Avem<br> **5 criterii de calitate** <br>pentru a evalua dacă <br>răspunsul est
 
 <br>
 
-Am analizat <br>**3 instrumente** <br>și performanța lor <br>pentru capacitățile cheie.
+Am analizat <br>**3 instrumente** <br>și performanța lor <br>pentru capabilitățile principale.
 
 <div style="margin-top: 1rem;">
 ![](/assets/imagini/logos--openai-icon.svg){height="35" style="vertical-align: middle;"} 
@@ -261,12 +261,12 @@ Am analizat <br>**3 instrumente** <br>și performanța lor <br>pentru capacită�
 ## Ce urmează?
 
 <br>
-Cadru sistematic de decizie pentru instrumentele IA: capacități, criterii, context
+Cadru sistematic de decizie pentru instrumentele IA: capabilități, criterii, context
 
 Cum să implementezi:
 
 ::: {.left .large style="margin-top: 2%;"}
-**Context → Capacitate → Criterii → Instrument**
+**Context → Capabilitate → Criterii → Instrument**
 
 
 ::: {.r-stack .medium}
@@ -280,7 +280,7 @@ Cum să implementezi:
 
 :::
 ::: {.fragment .fade-in-then-out}
-**CAPACITATE**
+**CAPABILITATE**
 
 Ce tip de muncă trebuie să facă AI-ul?
 
@@ -357,7 +357,7 @@ Exemplu practic
 
 
 ::: {.fragment .fade-in-then-out}
-**Capacitatea necesară**
+**Capabilitatea necesară**
 
 <br>
 
