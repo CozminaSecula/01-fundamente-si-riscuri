@@ -588,7 +588,7 @@ Un purtător de cuvânt din fiecare grup prezintă pe scurt concluziile.
 
 ## Managementul Timpului: 10 minute
 
-::: {.left .large style="margin-top:8%; font-weight: bold;"}
+::: {.left .large style="margin-top:4%; font-weight: bold;"}
 
 {{< bi person >}} Analiză individuală
 :::
@@ -612,9 +612,19 @@ library(countdown)
 
 ```
 
-::: {.left .large style="margin-top: 8%;"}
+::: {.left .large style="margin-top: 4%;"}
 
-**Obiectiv**: Citiți scenariul și schițați individual răspunsurile pentru cadrul de decizie în 6 pași.
+::: {.columns}
+::: {.column width="50%"}
+
+**Obiectiv**: Scanați codul QR și citiți scenariul alocat.
+Schițați individual răspunsurile pentru cadrul de decizie în 6 pași.
+:::
+::: {.column width="50%"}
+
+![](/assets/imagini/qrcode.png){fig-align="center"}
+:::
+:::
 
 :::
 
@@ -638,7 +648,7 @@ countdown(minutes = 10)
 
 ::: {.left .large style="margin-top: 8%;"}
 
-**Obiectiv**: Comparați analizele, ajungeți la un consens și desemnați un purtător de cuvânt.
+**Obiectiv**: Comparați răspunsurile și ajungeți la un consens. Realizați răspunsul final și desemnați un purtător de cuvânt să îl prezinte.
 
 :::
 
@@ -812,14 +822,24 @@ countdown(minutes = 3)
 
 ## Managementul Timpului: 10 minute (B)
 
-::: {.left .large style="margin-top:8%; font-weight: bold;"}
+::: {.left .large style="margin-top:4%; font-weight: bold;"}
 
 {{< bi person >}} Analiză individuală
 :::
 
-::: {.left .large style="margin-top: 8%;"}
+::: {.left .large style="margin-top: 4%;"}
 
-**Obiectiv**: Citiți scenariul și schițați individual răspunsurile pentru cadrul de decizie în 6 pași.
+::: {.columns}
+::: {.column width="50%"}
+
+**Obiectiv**: Scanați codul QR și citiți scenariul alocat.
+Schițați individual răspunsurile pentru cadrul de decizie în 6 pași.
+:::
+::: {.column width="50%"}
+
+![](/assets/imagini/qrcode.png){fig-align="center"}
+:::
+:::
 
 :::
 
@@ -843,7 +863,7 @@ countdown(minutes = 10)
 
 ::: {.left .large style="margin-top: 8%;"}
 
-**Obiectiv**: Comparați analizele, ajungeți la un consens și desemnați un purtător de cuvânt.
+**Obiectiv**: Comparați răspunsurile și ajungeți la un consens. Realizați răspunsul final și desemnați un purtător de cuvânt să îl prezinte.
 
 :::
 
