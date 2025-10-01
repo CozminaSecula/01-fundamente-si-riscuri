@@ -26,8 +26,7 @@ website:
         text: Despre
       - href: content/00_agenda.qmd
         text: Workshop
-      - href: about.qmd
-        text: Facilitator
+
 
 
   sidebar:
@@ -57,9 +56,15 @@ website:
 
 
   page-footer:
-    left: " Conținut {{< fa brands creative-commons >}} 2025 Cozmina Secula<br> Resursă sub licența [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/)."
+    left: |
+      Conținut {{< fa brands creative-commons >}} 2025 Cozmina Secula
+      <br>
+      <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" style="text-decoration: none;">
+        <img alt="Licență Creative Commons" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" style="vertical-align: middle;"/>
+        Acest conținut este licențiat sub CC BY-NC-SA 4.0.
     right: |
-      Website realizat cu {{< quarto >}} [Quarto](https://quarto.org/)<br>
+      Website realizat cu {{< quarto >}} [Quarto](https://quarto.org/)
+
 
 format:
   html:
