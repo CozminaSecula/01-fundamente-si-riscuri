@@ -32,7 +32,7 @@ format:
 
 
 
-## Așteptări workshop?
+## Așteptări legate de workshop
 
 <br>
 
@@ -123,7 +123,7 @@ Veți putea decide dacă IA este potrivită pentru o sarcină, folosind criterii
 
 ✔ **Alegeți instrumentul potrivit.**
 
-Veți putea aplica un cadru de decizie sistematic (Context → Capacitate → Criterii → Instrument) pentru a selecta cel mai eficient instrument de IA pentru sarcinile voastre.
+Veți putea aplica un cadru de decizie sistematic pentru a selecta cel mai eficient instrument de IA pentru sarcinile voastre.
 
 ✔ **Comparați instrumentele de top.**
 

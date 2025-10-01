@@ -271,9 +271,7 @@ Proces complet care ne ghidează de la definirea sarcinii până la măsurarea s
 Context → Capabilitate → Criterii → Instrument → Integrare → Succes
 :::
 
-<br>
 
-O decizie ad-hoc transformată într-un plan de acțiune structurat.
 
 
 ## Detalierea cadrului CCCIIS
@@ -564,7 +562,7 @@ Rolul, contextul, sarcina de lucru și obiectivul activității.
 #### **3. {{< bi people >}} Discuție în grup**
 <div class="small">
 - Comparați analizele și ajungeți la un consens de grup pentru fiecare pas.
-- Pregătiți-vă să prezentați deciziile cheie.
+- Prezentați deciziile cheie.
 </div>
 
 :::

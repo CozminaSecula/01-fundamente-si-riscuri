@@ -1,0 +1,88 @@
+---
+title: "Scenariu 4: Furnizare formulare și informații"
+---
+
+> **Rol**: Operator într-un call-center
+> 
+> **Context**: Un call-center primeşte telefoane sau cereri electronice unde persoanele solicită formulare, broșuri, informaţii, dar nu știu exact ce documente au nevoie sau ce formular e potrivit.
+> 
+> **Sarcină**: Un utilizator sună/scrie și descrie o situație (ex: "Vreau să depun o cerere pentru conectare"). Operatorul trebuie să: înțeleagă nevoia reală a utilizatorului, identifice formularul corect dintr-o bază de date internă, genereze un email standard cu formularul atașat și să identifice dacă cererea este prea complexă și trebuie redirecționată.
+> 
+> **Obiectivul activității**: Aplicați cadrul de decizie pentru a integra IA ca un asistent pentru operator.
+
+---
+
+### Arborele de decizie
+
+Link Resursă: [Arbore de decizie: Folosesc sau nu IA Generativă?](/content/resurse/arbore_decizie_ia.html)
+
+
+Folosiți aceste întrebări pentru o primă evaluare rapidă.
+
+*   Sarcina este clară? Ce fel de risc implică (scăzut sau ridicat)?
+*   Rezultatul trebuie să fie 100% corect?
+*   Aveți expertiza să verificați rezultatul?
+*   Sunt implicate date confidențiale?
+*   Există risc etic sau de părtinire?
+
+**Concluzie**: Se poate sau nu utiliza IA generativă?
+
+---
+
+### Cadrul de decizie în 6 pași
+
+Folosiți pașii și întrebările de mai jos pentru a vă structura analiza detaliată.
+
+#### Pasul 1: Contextul sarcinii
+*Scop: Definirea clară a cadrului de lucru: cine sunteți, ce trebuie să faceți, care sunt constrângerile și care este miza.*
+
+**Întrebări ajutătoare:**
+
+*   **Rolul meu**: Ce poziție ocup? Ce responsabilități am?
+*   **Sarcina exactă**: Ce trebuie să realizez? Care este rezultatul final dorit?
+*   **Miza / riscul**: Ce se întâmplă dacă rezultatul este greșit sau de calitate slabă? Cât de importantă este această sarcină? Care ar putea fi consecințele?
+*   **Timpul disponibil**: Cât timp aloc în mod normal acestei sarcini? Cât timp aș dori să aloc folosind IA?
+
+#### Pasul 2: Capabilitatea necesară
+*Scop: Identificarea tipului de "muncă" pe care IA trebuie să o presteze, pe baza listei de capabilități discutate.*
+
+**Întrebări ajutătoare:**
+
+*   Ce capabilitate IA se potrivește cel mai bine sarcinii mele (rezumare, generare de conținut, asistență tehnică etc.)?
+*   Pot combina mai multe capabilități?
+*   Cum ar suna un prompt inițial pentru această sarcină?
+
+#### Pasul 3: Criterii de utilitate
+*Scop: Stabilirea standardelor de calitate. Cum arată un rezultat "bun" pentru această sarcină specifică?*
+
+**Întrebări ajutătoare:**
+
+*   Din lista de 5 criterii (acuratețe, relevanță, eficiență, claritate, coerență), care sunt cele două cele mai importante pentru mine?
+*   De ce sunt acestea prioritare? Ce anume voi evalua?
+
+#### Pasul 4: Selecția instrumentului
+*Scop: Alegerea celui mai potrivit instrument IA, pe baza datelor de performanță pentru capabilitatea și criteriile definite.*
+
+**Întrebări ajutătoare:**
+
+*   Ce instrument (ChatGPT, Gemini, Claude etc.) performează cel mai bine pentru capabilitatea de care am nevoie?
+*   Are instrumentul funcționalități specifice care mă ajută (ex: soluții securizare)?
+*   Am nevoie de un instrument IA specializat sau generalist?
+*   Care este planul B dacă primul instrument nu oferă rezultate bune?
+
+#### Pasul 5: Planul de integrare (colaborarea om-IA)
+*Scop: Definirea unui flux de lucru clar care specifică rolul fiecărei părți (om și IA).*
+
+**Întrebări ajutătoare:**
+
+*   **Rolul IA**: Ce face exact sistemul IA (ex: generează un prim draft, oferă opțiuni, asistent)?
+*   **Rolul meu**: Ce fac eu (ex: validez informațiile, controlez, iau decizia finală dacă trimit sau nu)?
+
+#### Pasul 6: Indicatori de succes
+*Scop: Măsurarea impactului. Cum voi ști dacă utilizarea IA a fost o decizie bună și a adus valoare?*
+
+**Întrebări ajutătoare:**
+
+*   **Eficiență**: Cât timp am economisit? Procesul a devenit mai rapid?
+*   **Calitate**: Rezultatul final este mai bun, la fel de bun sau mai slab decât înainte?
+*   **Integrare**: Cât de ușor a fost să integrez acest nou flux de lucru? Este sustenabil pe termen lung?

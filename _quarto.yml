@@ -45,6 +45,13 @@ website:
         - content/resurse/arbore_decizie_ia.qmd
         - content/resurse/checklist_ia_responsabila.qmd
         - content/resurse/cadru_decizie_ia.qmd
+        - text: '<div class="sidebar-divider"><b>Aplicații practice</b></div>'
+        - content/aplicatii/scenariu_01_catalogare.qmd
+        - content/aplicatii/scenariu_02_comunicare.qmd
+        - content/aplicatii/scenariu_03_administrativ.qmd
+        - content/aplicatii/scenariu_04_call_center.qmd
+        - content/aplicatii/scenariu_05_suport_clienti.qmd
+        - content/aplicatii/scenariu_06_educatie.qmd
 
 
 

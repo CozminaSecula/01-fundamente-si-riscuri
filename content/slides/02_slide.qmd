@@ -543,6 +543,12 @@ countdown(minutes = 2)
 
 - {{< bi code-slash >}} **Generare și asistență pentru cod**: *Exemplu: crearea de cod, funcții sau scripturi din prompturi în limbaj natural.*
 
+::: small
+<br><br>
+*Această listă nu este completă, este o selecție de situații și exemple.
+
+:::
+
 
 ## Când NU se recomandă utilizarea IA generativă
 
