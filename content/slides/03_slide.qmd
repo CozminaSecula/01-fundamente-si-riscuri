@@ -983,7 +983,7 @@ countdown(minutes = 4)
 <br>
 
 * Știu când să folosesc și când să nu folosesc IA.
-* Înțeleg riscurile și limitele IA.
+* Înțeleg beneficiile, riscurile și limitele IA.
 * Compar diferite instrumente.
 * Aplic responsabil IA în munca mea.
 

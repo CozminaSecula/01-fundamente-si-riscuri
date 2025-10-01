@@ -3,7 +3,7 @@ title: "Arbore de decizie: Folosesc sau nu IA Generativă?"
 ---
 
 
-Resursa de mai jos este o schemă care vă poate ajuta să evaluați dacă este adecvat să utilizați IA Generativă.
+Resursa de mai jos te poate ghida să evaluezi dacă este adecvat să utilizezi IA Generativă pentru o sarcină specifică.
 
 
 ```{=html}

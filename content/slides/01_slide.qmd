@@ -40,7 +40,7 @@ format:
 
 * Știu când să folosesc (sau nu) IA.
 
-* Înțeleg riscurile și limitele IA.
+* Înțeleg beneficiile, riscurile și limitele IA.
 
 * Compar diferite instrumente (ChatGPT, Gemini, Claude etc.).
 
