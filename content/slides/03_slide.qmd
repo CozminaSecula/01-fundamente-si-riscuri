@@ -542,7 +542,7 @@ Măsurarea <br>rezultatelor
 
 <br>
 
-**Durata totală**: 35 de minute
+**Durata totală**: 45 de minute
 
 
 
@@ -580,11 +580,80 @@ Rolul, contextul, sarcina de lucru și obiectivul activității.
 
 #### **4. {{< bi megaphone >}} Debrief și concluzii**
 <div class="small">
-Un purtător de cuvânt din fiecare grup prezintă pe scurt concluziile (**3 min/prezentare**).
+Un purtător de cuvânt din fiecare grup prezintă pe scurt concluziile.
 </div>
 
 :::
 :::
+
+# Plan A{.left}
+
+## Managementul Timpului: 10 minute
+
+::: {.left .large style="margin-top:8%; font-weight: bold;"}
+
+{{< bi person >}} Analiză individuală
+:::
+
+
+```{r}
+#| label: setup
+#| include: false
+
+options(
+  width = 65,
+  repos = c(CRAN = "https://cloud.r-project.org")
+)
+
+if (!requireNamespace("countdown", quietly = TRUE)) {
+    install.packages("countdown")
+}
+
+# load background packages
+library(countdown)
+
+```
+
+::: {.left .large style="margin-top: 8%;"}
+
+**Obiectiv**: Citiți scenariul și schițați individual răspunsurile pentru cadrul de decizie în 6 pași.
+
+:::
+
+<br>
+
+
+```{r}
+#| echo: false
+
+countdown(minutes = 10)
+```
+
+
+## Managementul Timpului: 10 minute
+
+::: {.left .large style="margin-top:8%; font-weight: bold;"}
+
+{{< bi people >}} Discuție în grup
+:::
+
+
+::: {.left .large style="margin-top: 8%;"}
+
+**Obiectiv**: Comparați analizele, ajungeți la un consens și desemnați un purtător de cuvânt.
+
+:::
+
+<br>
+
+
+```{r}
+#| echo: false
+
+countdown(minutes = 10)
+```
+
+
 
 
 ## Scenariu 1: Catalogare și metadate
@@ -606,6 +675,14 @@ Un purtător de cuvânt din fiecare grup prezintă pe scurt concluziile (**3 min
 :::
 
 
+```{r}
+#| echo: false
+
+countdown(minutes = 3)
+```
+
+
+
 ## Scenariu 2: Planificarea evenimentelor și comunicare
 
 ::: goal
@@ -625,6 +702,13 @@ Un purtător de cuvânt din fiecare grup prezintă pe scurt concluziile (**3 min
 :::
 
 
+```{r}
+#| echo: false
+
+countdown(minutes = 3)
+```
+
+
 ## Scenariu 3: Eficiență Administrativă
 
 ::: goal
@@ -633,15 +717,21 @@ Un purtător de cuvânt din fiecare grup prezintă pe scurt concluziile (**3 min
 
 **Context**: Departamentul vostru primește un volum mare de corespondență (emailuri, scrisori) și trebuie să gestioneze sarcini repetitive: răspunsuri la întrebări frecvente, trimiterea de notificări și redactarea de documente standard.
 
-<br>
 
 **Sarcină**: Optimizați gestionarea corespondenței și redactarea documentelor de rutină pentru a reduce timpul de răspuns și a elibera timp pentru sarcini mai complexe.
 
-<br>
 
 **Obiectivul activității**: Creați un plan pentru a folosi IA generativă în acest scop, folosind cadrul de decizie.
 
 :::
+
+
+```{r}
+#| echo: false
+
+countdown(minutes = 3)
+```
+
 
 
 ## Scenariu 4: Asistență Call-Center
@@ -652,24 +742,30 @@ Un purtător de cuvânt din fiecare grup prezintă pe scurt concluziile (**3 min
 
 **Context**: Un call-center primește cereri telefonice sau electronice unde persoanele solicită formulare, broșuri sau informații, dar adesea nu știu exact ce document le este necesar.
 
-<br>
 
 **Sarcină**: Optimizați procesul de identificare a documentului corect, de trimitere a acestuia către solicitant și de redirecționare a cererilor complexe către departamentele specializate.
 
-<br>
 
 **Obiectivul activității**: Creați un plan pentru a folosi IA generativă în acest scop, folosind cadrul de decizie.
 
 :::
 
 
-## Scenariu 5: Asistență și consiliere pentru probleme
+```{r}
+#| echo: false
+
+countdown(minutes = 3)
+```
+
+
+
+## Scenariu 5: Asistență și consiliere clienți
 
 ::: goal
 
 **Rol**: Agent Suport Clienți / Ofițer Relații Publice
 
-**Context**: Un client sau cetățean contactează departamentul cu o problemă sau o plângere (ex: "Am fost taxat incorect", "Serviciul promis nu corespunde descrierii").
+**Context**: Un client contactează departamentul cu o problemă sau o plângere (ex: "Am fost taxat incorect", "Serviciul promis nu corespunde descrierii").
 
 <br>
 
@@ -677,7 +773,199 @@ Un purtător de cuvânt din fiecare grup prezintă pe scurt concluziile (**3 min
 
 <br>
 
-**Obiectivul activității**: Creați un plan pentru a folosi IA ca asistent în formularea acestor răspunsuri delicate.
+**Obiectivul activității**: Creați un plan pentru a folosi IA ca asistent în formularea răspunsului.
 
 :::
+
+
+
+```{r}
+#| echo: false
+
+countdown(minutes = 3)
+```
+
+
+
+## Scenariu 6: Suport pentru educație
+
+::: goal
+
+**Rol**: Bibliotecar 
+
+**Context**: Biblioteca deservește profesorii și elevii din comunitatea locală, care au nevoie de materiale accesibile pentru proiecte școlare și planuri de lecție. Resursele sunt limitate la colecția fizică și la surse online gratuite.
+
+
+**Sarcină**: Un profesor de biologie dorește să creeze o prezentare simplă și captivantă despre "sursele de energie regenerabilă" pentru elevii de clasa a VII-a. El vă solicită ajutorul pentru a găsi informații, imagini și pentru a structura lecția.
+
+
+**Obiectivul activității**: Creați un plan pentru a folosi IA generativă pentru a-l ajuta pe profesor să dezvolte acest material didactic.
+
+:::
+
+
+```{r}
+#| echo: false
+
+countdown(minutes = 3)
+```
+
+# Plan B{.left}
+
+## Managementul Timpului: 10 minute (B)
+
+::: {.left .large style="margin-top:8%; font-weight: bold;"}
+
+{{< bi person >}} Analiză individuală
+:::
+
+::: {.left .large style="margin-top: 8%;"}
+
+**Obiectiv**: Citiți scenariul și schițați individual răspunsurile pentru cadrul de decizie în 6 pași.
+
+:::
+
+<br>
+
+
+```{r}
+#| echo: false
+
+countdown(minutes = 10)
+```
+
+
+## Managementul Timpului: 10 minute (B)
+
+::: {.left .large style="margin-top:8%; font-weight: bold;"}
+
+{{< bi people >}} Discuție în grup
+:::
+
+
+::: {.left .large style="margin-top: 8%;"}
+
+**Obiectiv**: Comparați analizele, ajungeți la un consens și desemnați un purtător de cuvânt.
+
+:::
+
+<br>
+
+
+```{r}
+#| echo: false
+
+countdown(minutes = 10)
+```
+
+
+
+## Scenariu 2: Planificarea evenimentelor și comunicare (B)
+
+::: goal
+
+**Rol**: **Bibliotecar / Responsabil Comunicare**
+
+**Context**: Biblioteca organizează frecvent evenimente culturale (lansări de carte, ateliere) și are nevoie să creeze programe, materiale de promovare, comunicate de presă și conținut variat pentru social media.
+
+
+**Sarcină**: Optimizați și eficientizați crearea materialelor de comunicare pentru un eveniment viitor: **"Atelier de Scriere Creativă pentru Adolescenți"**.
+
+
+**Obiectivul activității**: Creați un plan pentru a folosi IA generativă în acest scop, folosind cadrul de decizie.
+
+:::
+
+
+```{r}
+#| echo: false
+
+countdown(minutes = 4)
+```
+
+## Scenariu 4: Asistență Call-Center (B)
+
+::: goal
+
+**Rol**: **Operator Call-Center**
+
+**Context**: Un call-center primește cereri telefonice sau electronice unde persoanele solicită formulare, broșuri sau informații, dar adesea nu știu exact ce document le este necesar.
+
+
+**Sarcină**: Optimizați procesul de identificare a documentului corect, de trimitere a acestuia către solicitant și de redirecționare a cererilor complexe către departamentele specializate.
+
+
+**Obiectivul activității**: Creați un plan pentru a folosi IA generativă în acest scop, folosind cadrul de decizie.
+
+:::
+
+
+```{r}
+#| echo: false
+
+countdown(minutes = 4)
+```
+
+
+
+## Scenariu 6: Suport pentru educație (B)
+
+::: goal
+
+**Rol**: Bibliotecar 
+
+**Context**: Biblioteca deservește profesorii și elevii din comunitatea locală, care au nevoie de materiale accesibile pentru proiecte școlare și planuri de lecție. Resursele sunt limitate la colecția fizică și la surse online gratuite.
+
+**Sarcină**: Un profesor de biologie dorește să creeze o prezentare simplă și captivantă despre "sursele de energie regenerabilă" pentru elevii de clasa a VII-a. El vă solicită ajutorul pentru a găsi informații, imagini și pentru a structura lecția.
+
+**Obiectivul activității**: Creați un plan pentru a folosi IA generativă pentru a-l ajuta pe profesor să dezvolte acest material didactic.
+
+:::
+
+
+```{r}
+#| echo: false
+
+countdown(minutes = 4)
+```
+
+
+## Scenariu 5: Asistență și consiliere clienți (B)
+
+::: goal
+
+**Rol**: Agent Suport Clienți / Ofițer Relații Publice
+
+**Context**: Un client contactează departamentul cu o problemă sau o plângere (ex: "Am fost taxat incorect", "Serviciul promis nu corespunde descrierii").
+
+<br>
+
+**Sarcină**: Formulați un răspuns care oferă consiliere, informații corecte și asistență.
+
+<br>
+
+**Obiectivul activității**: Creați un plan pentru a folosi IA ca asistent în formularea răspunsului.
+
+:::
+
+
+```{r}
+#| echo: false
+
+countdown(minutes = 4)
+```
+
+## Reflecție de final
+
+<br>
+
+**După acest workshop, am încredere că...**
+
+
+<br>
+
+* Știu când să folosesc și când să nu folosesc IA.
+* Înțeleg riscurile și limitele IA.
+* Compar diferite instrumente.
+* Aplic responsabil IA în munca mea.
 

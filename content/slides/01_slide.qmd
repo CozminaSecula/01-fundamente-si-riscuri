@@ -16,16 +16,45 @@ format:
 
 ## Bine ați venit!
 
+**Să ne cunoaștem...**
+
+
+🤖 **Legat de inteligența artificială, mă simt mai degrabă:**
+
 <br>
-Să ne cunoaștem...
-
-* 👋 Salut, numele meu este...
-
-* 🤖 Legat de IA, aș spune despre mine ca sunt... [\[sceptic, realist, entuziasmat\]]{.gray}
-
-* 🎯 Așteptările mele de la acest workshop sunt...
 
 
+* 🤔 Sceptic 
+
+* 😐 Realist 
+
+* 🚀 Entuziasmat  
+
+
+
+## Așteptări workshop?
+
+<br>
+
+🎯 **De la acest workshop îmi doresc în special să...**
+
+* Știu când să folosesc (sau nu) IA.
+
+* Înțeleg riscurile și limitele IA.
+
+* Compar diferite instrumente (ChatGPT, Gemini, Claude etc.).
+
+* Descopăr aplicații utile pentru munca mea.
+
+* Aflu bune practici pentru folosirea responsabilă.
+
+
+
+
+::: notes
+
+- A doua întrebare e despre așteptările voastre de la acest workshop. Asta mă ajută și pe mine să înțeleg mai bine ce vi se pare cel mai relevant și unde să insistăm mai mult pe parcurs.
+:::
 
 ## Obiectivul nostru de astăzi
 
@@ -77,8 +106,8 @@ Vom analiza scenarii, vom compara instrumente și vom evalua riscuri pentru a lu
 |:---|:---|
 | {{< bi clock >}} 10 min| Introducere și bun venit |
 | {{< bi clock >}} 35 min| **Partea I: Fundamente**<br> • Ce este IA generativă?<br> • Când să folosim și când să evităm IA?<br> • Activități practice |
-| {{< bi clock >}} 55 min| **Partea a II-a: Instrumente** <br> • Cadru de decizie pentru lucrul cu IA<br> • Activități practice |
-| {{< bi clock >}} 10 min| Întrebări și încheiere |
+| {{< bi clock >}} 65 min| **Partea a II-a: Instrumente** <br> • Cadru de decizie pentru lucrul cu IA<br> • Activități practice |
+| {{< bi clock >}} 5 min| Încheiere |
 
 
 
