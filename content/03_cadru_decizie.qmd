@@ -2,7 +2,7 @@
 title: "Alegerea instrumentului de IA Generativă"
 description:  Un cadru de decizie bazat pe capabilități și criterii.
 description-short:  Un cadru de decizie bazat pe capabilități și criterii.
-duration: 70 min
+duration: 65 min
 ---
 
 ## Slide-uri
