@@ -112,7 +112,8 @@ Cozmina Secula dezvoltă și facilitează programe de alfabetizare în domeniul 
 
 <div style="margin-top: 1rem;">
 {{< bi linkedin >}} [Linkedin](https://www.linkedin.com/in/cozminasecula/){style="vertical-align: middle;"} 
-{{< bi envelope-at >}} [Email](mailto:cozmina.secula@gmail.com){style="vertical-align: middle;"}
+{{< bi envelope >}} [Email](mailto:cozmina.secula@gmail.com){style="vertical-align: middle;"}
+{{< bi envelope-paper >}} [Newsletter](https://newsletter.knosa.ro/){style="vertical-align: middle;"}
 </div>
 
 <br>
