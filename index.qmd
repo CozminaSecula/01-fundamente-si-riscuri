@@ -56,6 +56,29 @@ header#title-block-header::before {
     background-color: #eee;
     top: -80px;
 }
+
+.profile-img {
+  float: left;
+  margin: 5px 20px 5px 0; /* Adds space around the image */
+  border-radius: 50%;      /* Makes it circular */
+  width: 120px;             /* Base size for larger screens */
+  height: 120px;
+  object-fit: cover;      /* Ensures the image fills the circle without distortion */
+}
+
+@media (max-width: 768px) {
+  .profile-img {
+    width: 100px;           /* Smaller size for tablets */
+    height: 100px;
+  }
+}
+
+@media (max-width: 576px) {
+  .profile-img {
+    width: 80px;            /* Even smaller for mobile phones */
+    height: 80px;
+  }
+}
 </style>
 ```
 
@@ -77,6 +100,22 @@ La finalul workshopului, participanții:
 Indiferent dacă sunteți la început de drum sau aveți deja experiență, acest workshop vă va oferi o metodă clară de a integra IA generativă în activitățile zilnice.
 
 Participanții vor dobândi o metodă clară de luare a deciziilor pentru interacțiunea cu IA și vor avea încrederea necesară pentru a folosi IA generativă în mod informat, etic și adaptat nevoilor lor profesionale și personale.
+
+## Facilitator
+
+
+![](/assets/imagini/poza.jpg){class="profile-img" fig-alt="Headshot of Cozmina Secula"}
+
+<div style="margin-top: 1.5rem;">
+Cozmina Secula dezvoltă și facilitează programe de alfabetizare în domeniul inteligenței artificiale prin care ajută oamenii și organizațiile să înțeleagă și să folosească inteligența artificială (AI) în mod responsabil și eficient.
+</div>
+
+<div style="margin-top: 1rem;">
+{{< bi linkedin >}} [Linkedin](https://www.linkedin.com/in/cozminasecula/){style="vertical-align: middle;"} 
+{{< bi envelope-at >}} [Email](mailto:cozmina.secula@gmail.com){style="vertical-align: middle;"}
+</div>
+
+<br>
 
 ## Link-uri
 
