@@ -285,7 +285,7 @@ ul.task-list li input[type="checkbox"] {
 flowchart TD
 %% Start
 A([Start]) --&gt; B{Sarcina este clară și &lt;br&gt;cu risc scăzut?}
-B --&gt;|Nu| Z([❌ Opriți - Inadecvat&lt;br&gt;Ex: contract legal,&lt;br&gt; sfat medical])
+B --&gt;|Nu| Z([❌ Utilizare inadecvată&lt;br&gt;Ex: contract legal,&lt;br&gt; sfat medical])
 B --&gt;|Da| C{Rezultatul trebuie să fie &lt;br&gt;100% corect?}
 
 %% Accuracy check
@@ -299,7 +299,7 @@ F --&gt;|Da| H([✅ Continuă])
 
 %% Confidential data
 H --&gt; I{Sunt implicate date &lt;br&gt;confidențiale / personale?}
-I --&gt;|Da| J([❌ Nu folosi IA Generativă&lt;br&gt;aplicații publice&lt;br&gt; risc de confidențialitate&lt;br&gt;Ex: fișe de client,&lt;br&gt; date angajați])
+I --&gt;|Da| J([❌ Evită IA Generativă&lt;br&gt; risc de confidențialitate&lt;br&gt;Ex: fișe de client,&lt;br&gt; date angajați])
 I --&gt;|Nu| K([✅ Continuă])
 
 %% Ethical / bias check
@@ -370,7 +370,7 @@ classDef default fill:#ffffff,stroke:#000000,color:#000000;
 </section>
 <section id="ai-expertiza-să-verifici-rezultatul" class="level3">
 <h3 class="anchored" data-anchor-id="ai-expertiza-să-verifici-rezultatul">Ai expertiza să verifici rezultatul?</h3>
-<p>Dacă nu este necesară o acuratețe absolută, dar totuși folosești IA generativă, este necesar să ai expertiza necesară pentru a verifica și corecta rezultatul. Nu utiliza IA generativă pentru sarcini critice dacă nu poți evalua corectitudinea răspunsului.</p>
+<p>Chiar dacă sarcina ta nu necesită acuratețe 100%, este necesar să ai expertiză pentru a verifica rezultatul generat de IA.</p>
 <p>Exemple de situații unde este necesară verificarea pe baza expertizei:</p>
 <ul>
 <li>Rezumate de texte complexe (ex: articole științifice).</li>
@@ -381,19 +381,31 @@ classDef default fill:#ffffff,stroke:#000000,color:#000000;
 </section>
 <section id="sunt-implicate-date-confidențiale-sau-personale" class="level3">
 <h3 class="anchored" data-anchor-id="sunt-implicate-date-confidențiale-sau-personale">Sunt implicate date confidențiale sau personale?</h3>
-<p>Se referă la situația în care sarcina implică informații sensibile sau de identificare personală care ar putea fi expuse sau utilizate în mod abuziv dacă ar fi introduse într-un instrument de inteligență artificială generativă care nu garantează confidențialitatea sau securizarea datelor.</p>
+<p>Dacă sarcina implică date personale sau confidențiale, NU folosi instrumente publice de IA generativă (ChatGPT, Claude, Gemini).</p>
 <p>Exemple de sarcini cu risc ridicat:</p>
 <ul>
 <li>Documente de angajare (care implică date din CV, evaluări, etc.)</li>
 <li>Date financiare personale (bugete, tranzacții, conturi)</li>
 <li>Documente juridice cu părți nominale</li>
+<li>Date de identificare personală</li>
 </ul>
-<p>Dacă nu sunt implicate date personale sau confidențiale, sau dacă sunt implicate, ele sunt anonimizate și manipularea lor respectă normele legale aplicabile (de ex. GDPR), se poate utiliza IA generativă. Se poate utiliza IA generativă și în cazul unui sistem securizat care garantează confidențialitatea datelor conform politicilor de utilizare ale companiei/organizației.</p>
-<p>Chiar și atunci când datele sunt prelucrate corect, trebuie să vă asigurați că nu există riscuri evidente de prejudecăți, discriminare sau impact etic negativ. Pentru sarcinile sensibile (precum cele din domeniul resurselor umane sau financiar), este necesară o validare etică suplimentară a rezultatelor, indiferent de nivelul de utilizare a IA.</p>
+<p>Poți folosi IA generativă dacă:</p>
+<ul>
+<li>Datele sunt complet anonimizate, conform GDPR și normelor aplicabile</li>
+<li>Folosești un sistem securizat, aprobat de companie sau organizație care garantează confidențialitate</li>
+<li>Datele nu sunt sensibile și nu permit identificarea persoanelor</li>
+</ul>
+<p>Chiar dacă datele sunt corect anonimizate, pentru domenii precum resurse umane sau analiză financiară, verifică:</p>
+<ul>
+<li>Riscul de prejudecăți sau discriminare în rezultatele generate</li>
+<li>Impactul etic al deciziilor bazate pe rezultatele generate de IA</li>
+<li>Necesitatea validării de către un specialist</li>
+</ul>
+<p><strong>Important:</strong> Pentru planurile gratuite/consumer (ChatGPT Free, Claude Free/Pro, Gemini), furnizorii pot stoca conversațiile și le pot folosi pentru îmbunătățirea modelelor. Confidențialitatea garantată necesită planuri Enterprise cu acorduri specifice.</p>
 </section>
 <section id="există-risc-etic-părtinire" class="level3">
 <h3 class="anchored" data-anchor-id="există-risc-etic-părtinire">Există risc etic/ părtinire?</h3>
-<p>Această secțiune evaluează potențialul ca rezultatul IA să fie discriminatoriu, părtinitor sau dăunător, afectând negativ utilizatorii sau terții (publicul larg).</p>
+<p>Această secțiune evaluează dacă rezultatul IA poate fi discriminatoriu, părtinitor sau dăunător pentru utilizatori sau publicul larg.</p>
 <p>Exemple de risc etic:</p>
 <ul>
 <li>Generarea de recomandări/decizii de angajare fără auditarea prealabilă a algoritmului pentru a detecta și corecta părtinirea (bias-ul) inerent datelor de antrenament.</li>
@@ -465,7 +477,7 @@ classDef default fill:#ffffff,stroke:#000000,color:#000000;
 </tr>
 <tr class="even">
 <td>Cod</td>
-<td></td>
+<td>Generare, corectare, explicare cod (Ex: GitHub Copilot, Claude, ChatGPT)</td>
 </tr>
 </tbody>
 </table>
@@ -476,6 +488,8 @@ classDef default fill:#ffffff,stroke:#000000,color:#000000;
 <li><p>Google Gemini - <a href="https://policies.google.com/terms/generative-ai">Termeni și condiții suplimentare pentru inteligența artificială generativă</a></p></li>
 <li><p>OpenAI ChatGPT - <a href="https://openai.com/policies/eu-terms-of-use/">Termeni de utilizare (UE)</a></p></li>
 <li><p>Anthropic Claude - <a href="https://www.anthropic.com/legal/consumer-terms">Termeni și condiții pentru consumatori</a></p></li>
+<li><p>Anthropic Claude - <a href="https://www.anthropic.com/news/updates-to-our-consumer-terms">Actualizări ale Termenilor și Politicii de confidențialitate pentru consumatori</a></p></li>
+<li><p>OpenAI - <a href="https://help.openai.com/en/articles/5722486-how-your-data-is-used-to-improve-model-performance">Cum sunt utilizate datele dvs. pentru a îmbunătăți performanța modelului</a></p></li>
 </ol>
 
 
