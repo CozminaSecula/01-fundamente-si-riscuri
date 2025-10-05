@@ -166,8 +166,8 @@ Instrumentul selectat trebuie să fie optimizat pentru formatul conținutului pe
 
 ## Referințe
 
-1. Google Gemini - [Termeni și condiții suplimentare pentru inteligența artificială generativă](https://policies.google.com/terms/generative-ai), secțiunea *Disclaimers*
+1. Google Gemini - [Termeni și condiții suplimentare pentru inteligența artificială generativă](https://policies.google.com/terms/generative-ai)
 
-2. OpenAI ChatGPT - [Termeni de utilizare (UE)](https://openai.com/policies/eu-terms-of-use/), secțiunea *Content/Accuracy*
+2. OpenAI ChatGPT - [Termeni de utilizare (UE)](https://openai.com/policies/eu-terms-of-use/)
 
-3. Anthropic Claude - [Termeni și condiții pentru consumatori](https://www.anthropic.com/legal/consumer-terms), secțiunea *Reliance on Outputs and Actions*
+3. Anthropic Claude - [Termeni și condiții pentru consumatori](https://www.anthropic.com/legal/consumer-terms)
