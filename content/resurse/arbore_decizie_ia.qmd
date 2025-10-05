@@ -89,9 +89,9 @@ Exemple de sarcini unde IA generativă nu este recomandat să fie folosită:
 - Notarea examenelor
 - Prescrierea de medicamente
 - Proceduri de siguranță
-- Calcule financiare sau juridice
+- Calcule financiare sau aspecte juridice
 
-Se poate folosi IA generativă ca asistent dacă:
+Se poate folosi IA generativă, ca asistent, dacă:
 
 - Ai competența să verifici complet rezultatul
 - Ai timp și resurse pentru verificare detaliată 
@@ -128,7 +128,7 @@ Exemple de sarcini cu risc ridicat:
 Poți folosi IA generativă dacă:
 
 -  Datele sunt complet anonimizate, conform GDPR și normelor aplicabile
--  Folosești un sistem securizat, aprobat de companie sau organizație care garantează confidențialitate
+-  Folosești un sistem securizat, aprobat de companie sau organizație, care garantează confidențialitate
 -  Datele nu sunt sensibile și nu permit identificarea persoanelor
 
 Chiar dacă datele sunt corect anonimizate, pentru domenii precum resurse umane sau analiză financiară, verifică:
@@ -137,8 +137,8 @@ Chiar dacă datele sunt corect anonimizate, pentru domenii precum resurse umane 
 - Impactul etic al deciziilor bazate pe rezultatele generate de IA
 - Necesitatea validării de către un specialist
 
-**Important:** Pentru planurile gratuite/consumer (ChatGPT Free, 
-Claude Free/Pro, Gemini), furnizorii pot stoca conversațiile și le 
+**Important:** Pentru planurile gratuite/consumer (ChatGPT, 
+Claude/ Pro, Gemini), furnizorii pot stoca conversațiile și le 
 pot folosi pentru îmbunătățirea modelelor. Confidențialitatea 
 garantată necesită planuri Enterprise cu acorduri specifice.
 
