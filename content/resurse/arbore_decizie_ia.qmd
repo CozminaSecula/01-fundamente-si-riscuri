@@ -2,9 +2,7 @@
 title: "Arbore de decizie: Folosesc sau nu IA Generativă?"
 ---
 
-
-Resursa de mai jos te poate ghida să evaluezi dacă este adecvat să utilizezi IA Generativă pentru o sarcină specifică.
-
+Resursa de mai jos te poate ghida să evaluezi dacă este adecvat să utilizezi IA Generativă (cum ar fi aplicațiile ChatGPT, Gemini, Claude) pentru o sarcină specifică.
 
 ```{=html}
 <style>
@@ -61,65 +59,69 @@ classDef default fill:#ffffff,stroke:#000000,color:#000000;
 
 O sarcină este considerată clară și cu risc scăzut dacă îndeplinește concomitent următoarele criterii:
 
-- Obiectivul este bine definit, cu așteptări specifice și explicite privind intrarea (datele oferite) și ieșirea (rezultatul dorit).
+-   Obiectivul este bine definit, cu așteptări specifice și explicite privind intrarea (datele oferite) și ieșirea (rezultatul dorit).
 
-- Riscul este scăzut, ceea ce înseamnă că erorile sau inconsecvențele au consecințe minime. De exemplu, nu afectează:
+-   Riscul este scăzut, ceea ce înseamnă că erorile sau inconsecvențele au consecințe minime. De exemplu, nu afectează:
 
-  - Siguranța fizică sau emoțională a persoanelor.
-  - Conformitatea legală sau reglementările.
-  - Informațiile sensibile sau datele cu caracter personal.
+    -   Siguranța fizică sau emoțională a persoanelor.
+    -   Conformitatea legală sau reglementările.
+    -   Informațiile sensibile sau datele cu caracter personal.
 
 Exemple de sarcini adecvate:
 
-  - Redactarea și corectarea de e-mailuri cu importanță scăzută sau alte texte simple.
-  - Rezumarea articolelor sau a documentelor cum ar fi cele de presă.
-  - Generarea de idei creative sau de brainstorming.
+-   Redactarea și corectarea de e-mailuri cu importanță scăzută sau alte texte simple.
+-   Rezumarea articolelor sau a documentelor cum ar fi cele de presă.
+-   Generarea de idei creative sau de brainstorming.
 
 Exemple de sarcini cu risc ridicat sau neclare:
 
-  - Stabilirea de diagnostice medicale sau tratamente.
-  - Redactarea de contracte legale sau documente oficiale.
-  - Oferirea de consultanță financiară sau investițională.
-  - Utilizarea sau manipularea datelor sensibile (medicale, financiare) fără protecții adecvate.
+-   Stabilirea de diagnostice medicale sau tratamente.
+-   Redactarea de contracte legale sau documente oficiale.
+-   Oferirea de consultanță financiară sau investițională.
+-   Utilizarea sau manipularea datelor sensibile (medicale, financiare) fără protecții adecvate.
 
+### Rezultatul trebuie să fie 100% corect?
 
-### Rezultatul trebuie să fie 100% corect? 
+Dacă rezultatul trebuie să fie complet corect și erorile nu sunt acceptate, IA generativă NU este adecvată pentru sarcina respectivă. În astfel de cazuri, chiar și mici erori pot avea consecințe semnificative.
 
-Dacă rezultatul trebuie să fie complet corect, evită folosirea IA generative. În astfel de cazuri, chiar și mici erori pot avea consecințe semnificative.
-
-Sarcina necesită rezultate verificabile, complet corecte.
-
-- Persoana care lansează sarcina are competența, timpul sau resursele necesare pentru a verifica, corecta sau valida rezultatul.
-- Rezultatul generat trebuie să fie transparent sau explicabil în măsura în care identifici sursele sau raționamentul.
-
-IA generativă poate produce informații plauzibile, dar incorecte (halucinații) și nu este sigură pentru sarcinile în care greșelile sunt nu sunt acceptate.
-Exemple: 
+Exemple de sarcini unde IA generativă nu este recomandat să fie folosită:
 
 - Notarea examenelor
 - Prescrierea de medicamente
 - Proceduri de siguranță
+- Calcule financiare sau juridice
 
-###  Ai expertiza să verifici rezultatul?
+Se poate folosi IA generativă ca asistent dacă:
+
+- Ai competența să verifici complet rezultatul
+- Ai timp și resurse pentru verificare detaliată 
+- Poți valida independent răspunsul
+- Răspunsul este validat de un specialist înainte de utilizare
+
+IA generativă poate produce informații plauzibile, dar incorecte (halucinații) și nu este sigură pentru sarcinile în care greșelile nu sunt acceptate. 
+
+
+### Ai expertiza să verifici rezultatul?
 
 Dacă nu este necesară o acuratețe absolută, dar totuși folosești IA generativă, este necesar să ai expertiza necesară pentru a verifica și corecta rezultatul. Nu utiliza IA generativă pentru sarcini critice dacă nu poți evalua corectitudinea răspunsului.
 
 Exemple de situații unde este necesară verificarea pe baza expertizei:
 
-- Rezumate de texte complexe (ex: articole științifice).
-- Generarea de cod sau soluții tehnice.
-- Crearea de conținut pentru publicare oficială.
+-   Rezumate de texte complexe (ex: articole științifice).
+-   Generarea de cod sau soluții tehnice.
+-   Crearea de conținut pentru publicare oficială.
 
 Dacă nu ai expertiza necesară, există riscul să accepți rezultate incorecte sau părtinitoare.
 
 ### Sunt implicate date confidențiale sau personale?
 
-Se referă la situația în care sarcina implică informații sensibile sau de identificare personală care ar putea fi expuse sau utilizate în mod abuziv dacă ar fi introduse într-un instrument de inteligență artificială generativă.
+Se referă la situația în care sarcina implică informații sensibile sau de identificare personală care ar putea fi expuse sau utilizate în mod abuziv dacă ar fi introduse într-un instrument de inteligență artificială generativă care nu garantează confidențialitatea sau securizarea datelor.
 
 Exemple de sarcini cu risc ridicat:
 
-- Documente de angajare (care implică date din CV, evaluări, etc.)
-- Date financiare personale (bugete, tranzacții, conturi)
-- Documente juridice cu părți nominale
+-   Documente de angajare (care implică date din CV, evaluări, etc.)
+-   Date financiare personale (bugete, tranzacții, conturi)
+-   Documente juridice cu părți nominale
 
 Dacă nu sunt implicate date personale sau confidențiale, sau dacă sunt implicate, ele sunt anonimizate și manipularea lor respectă normele legale aplicabile (de ex. GDPR), se poate utiliza IA generativă. Se poate utiliza IA generativă și în cazul unui sistem securizat care garantează confidențialitatea datelor conform politicilor de utilizare ale companiei/organizației.
 
@@ -131,33 +133,41 @@ Această secțiune evaluează potențialul ca rezultatul IA să fie discriminato
 
 Exemple de risc etic:
 
-- Generarea de recomandări/decizii de angajare fără auditarea prealabilă a algoritmului pentru a detecta și corecta părtinirea (bias-ul) inerent datelor de antrenament.
-- Producerea de conținut insensibil din punct de vedere cultural, social sau etnic, care poate fi perceput ca ofensator sau dăunător.
-- Dezinformarea/manipularea, generarea de știri false (deepfakes) sau de conținut menit să manipuleze opinia publică.
+-   Generarea de recomandări/decizii de angajare fără auditarea prealabilă a algoritmului pentru a detecta și corecta părtinirea (bias-ul) inerent datelor de antrenament.
+-   Producerea de conținut insensibil din punct de vedere cultural, social sau etnic, care poate fi perceput ca ofensator sau dăunător.
+-   Dezinformarea/manipularea, generarea de știri false (deepfakes) sau de conținut menit să manipuleze opinia publică.
 
 ### Alege instrumentul potrivit pentru sarcină
 
 Pentru alegerea celui mai potrivit instrument de IA generativă, este necesară o evaluare pe baza mai multor criterii. Câteva dintre criterii sunt prezentate mai jos.
 
-1. **Performanță și încredere**
+1.  **Performanță și încredere**
 
 Aceste criterii sunt esențiale pentru a asigura calitatea și etica rezultatelor.
 
-| Criteriu      | Detaliu                                                                                                                                                                      |
-| ------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Acuratețea    | Cât de precis și relevant este rezultatul generat (ex: răspunsuri factuale corecte, cod funcțional).                                                                         |
-| Transparența  | Claritatea modului în care IA ajunge la rezultat (ex: posibilitatea de a verifica sursa informației, înțelegerea limitărilor modelului).                                   |
-| Fiabilitatea  | Consistența și stabilitatea instrumentului în timp. Include rezistența la halucinații (generarea de informații false) și riscul de părtinire (bias).                         |
+| Criteriu | Detaliu |
+|-----------------------|------------------------------------------------|
+| Acuratețea | Cât de precis și relevant este rezultatul generat (ex: răspunsuri factuale corecte, cod funcțional). |
+| Transparența | Claritatea modului în care IA ajunge la rezultat (ex: posibilitatea de a verifica sursa informației, înțelegerea limitărilor modelului). |
+| Fiabilitatea | Consistența și stabilitatea instrumentului în timp. Include rezistența la halucinații (generarea de informații false) și riscul de părtinire (bias). |
 
 <br>
 
-2. **Tipul de conținut și funcționalități**
+2.  **Tipul de conținut și funcționalități**
 
 Instrumentul selectat trebuie să fie optimizat pentru formatul conținutului pe care dorești să-l prelucrezi sau să-l generezi.
 
-| Tip de conținut  | Exemple de instrumente sau funcționalități cheie                                                      |
-| ---------------- | ------------------------------------------------------------------------------------------------------ |
-| Text             | Generare, rezumare, traducere. (Ex: ChatGPT, Gemini, Claude).                                          |
-| Documente lungi  | Funcții avansate de încărcare și interogare a fișierelor PDF/DOC.                                      |
-| Imagini          | Generare de imagini de la zero sau editare pe bază de text (prompt). (Ex: Midjourney, DALL-E). |
-| Cod 
+| Tip de conținut | Exemple de instrumente sau funcționalități cheie |
+|-----------------------|------------------------------------------------|
+| Text | Generare, rezumare, traducere. (Ex: ChatGPT, Gemini, Claude). |
+| Documente lungi | Funcții avansate de încărcare și interogare a fișierelor PDF/DOC. |
+| Imagini | Generare de imagini de la zero sau editare pe bază de text (prompt). (Ex: Midjourney, DALL-E). |
+| Cod |  |
+
+## Referințe
+
+1. Google Gemini - [Termeni și condiții suplimentare pentru inteligența artificială generativă](https://policies.google.com/terms/generative-ai), secțiunea *Disclaimers*
+
+2. OpenAI ChatGPT - [Termeni de utilizare (EU)](https://openai.com/policies/eu-terms-of-use/), secțiunea *Content/Accuracy*
+
+3. Anthropic Claude - [Termeni și condiții pentru consumatori](https://www.anthropic.com/legal/consumer-terms), secțiunea *Reliance on Outputs and Actions*
