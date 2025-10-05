@@ -21,7 +21,7 @@ Resursa de mai jos te poate ghida să evaluezi dacă este adecvat să utilizezi 
 flowchart TD
 %% Start
 A([Start]) --> B{Sarcina este clară și <br>cu risc scăzut?}
-B -->|Nu| Z([❌ Opriți - Inadecvat<br>Ex: contract legal,<br> sfat medical])
+B -->|Nu| Z([❌ Utilizare inadecvată<br>Ex: contract legal,<br> sfat medical])
 B -->|Da| C{Rezultatul trebuie să fie <br>100% corect?}
 
 %% Accuracy check
@@ -35,7 +35,7 @@ F -->|Da| H([✅ Continuă])
 
 %% Confidential data
 H --> I{Sunt implicate date <br>confidențiale / personale?}
-I -->|Da| J([❌ Nu folosi IA Generativă<br>aplicații publice<br> risc de confidențialitate<br>Ex: fișe de client,<br> date angajați])
+I -->|Da| J([❌ Evită IA Generativă<br> risc de confidențialitate<br>Ex: fișe de client,<br> date angajați])
 I -->|Nu| K([✅ Continuă])
 
 %% Ethical / bias check
@@ -103,7 +103,7 @@ IA generativă poate produce informații plauzibile, dar incorecte (halucinații
 
 ### Ai expertiza să verifici rezultatul?
 
-Dacă nu este necesară o acuratețe absolută, dar totuși folosești IA generativă, este necesar să ai expertiza necesară pentru a verifica și corecta rezultatul. Nu utiliza IA generativă pentru sarcini critice dacă nu poți evalua corectitudinea răspunsului.
+Chiar dacă sarcina ta nu necesită acuratețe 100%, este necesar să ai expertiză pentru a verifica rezultatul generat de IA. 
 
 Exemple de situații unde este necesară verificarea pe baza expertizei:
 
@@ -115,21 +115,37 @@ Dacă nu ai expertiza necesară, există riscul să accepți rezultate incorecte
 
 ### Sunt implicate date confidențiale sau personale?
 
-Se referă la situația în care sarcina implică informații sensibile sau de identificare personală care ar putea fi expuse sau utilizate în mod abuziv dacă ar fi introduse într-un instrument de inteligență artificială generativă care nu garantează confidențialitatea sau securizarea datelor.
+Dacă sarcina implică date personale sau confidențiale, NU folosi 
+instrumente publice de IA generativă (ChatGPT, Claude, Gemini).
 
 Exemple de sarcini cu risc ridicat:
 
 -   Documente de angajare (care implică date din CV, evaluări, etc.)
 -   Date financiare personale (bugete, tranzacții, conturi)
 -   Documente juridice cu părți nominale
+-   Date de identificare personală
 
-Dacă nu sunt implicate date personale sau confidențiale, sau dacă sunt implicate, ele sunt anonimizate și manipularea lor respectă normele legale aplicabile (de ex. GDPR), se poate utiliza IA generativă. Se poate utiliza IA generativă și în cazul unui sistem securizat care garantează confidențialitatea datelor conform politicilor de utilizare ale companiei/organizației.
+Poți folosi IA generativă dacă:
 
-Chiar și atunci când datele sunt prelucrate corect, trebuie să vă asigurați că nu există riscuri evidente de prejudecăți, discriminare sau impact etic negativ. Pentru sarcinile sensibile (precum cele din domeniul resurselor umane sau financiar), este necesară o validare etică suplimentară a rezultatelor, indiferent de nivelul de utilizare a IA.
+-  Datele sunt complet anonimizate, conform GDPR și normelor aplicabile
+-  Folosești un sistem securizat, aprobat de companie sau organizație care garantează confidențialitate
+-  Datele nu sunt sensibile și nu permit identificarea persoanelor
+
+Chiar dacă datele sunt corect anonimizate, pentru domenii precum resurse umane sau analiză financiară, verifică:
+
+- Riscul de prejudecăți sau discriminare în rezultatele generate
+- Impactul etic al deciziilor bazate pe rezultatele generate de IA
+- Necesitatea validării de către un specialist
+
+**Important:** Pentru planurile gratuite/consumer (ChatGPT Free, 
+Claude Free/Pro, Gemini), furnizorii pot stoca conversațiile și le 
+pot folosi pentru îmbunătățirea modelelor. Confidențialitatea 
+garantată necesită planuri Enterprise cu acorduri specifice.
+
 
 ### Există risc etic/ părtinire?
 
-Această secțiune evaluează potențialul ca rezultatul IA să fie discriminatoriu, părtinitor sau dăunător, afectând negativ utilizatorii sau terții (publicul larg).
+Această secțiune evaluează dacă rezultatul IA poate fi discriminatoriu, părtinitor sau dăunător pentru utilizatori sau publicul larg.
 
 Exemple de risc etic:
 
@@ -162,7 +178,7 @@ Instrumentul selectat trebuie să fie optimizat pentru formatul conținutului pe
 | Text | Generare, rezumare, traducere. (Ex: ChatGPT, Gemini, Claude). |
 | Documente lungi | Funcții avansate de încărcare și interogare a fișierelor PDF/DOC. |
 | Imagini | Generare de imagini de la zero sau editare pe bază de text (prompt). (Ex: Midjourney, DALL-E). |
-| Cod |  |
+| Cod | Generare, corectare, explicare cod (Ex: GitHub Copilot, Claude, ChatGPT)  |
 
 ## Referințe
 
@@ -171,3 +187,7 @@ Instrumentul selectat trebuie să fie optimizat pentru formatul conținutului pe
 2. OpenAI ChatGPT - [Termeni de utilizare (UE)](https://openai.com/policies/eu-terms-of-use/)
 
 3. Anthropic Claude - [Termeni și condiții pentru consumatori](https://www.anthropic.com/legal/consumer-terms)
+
+4. Anthropic Claude - [Actualizări ale Termenilor și Politicii de confidențialitate pentru consumatori](https://www.anthropic.com/news/updates-to-our-consumer-terms)
+
+5. OpenAI - [Cum sunt utilizate datele dvs. pentru a îmbunătăți performanța modelului](https://help.openai.com/en/articles/5722486-how-your-data-is-used-to-improve-model-performance)
