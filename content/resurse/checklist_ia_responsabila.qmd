@@ -17,7 +17,7 @@ Resursa de mai jos[^1] este o listă de verificare (un instrument de reflecție)
 | **Consecințe** | Ce s-ar putea întâmpla dacă folosești acest instrument (riscuri, dependență, erori)? | Este utilizarea instrumentelor IA permisă la locul de muncă/școală (conform politicii instituției)? |  | Asigură-te că ai verificat politica de utilizare a IA cu angajatorul/instituția. |
 | **Etică & Impact** | Valoarea adăugată a utilizării acestui instrument este mai mare decât impactul negativ potențial (de exemplu, asupra mediului)? | Utilizarea instrumentului de IA pentru această sarcină minimizează importanța expertizei umane sau a creativității? |  | Opțiuni: Poți alege să faci sarcina tu însuți/însăți sau să găsești pe cineva să te ajute. |
 | **Etică & Sursă** |  | Câtă energie și apă va consuma această sarcină? (consumul de resurse necesare prelucrării datelor) |  |  |
-| **Etică & Sursă** |  | Instrumentul de IA a fost antrenat cu cărți, articole, artă folosite fără permisiune? (încălcarea drepturilor de autor la sursă) |  |  |
+| **Etică & Sursă** |  | Instrumentul de IA a fost antrenat cu cărți, articole, artă folosite fără permisiune? (încălcarea drepturilor de autor) |  |  |
 | **Acuratețe & Verificare** | Ai încredere în acest instrument? Poți argumenta de ce? | Ai confirmarea că rezultatele nu perpetuează prejudecăți? |  |  |
 | **Acuratețe & Halucinații** |  | Cum știi că instrumentul nu produce informație care nu există (fenomen numit "halucinație")? |  |  |
 | **Acuratețe & Calitate** |  | Ai verificat dacă instrumentul va produce informații actuale, precise și de calitate? |  | Acțiune: Verifică de două ori informația pe care instrumentul o oferă ca referință prin accesarea surselor originale. |

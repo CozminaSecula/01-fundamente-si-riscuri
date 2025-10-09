@@ -19,7 +19,7 @@ format:
 **Să ne cunoaștem...**
 
 
-🤖 **Legat de inteligența artificială, mă simt mai degrabă:**
+🤖 **Legat de inteligența artificială, sunt:**
 
 <br>
 
@@ -119,17 +119,17 @@ Vom analiza scenarii, vom compara instrumente și vom evalua riscuri pentru a lu
 
 ✔ **Evaluați când să folosiți IA generativă.**
 
-Veți putea decide dacă IA este potrivită pentru o sarcină, folosind criterii clare precum risc, acuratețe, expertiză, confidențialitate și etică.
+Veți putea decide dacă IA generativă este potrivită pentru o sarcină, folosind criterii clare precum risc, acuratețe, expertiză, confidențialitate și etică.
 
 ✔ **Alegeți instrumentul potrivit.**
 
-Veți putea aplica un cadru de decizie sistematic pentru a selecta cel mai eficient instrument de IA pentru sarcinile voastre.
+Veți putea aplica un cadru de decizie sistematic pentru a selecta instrumentul optim de IA generativă pentru o sarcină specifică.
 
 ✔ **Comparați instrumentele de top.**
 
 Veți putea înțelege diferențele de capabilități și performanță între ChatGPT, Gemini și Claude pentru sarcini comune precum sumarizarea, generarea de conținut și asistența tehnică.
 
-✔ **Utilizați IA în mod responsabil.**
+✔ **Utilizați IA generativă în mod responsabil.**
 
 Veți putea recunoaște riscurile și veti putea aplica bune practici pentru a colabora eficient și etic cu IA.
 

@@ -85,6 +85,6 @@ Folosiți pașii și întrebările de mai jos pentru a vă structura analiza det
 
 **Întrebări ajutătoare:**
 
-*   **Eficiență**: Cât timp am economisit? Procesul a devenit mai rapid?
+*   **Eficiență**: Cât timp am redus? Procesul a devenit mai rapid?
 *   **Calitate**: Rezultatul final este mai bun, la fel de bun sau mai slab decât înainte?
 *   **Integrare**: Cât de ușor a fost să integrez acest nou flux de lucru? Este sustenabil pe termen lung?

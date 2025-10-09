@@ -347,7 +347,7 @@ Cum voi colabora cu IA pentru a finaliza sarcina?
 
 Cum voi ști că a funcționat bine?
 
-- Eficiență: Cât timp ar trebui să economisesc?
+- Eficiență: Cât timp ar trebui să reduc?
 - Calitate: Cum voi ști că IA a făcut o treabă bună?
 
 :::
