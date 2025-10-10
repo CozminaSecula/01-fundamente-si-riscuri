@@ -84,7 +84,7 @@ header#title-block-header::before {
 
 ## Introducere
 
-Inteligența artificială generativă (IA generativă) ne poate ajuta să îmbunătățim modul în care realizăm diverse sarcini, atât în plan personal cât și profesional. Aceste instrumente pot schimba modul în care interacționăm cu conținutul digital, pot eficientiza procese, eliberând timp care poate fi dedicat, de exemplu, relațiilor interpersonale. Astfel, este important să înțelegem și să gestionăm riscurile asociate cu utilizarea acestei tehnologii. 
+Inteligența artificială generativă (IA generativă) ne poate ajuta să îmbunătățim modul în care realizăm diverse sarcini, atât în plan personal cât și profesional. Aceste instrumente pot schimba modul în care interacționăm cu conținutul digital, pot eficientiza procese, eliberând timp care poate fi dedicat altor activități. Astfel, este important să înțelegem și să gestionăm riscurile asociate cu utilizarea acestei tehnologii. 
 
 Obiectivul acestui workshop este de a sprijini participanții să ia decizii informate cu privire la utilizarea instrumentelor de IA generativă.
 Participanții vor învăța când să folosească IA generativă, când să evite utilizarea IA generativă și cum să aleagă instrumentul optim pentru situații specifice de lucru.
