@@ -2,7 +2,7 @@
 title: "Arbore de decizie: Folosesc sau nu IA Generativă?"
 ---
 
-Resursa de mai jos te poate ghida să evaluezi dacă este adecvat să utilizezi IA Generativă (cum ar fi aplicațiile ChatGPT, Gemini, Claude) pentru o sarcină specifică.
+Resursa de mai jos te poate ghida să analizezi dacă este adecvat să folosești IA Generativă (modelele lingvistice mari care stau la baza aplicațiilor precum ChatGPT, Gemini, Claude) pentru o sarcină specifică, considerând aspecte legate de siguranță, acuratețe sau etică.
 
 ```{=html}
 <style>
@@ -21,7 +21,7 @@ Resursa de mai jos te poate ghida să evaluezi dacă este adecvat să utilizezi 
 flowchart TD
 %% Start
 A([Start]) --> B{Sarcina este clară și <br>cu risc scăzut?}
-B -->|Nu| Z([❌ Utilizare inadecvată<br>Ex: contract legal,<br> sfat medical])
+B -->|Nu| Z([❌ Evită IA Generativă<br>Ex: contract legal,<br> sfat medical])
 B -->|Da| C{Rezultatul trebuie să fie <br>100% corect?}
 
 %% Accuracy check
