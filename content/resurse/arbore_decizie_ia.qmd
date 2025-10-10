@@ -133,7 +133,7 @@ Poți folosi IA generativă dacă:
 
 Chiar dacă datele sunt corect anonimizate, pentru domenii precum resurse umane sau analiză financiară, verifică:
 
-- Riscul de prejudecăți sau discriminare în rezultatele generate
+- Riscul de prejudecătă sau discriminare în rezultatele generate
 - Impactul etic al deciziilor bazate pe rezultatele generate de IA
 - Necesitatea validării de către un specialist
 
