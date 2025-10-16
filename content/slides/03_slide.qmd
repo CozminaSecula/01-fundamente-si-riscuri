@@ -107,19 +107,6 @@ Ce vom face în partea a doua a workshopului?
 :::
 
 
-::: notes
-
-::: {.center .small style="margin-top: 2%;" tbl-colwidths="[20,40,40]"}
-| Criteriu | Ce înseamnă? | De ce este important? |
-|------------------------|------------------------|------------------------|
-| **Coerență** | Răspunsul este logic, bine structurat și nu se contrazice. | Informația poate fi folosită direct, fără multe corecturi; sprijină claritatea. |
-| **Acuratețe** | Cât de des informația este corectă și fără erori sau invenții („halucinații”). | Informația greșită poate induce în eroare; corectitudinea este importantă. |
-| **Claritate** | Limbaj simplu și ușor de înțeles, fără jargon complicat. | Ajută utilizatorii să înțeleagă ușor; reduce neînțelegerile. |
-| **Relevanță** | Răspunsul se referă exact la ce ai întrebat și răspunde nevoii tale. | Economisești timp și primești informații utile. |
-| **Eficiență** | Cât de repede și ușor obții un rezultat bun, cu puține încercări. | Important în activitățile zilnice; sprijină productivitatea la locul de muncă. |
-:::
-:::
-
 ## Instrumenete IA Generativă
 
 

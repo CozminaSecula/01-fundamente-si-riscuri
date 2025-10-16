@@ -32,12 +32,6 @@ format:
 
 
 
-
-::: notes
-
-- A doua întrebare e despre așteptările voastre de la acest workshop. Asta mă ajută și pe mine să înțeleg mai bine ce vi se pare cel mai relevant și unde să insistăm mai mult pe parcurs.
-:::
-
 ## Obiectivul nostru de astăzi
 
 Vom învăța **cum să decidem** în legătură cu IA, nu doar cum să o folosim.
