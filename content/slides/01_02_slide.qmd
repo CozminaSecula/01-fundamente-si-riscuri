@@ -1,0 +1,1030 @@
+---
+format: 
+  revealjs: 
+    theme: [default, "../../styles/_style_01_02.scss"]
+    width: "1600"
+    height: "900"
+    slide-number: c/t
+    link-external-newwindow: true
+    chalkboard: false  
+    controls: true
+    pdf-max-pages-per-slide: 1
+    menu: false
+
+---
+
+<h1> **Fundamentele Inteligenței Artificiale Generative** </h1>
+
+<h2>Cum să evaluezi și să verifici conținutul generat de IA</h2>
+
+<hr>
+
+
+<h4> **Cozmina Secula** </h4>
+
+<h4> 30.10.2025 </h4>
+
+![](/assets/imagini/logo.svg){.absolute bottom=440 left=420 width="230"} 
+
+
+![](/assets/imagini/log_%20biblioteca_curbe.png){.absolute bottom=100 left=760 width="350"} 
+
+![](/assets/imagini/cj.png){.absolute bottom=270 left=430 width="320"} 
+
+
+
+## Agenda {.content-bottom}
+
+
+
+| Timp | Subiect |
+|:---|:---|
+| {{< bi clock >}} 30 min| Fundamente<br> • Ce este IA generativă?<br> • Cum funcționează IA generativă?<br>|
+| {{< bi clock >}} 30 min| Mis/Dis/Mal/information|
+| {{< bi clock >}} 15 min| Cadrul de Evaluare|
+| {{< bi clock >}} 15 min| Cadrul de Verificare|
+
+
+
+
+# Inteligența artificială generativă{style="text-align: left;"}
+
+## Ce este IA generativă?
+
+::: goal
+IA generativă se referă la sistemele IA care **învață din datele existente pentru a crea conținut nou**, precum text, imagini, muzică sau cod, la solicitarea utilizatorului.
+:::
+
+::: {.columns}
+::: {.column width="40%"}
+
+
+![](/assets/imagini/chatbots.png){fig-align="center" width="420"}
+:::
+
+::: {.column width="60"}
+
+![](/assets/imagini/AI-generate-text.png){.absolute bottom=110 right=520 width="350" height="450" }
+
+![](/assets/imagini/AI-wtite-code.jpeg){.absolute bottom=280 right=40 width="400" height="170" }
+
+![](/assets/imagini/art.png){.absolute bottom=70 right=140 width="300" height="170"}
+
+
+<div class="absolute" style="bottom:400px; right:170px; width:290px; height:220px;">
+  <audio controls>
+    <source src="https://upload.wikimedia.org/wikipedia/commons/0/0a/AI-generated_audio_featuring_bossa_nova_music_with_electric_guitar.ogg" type="audio/ogg">
+    Your browser does not support the audio element.
+  </audio>
+</div>
+
+<div class="absolute smallest" style="bottom:480px; right:100px; width:350px; text-align: left;">
+Benlisquare, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
+</div>
+
+
+:::
+:::
+
+
+## Cum funcționează IA generativă?
+
+<br><br><br>
+
+![](/assets/imagini/black-box.svg){fig-align="center"}
+
+## Cum funcționează IA generativă?
+
+<br><br>
+
+![](/assets/imagini/black-box-2.svg){fig-align="center"}
+
+
+## IA generativă: Avantaje și Limite (1/3)
+
+<br>
+
+::: large
+
+**Avantaje**
+
+*  Înțelege și procesează instrucțiuni în limbaj natural;
+
+*  Automatizează sarcini repetitive, crescând eficiența;
+
+*  Stimulează creativitatea prin generarea de idei noi (brainstorming);
+
+*  Asistă în procesul de scriere prin rezumare, editare sau reformulare.
+
+:::
+
+## IA generativă: Avantaje și Limite (2/3)
+
+<br>
+
+::: large
+
+**Limite**
+
+*  **Inexactitate**: potențial pentru informații eronate sau inventate ("halucinații") sau învechite;
+
+*  **Considerații etice**: probleme de confidențialitate, proprietate intelectuală, drepturi de autor, impactul asupra mediului și pieței muncii;
+
+*  **Lipsa conștiinței**: nu are înțelegere, discernământ sau sentimente; funcționează pe bază de modele statistice;
+
+
+
+:::
+
+## IA generativă: Avantaje și Limite (3/3)
+
+<br>
+
+::: large
+
+**Limite**
+
+*  **Părtinire (Bias)**: favorizarea anumitor perspective culturale, de gen, etnie, reflectând datele pe care a fost antrenată;
+
+*  **Problema "cutiei negre"**: procesele decizionale, algoritmii și datele de antrenament ale modelelor adesea nu sunt transparente.
+
+*  **Incapacitatea de a înțelege contex**: o instrucțiune neclară poate face ca modelul să genereze diferite presupuneri.
+:::
+
+
+## Cum pot genera modelele IA conținut fals?
+
+{{< video https://www.youtube.com/watch?v=zyhielIGpn4 width="100%" height="85%" >}}
+
+
+
+## Mis/Dis/Mal/information
+
+::: { style="margin-top: 1%"}
+
+::: {.columns}
+::: {.column width="31%"}
+
+### **Inducere în eroare (*Misinformation*)**{.mark}
+
+::: small
+Informații sau conținut fals distribuit de persoane care nu își dau seama că este fals sau înșelător.
+
+::: { style="margin-top: 14%"}
+
+::: {.fragment data-fragment-index="1"}
+**Este o informație falsă considerată adevărată** de către comunicator atunci când este împărtășită.
+:::
+
+
+
+**Misinformation** este o [greșeală]{.mark}.
+:::
+:::
+:::
+
+::: {.column width="3%"}
+:::
+
+
+::: {.column width="31%"}
+
+### **Dezinformare (*Disinformation*)**{.mark}
+
+::: small
+Informații false sau inexacte, răspândite intenționat pentru a induce în eroare și a manipula oamenii.
+
+::: { style="margin-top: 14%"}
+::: {.fragment data-fragment-index="1"}
+**Este recunoscută ca fiind falsă** de către comunicator în momentul în care este distribuită.
+:::
+
+**Disinformation** este [deliberată]{.mark}.
+
+:::
+:::
+:::
+
+::: {.column width="3%"}
+:::
+
+::: {.column width="31%"}
+
+### **Malinformare (*Malinformation*)**{.mark}
+::: small
+Informații bazate pe adevăr care sunt folosite într-un mod care cauzează daune sau manipulează.
+
+::: { style="margin-top: 14%"}
+::: {.fragment data-fragment-index="1"}
+  - Mutarea informațiilor reale, private, în domeniul public.
+  - Prezentarea informațiilor reale fără context sau în context greșit.
+:::
+:::
+:::
+:::
+:::
+:::
+
+<div class="absolute" style="bottom: -40px; left: 80%; transform: translateX(-100%); font-size: 0.5em; width: 80%; text-align: left;">
+Sursa: [Misinformation, Disinformation & Malinformation: A Guide](https://princetonlibrary.org/guides/misinformation-disinformation-malinformation-a-guide/)
+</div>
+
+
+
+## Deepfake & Hallucination
+
+<br>
+
+::: {.columns}
+::: {.column width="45%"}
+
+### **Conținut inventat<br>(*Deepfake*)**{.mark}
+<br>
+
+**Manipulare digitală a unei înregistrări video, audio sau a unei imagini** realizată folosind unelte de inteligență artificială sau alte programe specializate.
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="45%"}
+### **Conținut inventat (*Hallucination*)**{.mark}
+<br>
+
+Deficiență tehnică a sistemelor de IA generativă atunci când acestea generează **informații nedorite care sunt fabricate sau incorecte din punct de vedere faptic**, fără ca acest lucru să fi fost dorit de dezvoltatorii lor.
+:::
+::: 
+
+<div class="absolute" style="bottom: 0px; left: 80%; transform: translateX(-100%); font-size: 0.5em; width: 80%; text-align: left;">
+[DNSC Ghid Deepfake](https://dnsc.ro/vezi/document/ghid-deepfake)<br>
+[DNSC Ghid Deepfake Organizații](https://www.dnsc.ro/vezi/document/dnsc-ghid-deepfake-organizatii)
+</div>
+
+
+
+## Deepfake 
+
+
+{{< video https://www.youtube.com/watch?v=tRQWhOFFkBg width="100%" height="85%" >}}
+
+
+## Tipuri de halucinații
+
+::: {style="margin-top: 3%;"}
+
+
+::: {.columns}
+::: {.row}
+::: {.column width="33%"}
+::: {.fragment}
+::: {class="info-box-small" style="background: #062635; color: #ffffff;"}
+**Contradicții de prompt**
+:::
+:::
+:::
+
+
+::: {.column width="33%"}
+::: {.fragment}
+::: {class="info-box-small" style="background: #12719e; color: #ffffff;"}
+**Contradicții de propoziție**
+:::
+:::
+:::
+
+::: {.column width="33%"}
+::: {.fragment}
+::: {class="info-box-small" style="background: #46abdb; color: #000000;"}
+**Contradicții factuale**
+:::
+:::
+:::
+
+:::
+:::
+
+
+::: {.columns}
+::: {.row}
+
+::: {.column width="17.5%"}
+:::
+
+::: {.column width="33%"}
+::: {.fragment}
+::: {class="info-box-small" style="background: #66bdf7; color: #000000;"}
+**Halucinații de calcul**
+:::
+:::
+:::
+
+::: {.column width="33%"}
+::: {.fragment}
+::: {class="info-box-small" style="background: #cfe8f3; color: #000000;"}
+**Contradicții de sursă**
+:::
+:::
+:::
+
+::: {.column width="17.5%"}
+:::
+
+:::
+:::
+
+:::
+
+## De ce se întâmplă halucinațiile?
+
+<br>
+
+::: large 
+
+* Date de antrenament insuficiente;
+
+* Rezultate inexacte pentru date noi;
+
+* Instrucțiuni care nu sunt corect definite/clare.
+
+::: 
+
+
+
+## Apple iPhone 14 (1/3)
+
+> Prompt: Scrie o recenzie tehnică de produs în stilul CNN despre noul iPhone 14.
+
+
+::: {.columns}
+::: {.column width="34%"}
+
+<p>Articolul evidențiază „<span class="hl">ecranul OLED de 6,7 inchi</span>” al dispozitivului, deși iPhone 14 are de fapt un ecran de 6,1 inchi (dimensiunea mai mare aparține modelului iPhone 14 Pro).</p>
+
+:::
+
+::: {.column width="66%"}
+<div class="sample-article">
+
+<p>iPhone 14 este cea mai recentă adăugare la familia de smartphone‑uri Apple și promite să schimbe regulile jocului în industrie. Cu un design elegant și funcții de ultimă oră, acest dispozitiv este sigur că îi va impresiona chiar și pe cei mai exigenți pasionați de tehnologie.</p>
+
+<p>Una dintre caracteristicile remarcabile ale iPhone‑ului 14 este ecranul. Dispozitivul are un uimitor <span class="hl">ecran OLED de 6,7 inchi</span> care oferă culori incredibil de vii și negru profund. Acest lucru îl face perfect pentru streaming video sau jocuri, precum și pentru utilizarea de zi cu zi.</p>
+
+</div>
+
+:::
+:::
+
+<div class="absolute" style="bottom: -20px; left: 80%; transform: translateX(-100%); font-size: 0.3em; width: 80%; text-align: left;">
+Sursa: [Bot or not? How to tell when you’re reading something written by AI](https://edition.cnn.com/interactive/2023/07/business/detect-ai-text-human-writing/)<br>Pentru acest exemplu, cercetătorii i-au cerut lui ChatGPT să genereze o recenzie a iPhone‑ului 14,<br> <b>un produs care nu era lansat la momentul antrenării lui ChatGPT, în septembrie 2021.</b>
+</div>
+
+
+## Apple iPhone 14 (2/3)
+
+> Prompt: Scrie o recenzie tehnică de produs în stilul CNN despre noul iPhone 14.
+
+::: small
+::: {.columns}
+::: {.column width="34%"}
+
+
+<p>În al patrulea paragraf, modelul afirmă că telefonul are o cameră de <span class="hl">108 megapixeli</span>, mult peste camera sa reală de 12 megapixeli. Aceasta este o eroare destul de mare. Alte halucinații includ susținerea că dispozitivul are un cip <span class="hl">A18</span> (produsul real folosește A15) și o configurație cu <span class="hl">trei camere</span> (în realitate, modelele non‑Pro de iPhone tind să aibă doar două camere).</p>
+
+:::
+
+::: {.column width="66%"}
+<div class="sample-article">
+
+
+<p>În ceea ce privește performanța, iPhone 14 este alimentat de cel mai nou <span class="hl">cip A18 Bionic</span>, cel mai rapid procesor folosit vreodată într‑un iPhone. Asta înseamnă că dispozitivul poate gestiona cu ușurință chiar și cele mai solicitante sarcini, iar utilizatorii se pot aștepta la viteze fulgerătoare și performanțe fluide.</p>
+
+<p>O altă caracteristică cheie a iPhone‑ului 14 este sistemul de camere. Dispozitivul dispune de o <span class="hl">configurație cu trei camere</span>, care include o <span class="hl">cameră principală de 108 megapixeli</span>, o lentilă ultra‑wide și o lentilă telefoto. Acest lucru le permite utilizatorilor să surprindă fotografii și videoclipuri uimitoare, cu detalii și claritate incredibile, iar dispozitivul include și funcții avansate precum modul nocturn și stabilizarea optică a imaginii.</p>
+
+</div>
+
+:::
+:::
+:::
+
+<div class="absolute" style="bottom: -20px; left: 80%; transform: translateX(-100%); font-size: 0.3em; width: 80%; text-align: left;">
+Sursa: [Bot or not? How to tell when you’re reading something written by AI](https://edition.cnn.com/interactive/2023/07/business/detect-ai-text-human-writing/)<br>Pentru acest exemplu, cercetătorii i-au cerut lui ChatGPT să genereze o recenzie a iPhone‑ului 14,<br> <b>un produs care nu era lansat la momentul antrenării lui ChatGPT, în septembrie 2021.</b>
+</div>
+
+
+## Apple iPhone 14 (3/3)
+
+> Prompt: Scrie o recenzie tehnică de produs în stilul CNN despre noul iPhone 14.
+
+::: {.columns}
+::: {.column width="34%"}
+
+
+<p>Articolul, de asemenea, nu oferă detalii concrete pe care cititorii le‑ar aștepta de la o recenzie scrisă de un om, cum ar fi prețul, autonomia bateriei și comparațiile cu alte produse de pe piață.</p>
+
+:::
+
+::: {.column width="66%"}
+<div class="sample-article">
+
+<p>Pe lângă aceste funcții, iPhone 14 include și o serie de alte îmbunătățiri care îl fac o alegere excelentă pentru oricine caută un smartphone nou. Acestea includ <span class="hl">autonomie îmbunătățită a bateriei, conectivitate 5G și cea mai recentă versiune a sistemului de operare iOS de la Apple</span>. Per ansamblu, iPhone 14 este un dispozitiv impresionant care oferă o gamă de funcții de ultimă generație și performanțe de top. Deși <span class="hl">poate veni cu un preț mai mare decât unele alte smartphone‑uri de pe piață</span>, dispozitivul merită pe deplin investiția...</p>
+
+</div>
+
+:::
+:::
+
+<div class="absolute" style="bottom: -20px; left: 80%; transform: translateX(-100%); font-size: 0.3em; width: 80%; text-align: left;">
+Sursa: [Bot or not? How to tell when you’re reading something written by AI](https://edition.cnn.com/interactive/2023/07/business/detect-ai-text-human-writing/)<br>Pentru acest exemplu, cercetătorii i-au cerut lui ChatGPT să genereze o recenzie a iPhone‑ului 14,<br> <b>un produs care nu era lansat la momentul antrenării lui ChatGPT, în septembrie 2021.</b>
+</div>
+
+
+## Ce înseamnă o conversație "bună" cu IA? 
+
+::: {.columns .middle style="font-size: 1.1em; text-align: center;"}
+
+::: {.column width="16.6%"}
+
+::: {style="background: #a2d4ec; color: #000; border: 1px solid #ccc; padding: 15px; display: flex; flex-direction: column; justify-content: center;"}
+**Acuratețe**
+:::
+
+::: {style="font-size: 0.85em; text-align: left; margin-top: 12px;"}
+- Informație corectă
+- Fără halucinații
+:::
+
+:::
+
+::: {.column width="16.6%"}
+
+::: {style="background: #a2d4ec; color: #000; border: 1px solid #ccc; padding: 15px; display: flex; flex-direction: column; justify-content: center;"}
+**Relevanță**
+:::
+
+::: {style="font-size: 0.85em; text-align: left; margin-top: 12px;"}
+- Răspuns la subiect
+- Răspunde nevoii tale
+:::
+
+:::
+
+::: {.column width="16.6%"}
+
+::: {style="background: #a2d4ec; color: #000; border: 1px solid #ccc; padding: 15px; display: flex; flex-direction: column; justify-content: center;"}
+**Coerență**
+:::
+
+::: {style="font-size: 0.85em; text-align: left; margin-top: 12px;"}
+- Logic și structurat
+- Fără contradicții
+:::
+
+:::
+
+::: {.column width="16.6%"}
+
+::: {style="background: #a2d4ec; color: #000; border: 1px solid #ccc; padding: 15px; display: flex; flex-direction: column; justify-content: center;"}
+**Claritate**
+:::
+
+::: {style="font-size: 0.85em; text-align: left; margin-top: 12px;"}
+- Limbaj simplu
+- Ușor de înțeles
+:::
+
+:::
+
+::: {.column width="16.6%"}
+
+::: {style="background: #a2d4ec; color: #000; border: 1px solid #ccc; padding: 15px; display: flex; flex-direction: column; justify-content: center;"}
+**Eficiență**
+:::
+
+::: {style="font-size: 0.85em; text-align: left; margin-top: 12px;"}
+- Rezultat rapid
+- Puține încercări
+:::
+
+:::
+
+:::
+
+
+## **Acuratețe**
+
+<br>
+
+::: goal
+
+{{< bi check-circle >}} Informațiile generate de IA sunt **corecte din punct de vedere faptic**, verificabile din surse de încredere și lipsite de halucinații?
+
+:::
+
+### {{< bi search >}}
+*   Afirmațiile factuale sunt verificabile?
+*   Sursele citate există și susțin afirmațiile?
+*   Statisticile și datele sunt corecte și actuale?
+*   Conținutul evită tiparele cunoscute de halucinații (ex: citări false, fapte imposibile)?
+
+
+
+
+## **Relevanță**
+
+<br>
+
+::: goal
+{{< bi bullseye >}} Conținutul generat este **direct aliniat cu obiectivele** și cerințele definite în prompt, evitând informațiile care nu sunt necesare?
+:::
+
+### {{< bi search >}}
+*   Conținutul răspunde direct obiectivului stabilit în prompt?
+*   Informația este limitată la domeniul/subiectul corespunzător?
+*   Exemplele și analogiile sunt adecvate contextual?
+*   Nivelul de detaliu este potrivit pentru sarcină?
+
+
+## **Coerență**
+
+<br>
+
+::: goal
+{{< bi body-text >}} Conținutul menține **consistența logică** și o structură clară, permițând argumentelor să curgă natural?
+:::
+
+### {{< bi search >}}
+*   Ideile au o logică de la una la alta?
+*   Tranzițiile între secțiuni sunt clare?
+*   Conținutul menține un fir narativ consistent?
+*   Structura sprijină scopul declarat al textului?
+
+
+
+## **Claritate**
+
+<br>
+
+::: goal
+{{< bi brightness-high >}} Exprimarea este concisă, **evită complexitatea inutilă**, conținutul poate fi interpretat și utilizat rapid?
+:::
+
+### {{< bi search >}}
+*   Limbajul este adecvat pentru sarcina de lucru?
+*   Propozițiile sunt concise, fără a sacrifica sensul?
+*   Conceptele tehnice sunt explicate atunci când este necesar?
+*   Formatarea ajută la scanarea rapidă a textului?
+
+
+## **Eficiență**
+
+<br>
+
+::: goal
+{{< bi speedometer2 >}} Procesul este optimizat prin furnizarea **doar a informațiilor esențiale**, reducând redundanța și efortul?
+:::
+
+### {{< bi search >}}
+*   Rezultatul IA reduce timpul necesar finalizării sarcinii?
+*   Efortul cognitiv este minimizat (sunt necesare puține clarificări)?
+*   Sunt necesare mai multe runde de rafinare a promptului?
+*   Rezultatul poate fi utilizat imediat, fără modificări majore?
+
+
+## Citire verticală vs. citire laterală
+
+<br>
+
+::: {.columns}
+::: {.column width="50%"}
+
+
+![](/assets/imagini/V_Reading.png){fig-align="left"}
+:::
+
+::: {.column width="50%"}
+
+
+![](/assets/imagini/L_Reading.png){fig-align="left"}
+:::
+:::
+
+
+<div class="absolute" style="bottom: 0px; left: 80%; transform: translateX(-100%); font-size: 0.5em; width: 80%; text-align: left;">
+Sursa: [ Lateral Reading Explained](https://researchguides.smu.edu.sg/c.php?g=955994&p=6935430)
+</div>
+
+## Citirea laterală și IA
+
+::: fragment
+::: goal
+
+În loc să ne întrebăm **"cine se află în spatele acestor informații?"**,<br>ne întrebăm **"cine poate confirma aceste informații?"**.
+:::
+:::
+<br>
+
+::: {.columns}
+::: {.column width="50%"}
+
+
+**Surse online cu identificatori**
+
+- nume;
+- logo;
+- URL;
+- autori identificabili.  
+:::
+
+
+::: {.column width="50%"}
+
+
+**Conținut generat de IA**
+
+- Fără autor sau sursă clară;
+- Compus din multiple surse neidentificabile;
+- [Verificarea validității afirmațiilor, nu "sursa afirmațiilor".]{.mark}
+:::
+:::
+
+## Verificarea conținutului generat de IA în 5 pași
+
+
+::: {.step-timeline}
+::: {.step-item}
+::: {.step-circle style="background-color: #062635;"}
+1
+:::
+:::
+
+::: {.step-line style="background-color: #062635;"}
+:::
+
+::: {.step-item}
+::: {.step-circle style="background-color: #12719e;"}
+2
+:::
+:::
+
+::: {.step-line style="background-color: #12719e;"}
+:::
+
+::: {.step-item}
+::: {.step-circle style="background-color: #46abdb;"}
+3
+:::
+:::
+
+::: {.step-line style="background-color: #46abdb; color: #062635;"}
+:::
+
+::: {.step-item}
+::: {.step-circle style="background-color: #66bdf7; color: #062635;"}
+4
+:::
+:::
+
+::: {.step-line style="background-color: #66bdf7;"}
+:::
+
+
+::: {.step-item}
+::: {.step-circle style="background-color: #a2d4ec; color: #062635;"}
+5
+:::
+:::
+
+:::
+
+## 1. Descompune informația (1/2)
+
+::: {.columns}
+::: {.column width="30%"}
+::: {.step-item}
+::: {.step-circle style="background-color: #062635;"}
+1
+:::
+:::
+:::
+
+::: {.column width="70%"}
+
+::: {.large style="text-align: left;"}
+
+Verifică răspunsul și identifică dacă poți izola afirmații specifice, care pot fi căutate
+:::
+::: 
+:::
+
+
+> Prompt: Scrie o recenzie tehnică de produs în stilul CNN despre noul iPhone 17.
+
+::: small
+
+<div class="sample-article">
+
+
+<p><b>Introducere</b>
+
+În stilul CNN, să aruncăm o privire asupra celui mai recent smartphone de la Apple — iPhone 17 — analizând ce aduce nou, ce merită şi unde lasă loc de îmbunătăţire.
+
+<b>Design şi construcţie</b>
+
+Înainte de toate, iPhone 17 are un <span class ="hl">corp din aluminiu, cu faţă din sticlă „Ceramic Shield 2”</span> — Apple spune că are o <span class ="hl">rezistenţă la zgârieturi de ~3× mai bună</span> decât modelele anterioare. 
+<span class ="hl">Apple +3</span>
+
+</p>
+
+</div>
+
+:::
+
+
+## 1. Descompune informația (2/2)
+
+::: {.columns}
+::: {.column width="30%"}
+::: {.step-item}
+::: {.step-circle style="background-color: #062635;"}
+1
+:::
+:::
+:::
+
+::: {.column width="70%"}
+
+::: {.large style="text-align: left;"}
+
+Verifică răspunsul și identifică dacă poți izola afirmații specifice, care pot fi căutate
+:::
+::: 
+:::
+
+
+> Prompt: Scrie o recenzie tehnică de produs în stilul CNN despre noul iPhone 17.
+
+::: small
+
+<div class="sample-article">
+
+
+<p>
+<span class ="hl">Greutatea este de 177 grame</span>, ceea ce îl face unul dintre modelele uşoare pentru categoria premium. <span class ="hl">Apple Support +1</span>
+
+<span class ="hl">Ecranul este de 6,3 inch</span>, însă corpul general pare mai compact datorită <span class ="hl">“all-screen OLED”</span> şi muchilor reduse. <span class ="hl">Apple +1</span>
+
+Verdict design: Elegant, premium şi bine echilibrat. Totuşi — dacă ai un model recent, schimbarea nu e revoluţionară.
+</p>
+
+</div>
+
+:::
+
+
+
+
+## 2. Citire laterală
+
+::: {.columns}
+::: {.column width="20%"}
+::: {.step-item}
+::: {.step-circle style="background-color: #46abdb;"}
+2
+:::
+:::
+:::
+
+::: {.column width="30%"}
+
+::: {.large style="text-align: left;"}
+
+Deschide site-urile sursă dar si alte site-uri credibile și verifică informatiile
+:::
+::: 
+
+::: {.column width="25%"}
+![](/assets/imagini/iphone_17.png)
+
+:::
+
+::: {.column width="25%"}
+![](/assets/imagini/gsm-arena.png)
+
+:::
+:::
+
+![](/assets/imagini/iphone17.png){.absolute top="420" width="800" height="700"}
+
+## 3. Verifică asumpțiile
+
+
+::: {.columns}
+::: {.column width="30%"}
+::: {.step-item}
+::: {.step-circle style="background-color: #12719e;"}
+3
+:::
+:::
+:::
+
+::: {.column width="70%"}
+
+::: {.large style="text-align: left;"}
+
+<br>
+
+Verifică asumpțiile făcute
+:::
+::: 
+
+:::
+
+<br>
+
+::: {.goal .large}
+
+- Ce a presupus solicitarea ta?
+- Ce a presupus răspunsul generat de IA?
+- Cine are putea avea expertiză sau opinii diferite pe acest subiect?
+
+:::
+
+[CNN Review](https://edition.cnn.com/cnn-underscored/reviews/iphone-air)
+
+## 4. Ia o decizie
+
+
+::: {.columns}
+::: {.column width="30%"}
+::: {.step-item}
+::: {.step-circle style="background-color: #66bdf7; color: #062635;"}
+4
+:::
+:::
+:::
+
+::: {.column width="70%"}
+
+::: {.large style="text-align: left;"}
+
+- Ce este adevărat,
+- ce este înșelător și 
+- ce este incorect considerând faptele.
+:::
+::: 
+
+:::
+
+<br>
+
+::: {.goal .large}
+
+- Este necesar să modific promptul pentru a corecta unele erori?
+- Este necesar să verific cu atenție o anumită sursă?
+- Este necesar să consult un expert în domeniu?
+
+:::
+
+
+## 5. Repetă procesul
+
+
+::: {.columns}
+::: {.column width="30%"}
+::: {.step-item}
+::: {.step-circle style="background-color: #a2d4ec; color: #062635;"}
+5
+:::
+:::
+:::
+
+::: {.column width="70%"}
+
+::: {.large style="text-align: left;"}
+<br>
+Repetă pașii pentru fiecare fapt de verificat
+:::
+::: 
+
+:::
+
+
+
+::: {.step-timeline}
+::: {.step-item}
+::: {.step-circle style="background-color: #062635;"}
+1
+:::
+:::
+
+::: {.step-line style="background-color: #062635;"}
+:::
+
+::: {.step-item}
+::: {.step-circle style="background-color: #12719e;"}
+2
+:::
+:::
+
+::: {.step-line style="background-color: #12719e;"}
+:::
+
+::: {.step-item}
+::: {.step-circle style="background-color: #46abdb;"}
+3
+:::
+:::
+
+::: {.step-line style="background-color: #46abdb; color: #062635;"}
+:::
+
+::: {.step-item}
+::: {.step-circle style="background-color: #66bdf7; color: #062635;"}
+4
+:::
+:::
+
+::: {.step-line style="background-color: #66bdf7;"}
+:::
+
+
+::: {.step-item}
+::: {.step-circle style="background-color: #a2d4ec; color: #062635;"}
+5
+:::
+:::
+
+:::
+
+<div class="absolute" style="bottom: 0px; left: 80%; transform: translateX(-100%); font-size: 0.5em; width: 80%; text-align: left;">
+Adaptat după ["AI and Information Literacy: Assessing Content"](https://lib.guides.umd.edu/c.php?g=1340355&p=9880575), [University of Maryland Libraries](https://www.lib.umd.edu/) sub licența [Creative Commons Attribution Non-Commercial](https://creativecommons.org/licenses/by-nc/4.0/) (CC BY-NC 4.0).
+</div>
+
+
+## Scris de om sau de IA?
+
+<br>
+
+::: {.goal-grey}
+
+Citiți următoarele trei texte.
+
+**Obiectiv:** Identificați textul scris de om.
+
+**Instrumente:** Folosiți cadrul de evaluare pentru a vă ghida analiza. 
+
+Fiți atenți la:
+
+- **Coerență:** Există contradicții sau neconcordanțe logice?
+- **Claritate:** Limbajul este natural sau pare forțat/prea formal?
+- **Acuratețe:** Conține afirmații vagi sau greu de verificat?
+:::
+
+
+## Exemplu A
+
+::: goal-grey
+
+> Utilizarea tehnologiei, în special a smartphone-urilor, a avansat foarte mult în viața mea. Nu spun că este în mod inerent un lucru negativ, dar cred că există un echilibru în utilizarea telefonului, care adesea devine instabilă. Vreau să remediez acest lucru - cel puțin puțin - pentru mine.
+
+> Cea mai mare problemă a mea este că petrec prea mult timp pe TikTok. Deși învăț multe din aplicație și mă pot conecta cu comunități care sunt de obicei mai greu de contactat, mă trezesc pierdută în conținutul constant de divertisment, iar asta poate fi foarte epuizant. Rutina mea nocturnă include derularea îndelungată a conținutului fără un scop precis pe TikTok și, înainte să-mi dau seama, am petrecut ore întregi în aplicație când ar trebui să dorm.
+
+:::
+
+## Exemplu B
+
+::: goal-grey
+
+> În lumea noastră hiperconectată, dominată de dispozitive tehnologice, valoarea timpului petrecut deconectat nu poate fi supraestimată. Deși tehnologia a adus, fără îndoială, confort și eficiență, ea a dus și la o creștere alarmantă a stresului, anxietății și a unui sentiment de urgență constantă. Deconectarea de la aceste dispozitive oferă o oportunitate crucială pentru oameni de a-și recupera starea de bine mintală, de a cultiva relații semnificative și de a se angaja în autoreflecție.
+
+> Expunerea constantă la dispozitivele tehnologice a fost legată de niveluri ridicate de stres. Avalanșa constantă de notificări, e-mailuri și actualizări de pe rețelele sociale creează un ciclu nesfârșit de supraîncărcare informațională. Această supraîncărcare, la rândul ei, poate duce la creșterea stresului și la o capacitate scăzută de concentrate asupra sarcinilor importante.
+:::
+
+## Exemplu C 
+
+::: goal-grey
+
+> Ideea că petrecerea timpului deconectat de la dispozitivele tehnologice este benefică este absurdă și demodată. În epoca noastră modernă, tehnologia este o parte integrantă a vieții de zi cu zi, sporind productivitatea și conectivitatea. Deconectarea ar duce doar la regres și la oportunități ratate de dezvoltare personală și profesională.
+
+> În primul rând, cei care susțin deconectarea nu recunosc confortul și eficiența pe care le aduce tehnologia. De la comunicare la accesul la informații, dispozitivele tehnologice au simplificat diverse aspecte ale vieții noastre. A argumenta împotriva lor înseamnă a respinge progresul și avantajele care vin odată cu acesta.
+
+:::
+
+## Discuție
+
+<br>
+
+::: {.poll}
+**Care text credeți că a fost scris de un om?**
+
+- [ ] Exemplu A
+- [ ] Exemplu B
+- [ ] Exemplu C
+:::
+
+
+
+## Cum să identifici fotografiile false realizate cu inteligență artificială | Hany Farid
+
+{{< video https://www.youtube.com/watch?v=q5_PrTvNypY width="100%" height="85%" >}}
+

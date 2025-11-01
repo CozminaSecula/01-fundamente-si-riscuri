@@ -25,7 +25,9 @@ website:
       - href: index.qmd
         text: Despre
       - href: content/00_agenda.qmd
-        text: Workshop
+        text: Workshop 1
+      - href: content/01_02_agenda.qmd
+        text: Workshop 2
 
 
 

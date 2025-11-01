@@ -1,0 +1,17 @@
+---
+title: Workshop 2
+description: Cum să evaluezi și să verifici conținutul generat de IA
+description-short: Cum să evaluezi și să verifici conținutul generat de IA
+duration: 10 min
+---
+
+
+## Slide-uri
+
+[Vezi slide-urile pe ecran complet](slides/01_02_slide.html)
+
+```{=html}
+<iframe class="slide-deck" src="slides/01_02_slide.html"></iframe>
+```
+
+

@@ -10,6 +10,7 @@ format:
     link-external-newwindow: true
     chalkboard: false
     controls: true  
+    menu: false
 ---
 
 ## Cadru de decizie pentru instrumentele IA Generativă
