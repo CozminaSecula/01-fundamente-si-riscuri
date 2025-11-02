@@ -33,7 +33,7 @@ title-block-style: default
 }
 .quarto-title-banner h1 {
     color: #000;
-    font-weight: 600 !important;
+    font-weight: 400 !important;
     font-size: max(min(6vw, 3.5em), 2.2em);
     text-wrap: pretty;
 }
