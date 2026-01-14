@@ -83,11 +83,13 @@ header#title-block-header::before {
 
 ## Introducere
 
-Inteligența artificială generativă (IA generativă) ne poate ajuta să îmbunătățim modul în care realizăm diverse sarcini, atât în plan personal cât și profesional. Aceste instrumente pot schimba modul în care interacționăm cu conținutul digital, pot eficientiza procese, eliberând timp care poate fi dedicat altor activități. Astfel, este important să înțelegem beneficiile dar și cum să gestionăm riscurile asociate cu utilizarea acestei tehnologii. 
+Cu ajutorul instrumentelor de inteligență artificială generativă (IA generativă) putem să îmbunătățim modul în care realizăm diverse sarcini, atât în plan personal cât și profesional. Aceste instrumente pot schimba felul în care folosim conținutul digital, ne pot ajuta să eficientizăm procese, eliberând timp care poate fi dedicat altor activități. 
 
-Acest website conține materialele workshopurilor susținute la [Biblioteca Judeţeană „Gh. Asachi” Iaşi](https://bjiasi.ro/).
+În cadrul programului dedicat alfabetizării digitale organizat de [Biblioteca Judeţeană „Gh. Asachi” Iaşi](https://bjiasi.ro/) am susținut o prezentare și două workshopuri prin care am sprijinit participanții să afle mai multe despre inteligența artificială, să descopere beneficiile utilizării intrumentelor de IA generativă și cum să gestioneze riscurile asociate cu utilizarea IA generativă. 
 
-Scopul este de a sprijini participanții să ia decizii informate cu privire la utilizarea instrumentelor de IA generativă.
+Acest website conține materialele susținute în cadrul programului.
+
+- [Prezentare: Inteligența Artificială (AI): de la curiozitate la înțelegere](https://bjiasi.ro/stiri-si-evenimente/sediul-central-evenimente/inteligenta-artificiala-de-la-curiozitate-la-intelegere-prima-intalnire/). Participanții au aflat ce este inteligența artificială și IA generativă și cum funcționează, perspective legate de potențialul impact pe care dezvoltarea inteligenței artificiale îl poate avea asupra locurilor de muncă și ce competențe devin importante în viitorul apropiat.  
 
 - [Workshop 1: Când să folosești, când să eviți și cum să alegi instrumentele IA Generativă](https://bjiasi.ro/stiri-si-evenimente/filiala-ion-creanga-evenimente/fundamentele-ai-generative-o-calatorie-ghidata-in-deciziile-ai/) Participanții au dobândit cunoștințe când să folosească IA generativă, când să evite utilizarea IA generativă și cum să aleagă instrumentul optim pentru situații specifice de lucru.
 
@@ -114,6 +116,8 @@ Cozmina Secula dezvoltă și facilitează programe de alfabetizare în domeniul 
 ## Link-uri
 
 ::: {.lead .fs-3}
+📘 [Prezentare: Slide -uri](https://cozminasecula.github.io/IA-Intro-Public/slide_v4.html#/)
+
 📘 [Workshop 1: Materiale](content/00_agenda.qmd)
 
 📘 [Workshop 2: Materiale](content/01_02_agenda.qmd)
